@@ -28,11 +28,6 @@ def scrape_links(url):
     return links
 
 
-import requests
-from bs4 import BeautifulSoup
-import json
-
-
 def scrape_book_details(url):
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
@@ -79,9 +74,7 @@ def scrape_book_details(url):
 
             description = description.replace('\u2019', "'")
             description = description.replace('\u201c', "")
-
             description = re.sub(r'\.(?=[^\s])', '. ', description)
-
             description = re.sub(r'\s+', ' ', description).strip()
 
             book_details = {
@@ -102,8 +95,9 @@ def scrape_book_details(url):
 
 
 if __name__ == "__main__":
+    # Step 1: Scrape all links
     urls = ["https://www.readanybook.com/genre/fiction-17"] + [
-        f"https://www.readanybook.com/genre/fiction-17/page-{x}" for x in range(2, 3)
+        f"https://www.readanybook.com/genre/fiction-17/page-{x}" for x in range(2, 11)
     ]
     all_links = set()
 
@@ -113,10 +107,22 @@ if __name__ == "__main__":
         print(f"Links from {url}: scraped")
         time.sleep(random.uniform(1, 3))
 
+    # Step 2: Save links to a file
     with open("scraped_links.txt", "w") as file:
         for link in sorted(all_links):
             file.write(link + "\n")
-    print("All scraped links:", all_links)
+    print("All scraped links saved to scraped_links.txt")
 
-    url = "https://www.readanybook.com/ebook/folly-764672"
-    print(scrape_book_details(url))
+    # Step 3: Scrape details for each link and save to JSON
+    book_data = []
+    for link in all_links:
+        book_details = scrape_book_details(link)
+        if book_details:
+            book_data.append(book_details)
+            print(f"Scraped details for {link}")
+        time.sleep(random.uniform(1, 3))
+
+    # Step 4: Save scraped data to data.json
+    with open("data.json", "w") as json_file:
+        json.dump(book_data, json_file, indent=4)
+    print("All book details saved to data.json")
