@@ -78,8 +78,9 @@ def scrape_book_details(url):
                     description += toggle_text.get_text(strip=True)
 
             description = description.replace('\u2019', "'")
+            description = description.replace('\u201c', "")
 
-            description = re.sub(r'\.(?=[^\s])', '. ', description)  # Add space after dots if missing
+            description = re.sub(r'\.(?=[^\s])', '. ', description)
 
             description = re.sub(r'\s+', ' ', description).strip()
 
@@ -102,7 +103,7 @@ def scrape_book_details(url):
 
 if __name__ == "__main__":
     urls = ["https://www.readanybook.com/genre/fiction-17"] + [
-        f"https://www.readanybook.com/genre/fiction-17/page-{x}" for x in range(2, 11)
+        f"https://www.readanybook.com/genre/fiction-17/page-{x}" for x in range(2, 3)
     ]
     all_links = set()
 
