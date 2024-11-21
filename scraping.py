@@ -61,6 +61,9 @@ def scrape_book_details(url):
             else:
                 genres = []
 
+            img = soup.find('img', class_='shadow-lg')
+            img_src = img['src'] if img else None
+
             description = ""
             description_span = soup.find('span', class_='visible-text')
 
@@ -82,6 +85,7 @@ def scrape_book_details(url):
                 "year": year,
                 "authors": authors,
                 "genres": genres,
+                "image": img_src,
                 "description": description
             }
 
