@@ -110,8 +110,8 @@ if __name__ == "__main__":
     start_page = 2
     end_page = 100
     #
-    extensions = ["natural-sciences", "biology", "chemistry", "geology", "physics"]
-    subjects = ["Natural Sciences", "Biology", "Chemistry", "Earth sciences", "Physics"]
+    extensions = ["social-sciences", "anthropology", "cultural-ethnic-studies", "economics", "gender-sexuality-studies", "geography", "library-science-and-museum-studies", "political-science", "psychology", "sociology"]
+    subjects = ["Social Sciences", "Anthropology", "Cultural and Ethnic Studies", "Economics", "Gender Sexuality Studies", "Geography", "Library Science and Museum Studies", "Political Science", "Psychology", "Sociology"]
     url = "https://open.umn.edu/opentextbooks/subjects/"
 
     all_links = {}
