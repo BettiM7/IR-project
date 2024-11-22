@@ -110,8 +110,8 @@ if __name__ == "__main__":
     start_page = 2
     end_page = 100
     #
-    extensions = ["humanities", "arts", "history", "languages", "linguistics", "literature-rhetoric-and-poetry", "music", "philosophy", "religion"]
-    subjects = ["Humanities", "Arts", "History", "Languages", "Linguistics", "Literature, Rhetoric and Poetry", "Music", "Philosophy", "Religion"]
+    extensions = ["journalism-media-studies-communications", "new-media-journalism"]
+    subjects = ["Journalism, Media Studies and Communications", "New Media Journalism"]
     url = "https://open.umn.edu/opentextbooks/subjects/"
 
     all_links = {}
