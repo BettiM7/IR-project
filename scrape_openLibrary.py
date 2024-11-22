@@ -123,7 +123,7 @@ if __name__ == "__main__":
     domain = base_url.split("//")[1].split("/")[0].split(".")[0]
     result = re.search(r'subject_facet=([^&]+)', base_url)
     if result:
-        subject = result.group(1)
+        subject = result.group(2)
     filename_prefix = f"{domain}_{subject}_{start_page - 1}_{end_page}"
 
     os.makedirs(os.path.join("scraped urls", "openlibrary"), exist_ok=True)

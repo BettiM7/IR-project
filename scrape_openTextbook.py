@@ -110,8 +110,8 @@ if __name__ == "__main__":
     start_page = 2
     end_page = 100
     #
-    extensions = ["engineering", "civil", "electrical", "mechanical"]
-    subjects = ["Engineering", "Civil Engineering", "Electrical Engineering", "Mechanical Engineering"]
+    extensions = ["humanities", "arts", "history", "languages", "linguistics", "literature-rhetoric-and-poetry", "music", "philosophy", "religion"]
+    subjects = ["Humanities", "Arts", "History", "Languages", "Linguistics", "Literature, Rhetoric and Poetry", "Music", "Philosophy", "Religion"]
     url = "https://open.umn.edu/opentextbooks/subjects/"
 
     all_links = {}
