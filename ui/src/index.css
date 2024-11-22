@@ -1,0 +1,37 @@
+@import "./fonts/Source_Serif_4/Source_Serif_4.css";
+@import "./fonts/Source_Serif_4/Source_Serif_4.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Open Sans", sans-serif;
+  --royal-red: #990000;
+  --outline-gray: #aaa;
+}
+
+* {
+  outline: none;
+}
+
+button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: "Source Serif 4", sans-serif;
+}
+
+button {
+  @apply bg-royalRed text-white px-2 py-1 border-2 border-royalRed hover:bg-transparent hover:text-royalRed transition-all duration-300 rounded-sm;
+}
+
+input {
+  @apply border-[1px] border-outlineGray placeholder:text-outlineGray;
+}
+
+h1 {
+  @apply text-6xl;
+}
