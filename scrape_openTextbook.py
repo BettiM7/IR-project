@@ -110,8 +110,8 @@ if __name__ == "__main__":
     start_page = 2
     end_page = 100
     #
-    extensions = ["journalism-media-studies-communications", "new-media-journalism"]
-    subjects = ["Journalism, Media Studies and Communications", "New Media Journalism"]
+    extensions = ["law", "administrative-law", "law-civil-law", "constitutional-law", "environmental-law", "criminal-law", "contract-law", "property-law"]
+    subjects = ["Law", "Administrative Law", "Civil Law", "Constitutional Law", "Contract Law", "Criminal Law", "Procedural Law", "Property Law"]
     url = "https://open.umn.edu/opentextbooks/subjects/"
 
     all_links = {}
