@@ -110,8 +110,8 @@ if __name__ == "__main__":
     start_page = 2
     end_page = 100
     #
-    extensions = ["computer-science-information-systems", "databases", "information-systems", "programming-languages"]
-    subjects = ["Computer Science", "Databases", "Information Systems", "Programming Languages"]
+    extensions = ["business", "accounting", "finance", "human-resources", "management", "marketing"]
+    subjects = ["Business", "Accounting", "Finance", "Human Resources", "Management", "Marketing"]
     url = "https://open.umn.edu/opentextbooks/subjects/"
 
     all_links = {}
