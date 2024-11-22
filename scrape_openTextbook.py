@@ -110,8 +110,8 @@ if __name__ == "__main__":
     start_page = 2
     end_page = 100
     #
-    extensions = ["law", "administrative-law", "law-civil-law", "constitutional-law", "environmental-law", "criminal-law", "contract-law", "property-law"]
-    subjects = ["Law", "Administrative Law", "Civil Law", "Constitutional Law", "Contract Law", "Criminal Law", "Procedural Law", "Property Law"]
+    extensions = ["medicine", "nursing", "nutrition"]
+    subjects = ["Medicine", "Nursing", "Nutrition"]
     url = "https://open.umn.edu/opentextbooks/subjects/"
 
     all_links = {}
