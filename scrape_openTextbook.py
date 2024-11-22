@@ -110,8 +110,8 @@ if __name__ == "__main__":
     start_page = 2
     end_page = 100
     #
-    extensions = ["medicine", "nursing", "nutrition"]
-    subjects = ["Medicine", "Nursing", "Nutrition"]
+    extensions = ["natural-sciences", "biology", "chemistry", "geology", "physics"]
+    subjects = ["Natural Sciences", "Biology", "Chemistry", "Earth sciences", "Physics"]
     url = "https://open.umn.edu/opentextbooks/subjects/"
 
     all_links = {}
