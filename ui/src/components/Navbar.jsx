@@ -7,7 +7,7 @@ export default function Navbar() {
         Lib
       </div>
 
-      <button>Browse</button>
+      <button1>Browse</button1>
     </div>
   );
 }

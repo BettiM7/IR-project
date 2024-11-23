@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route, useNavigate, useLocation } from
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import Results from "./pages/Results";
+import AdvancedSearch from "./pages/AdvancedSearch";
 
 function App() {
   // inspired by https://www.jstor.org/
@@ -15,7 +16,7 @@ function App() {
           <Router>
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/search/advanced" element={<Results />} />
+              <Route path="/search/advanced" element={<AdvancedSearch />} />
               <Route path="/search" element={<Results />} />
             </Routes>
           </Router>

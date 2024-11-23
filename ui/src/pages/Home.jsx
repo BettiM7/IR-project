@@ -18,7 +18,7 @@ export default function Home() {
         <div className="relative">
           <input placeholder="Search textbooks..." className="w-full p-4" onChange={(e) => setSearchInput(e.target.value)} onKeyDown={(e) => e.code == "Enter" && sendSearch()} />
           <IoIosSearch className="h-6 w-6 absolute right-3 top-[50%] translate-y-[-50%]" onClick={sendSearch} />
-          <a href="/advanced-search" className="absolute top-[-25px] right-0 underline font-bold text-sm">
+          <a href="/search/advanced" className="absolute top-[-25px] right-0 underline font-bold text-sm hover:text-royalRed transition-all duration-300">
             Advanced Search
           </a>
         </div>
