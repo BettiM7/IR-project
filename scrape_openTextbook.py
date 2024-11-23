@@ -96,8 +96,9 @@ def scrape_book_details(url, subjects, read_timeout=10):
             for key, value in book_details.items():
                 if isinstance(value, str):
                     book_details[key] = value.encode("utf-8", "replace").decode("utf-8")
+                    book_details[key] = value.replace('"', "'")
 
-            return json.dumps(book_details, ensure_ascii=False, indent=4)
+            return book_details
         else:
             print(f"Failed to fetch {url}, status code: {response.status_code}")
     except requests.exceptions.RequestException as e:
@@ -110,85 +111,108 @@ if __name__ == "__main__":
     # Step 1: Scrape all links
     start_page = 2
     end_page = 100
-    #
-    extensions = ["social-sciences", "anthropology", "cultural-ethnic-studies", "economics", "gender-sexuality-studies", "geography", "library-science-and-museum-studies", "political-science", "psychology", "sociology"]
-    subjects = ["Social Sciences", "Anthropology", "Cultural and Ethnic Studies", "Economics", "Gender Sexuality Studies", "Geography", "Library Science and Museum Studies", "Political Science", "Psychology", "Sociology"]
+    extensions_list = [
+        ["computer-science-information-systems", "databases", "information-systems", "programming-languages"],
+        ["business", "accounting", "finance", "human-resources", "management", "marketing"],
+        ["education", "curriculum-instruction", "distance-education", "early-childhood", "elementary-education", "higher-education", "secondary-education"],
+        ["engineering", "civil", "electrical", "mechanical"],
+        ["humanities", "arts", "history", "languages", "linguistics", "literature-rhetoric-and-poetry", "music", "philosophy", "religion"],
+        ["journalism-media-studies-communications", "new-media-journalism"],
+        ["law", "administrative-law", "law-civil-law", "constitutional-law", "environmental-law", "criminal-law", "contract-law", "property-law"],
+        ["mathematics", "algebra", "analysis", "applied", "calculus", "geometry-and-trigonometry", "pure", "statistics"],
+        ["medicine", "nursing", "nutrition"],
+        ["natural-sciences", "biology", "chemistry", "geology", "physics"],
+        ["social-sciences", "anthropology", "cultural-ethnic-studies", "economics", "gender-sexuality-studies", "geography", "library-science-and-museum-studies", "political-science", "psychology", "sociology"]]
+    subjects_list = [
+        ["Computer Science", "Databases", "Information Systems", "Programming Languages"],
+        ["Business", "Accounting", "Finance", "Human Resources", "Management", "Marketing"],
+        ["Education", "Curriculum and Instruction", "Distance Education", "Early Childhood", "Elementary Education", "Higher Education", "Secondary Education"],
+        ["Engineering", "Civil Engineering", "Electrical Engineering", "Mechanical Engineering"],
+        ["Humanities", "Arts", "History", "Languages", "Linguistics", "Literature, Rhetoric and Poetry", "Music", "Philosophy", "Religion"],
+        ["Journalism, Media Studies and Communications", "New Media Journalism"],
+        ["Law", "Administrative Law", "Civil Law", "Constitutional Law", "Contract Law", "Criminal Law", "Procedural Law", "Property Law"],
+        ["Mathematics", "Algebra", "Analysis", "Applied Mathematics", "Calculus", "Geometry And Trigonometry", "Pure Mathematics", "Statistics"],
+        ["Medicine", "Nursing", "Nutrition"],
+        ["Natural Sciences", "Biology", "Chemistry", "Earth sciences", "Physics"],
+        ["Social Sciences", "Anthropology", "Cultural and Ethnic Studies", "Economics", "Gender Sexuality Studies", "Geography", "Library Science and Museum Studies", "Political Science", "Psychology", "Sociology"]]
     url = "https://open.umn.edu/opentextbooks/subjects/"
 
-    all_links = {}
+    for idx, extensions in enumerate(extensions_list):
+        all_links = {}
+        subjects = subjects_list[idx]
 
-    parts = url.split('/')
-    filename_prefix = f"{parts[3]}_{extensions[0]}"
+        parts = url.split('/')
+        filename_prefix = f"{parts[3]}_{extensions[0]}"
 
-    os.makedirs(os.path.join("scraped urls", "opentextbooks"), exist_ok=True)
-    os.makedirs(os.path.join("scraped data", "opentextbooks"), exist_ok=True)
+        os.makedirs(os.path.join("scraped urls", "opentextbooks"), exist_ok=True)
+        os.makedirs(os.path.join("scraped data", "opentextbooks"), exist_ok=True)
 
-    links_filename = f"{filename_prefix}.txt"
-    links_directory = os.path.join("scraped urls", "opentextbooks")
-    links_filepath = os.path.join(links_directory, links_filename)
+        links_filename = f"{filename_prefix}.txt"
+        links_directory = os.path.join("scraped urls", "opentextbooks")
+        links_filepath = os.path.join(links_directory, links_filename)
 
-    for index, extension in enumerate(extensions):
-        composed_url = f"{url}{extension}"
-        links = scrape_links_with_scroll(composed_url, "div", "col-sm-3 cover center px-0", scroll_pause=2)
+        for index, extension in enumerate(extensions):
+            composed_url = f"{url}{extension}"
+            links = scrape_links_with_scroll(composed_url, "div", "col-sm-3 cover center px-0", scroll_pause=2)
 
-        for link in links:
-            if link not in all_links:
-                all_links[link] = [subjects[0]]
+            for link in links:
+                if link not in all_links:
+                    all_links[link] = [subjects[0]]
 
-            if subjects[index] not in all_links[link]:
-                all_links[link].append(subjects[index])
+                if subjects[index] not in all_links[link]:
+                    all_links[link].append(subjects[index])
 
-    # Step 2: Save links to a file in the subdirectory
-    with open(links_filepath, "w") as file:
-        for link in sorted(all_links.keys()):
-            file.write(link + "\n")
-    print(f"All scraped links saved to {links_filepath}")
+        # Step 2: Save links to a file in the subdirectory
+        with open(links_filepath, "w") as file:
+            for link in sorted(all_links.keys()):
+                file.write(link + "\n")
+        print(f"All scraped links saved to {links_filepath}")
 
-    # Step 3: Scrape details for each link and save to JSON
-    json_filename = f"{filename_prefix}.json"
-    book_data = []
-    failed_links = []
+        # Step 3: Scrape details for each link and save to JSON
+        json_filename = f"{filename_prefix}.json"
+        book_data = []
+        failed_links = []
 
-    json_filepath = os.path.join("scraped data", "opentextbooks", json_filename)
-    try:
-        with open(json_filepath, "r", encoding="utf-8") as json_file:
-            book_data = json.load(json_file)
-    except (FileNotFoundError, json.JSONDecodeError):
-        pass
+        json_filepath = os.path.join("scraped data", "opentextbooks", json_filename)
+        try:
+            with open(json_filepath, "r", encoding="utf-8") as json_file:
+                book_data = json.load(json_file)
+        except (FileNotFoundError, json.JSONDecodeError):
+            pass
 
-    start_time = time.time()
-    total_links = len(all_links)
-    for i, (link, subjects) in enumerate(all_links.items(), start=1):
-        book_details = scrape_book_details(link, subjects, read_timeout=10)
-        if book_details:
-            book_data.append(book_details)
-            with open(json_filepath, "w", encoding="utf-8") as json_file:
-                json.dump(book_data, json_file, ensure_ascii=False, indent=4)
-        else:
-            failed_links.append(link)
-            print(f"Failed to scrape {link}")
-        completion_percentage = (i / total_links) * 100
-        elapsed_time = time.time() - start_time
-        eta = elapsed_time / i * (total_links - i)
-        print(f"Progress: {completion_percentage:.2f}% completed, ETA: {timedelta(seconds=int(eta))}")
-        time.sleep(1)
-
-    # Step 3.5: Retry failed links
-    if failed_links:
-        print(f"Retrying {len(failed_links)} failed links...")
-        for link in failed_links[:]:
-            book_details = scrape_book_details(link, read_timeout=30)
+        start_time = time.time()
+        total_links = len(all_links)
+        for i, (link, subjects) in enumerate(all_links.items(), start=1):
+            book_details = scrape_book_details(link, subjects, read_timeout=10)
             if book_details:
                 book_data.append(book_details)
-                failed_links.remove(link)
                 with open(json_filepath, "w", encoding="utf-8") as json_file:
-                    json.dump(book_data, json_file, ensure_ascii=False, indent=4)
+                    json_file.write(json.dumps(book_data, ensure_ascii=False, indent=4))
             else:
-                print(f"Retry failed for {link}")
+                failed_links.append([link, subjects])
+                print(f"Failed to scrape {link}")
+            completion_percentage = (i / total_links) * 100
+            elapsed_time = time.time() - start_time
+            eta = elapsed_time / i * (total_links - i)
+            print(f"Progress: {completion_percentage:.2f}% completed, ETA: {timedelta(seconds=int(eta))}")
             time.sleep(1)
 
-    if failed_links:
-        failed_links_filename = f"{filename_prefix}_failed_links.json"
-        with open(failed_links_filename, "w", encoding="utf-8") as failed_file:
-            json.dump(failed_links, failed_file, ensure_ascii=False, indent=4)
-        print(f"Failed links saved to {failed_links_filename}")
+        # Step 3.5: Retry failed links
+        if failed_links:
+            print(f"Retrying {len(failed_links)} failed links...")
+            for data in failed_links[:]:
+                book_details = scrape_book_details(data[0], data[1], read_timeout=30)
+                if book_details:
+                    book_data.append(book_details)
+                    failed_links.remove(data)
+                    with open(json_filepath, "w", encoding="utf-8") as json_file:
+                        json_file.write(json.dumps(book_data, ensure_ascii=False, indent=4))
+                else:
+                    print(f"Retry failed for {data[0]}")
+                time.sleep(1)
+
+        if failed_links:
+            failed_links_filename = f"{filename_prefix}_failed_links.json"
+            with open(failed_links_filename, "w", encoding="utf-8") as failed_file:
+                json.dump(failed_links, failed_file, ensure_ascii=False, indent=4)
+            print(f"Failed links saved to {failed_links_filename}")
