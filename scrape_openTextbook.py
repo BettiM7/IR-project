@@ -125,17 +125,6 @@ if __name__ == "__main__":
     links_filename = f"{filename_prefix}.txt"
     links_directory = os.path.join("scraped urls", "opentextbooks")
     links_filepath = os.path.join(links_directory, links_filename)
-    # if os.path.exists(links_filepath):
-    #     user_choice = input(f"{links_filepath} already exists. Do you want to continue? (y/n): ").strip().lower()
-    #     if user_choice != 'y':
-    #         print("Exiting program.")
-    #         exit()
-    #
-    # already_scraped_links = set()
-    # for filename in os.listdir(links_directory):
-    #     if filename.endswith(".txt"):
-    #         with open(os.path.join(links_directory, filename), 'r') as file:
-    #             already_scraped_links.update(line.strip() for line in file)
 
     for index, extension in enumerate(extensions):
         composed_url = f"{url}{extension}"
@@ -143,10 +132,8 @@ if __name__ == "__main__":
 
         for link in links:
             if link not in all_links:
-                # If the link is not in the dictionary, initialize with the default subject
                 all_links[link] = [subjects[0]]
 
-            # Add the current subject based on the index if not already added
             if subjects[index] not in all_links[link]:
                 all_links[link].append(subjects[index])
 
