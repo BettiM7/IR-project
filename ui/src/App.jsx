@@ -15,6 +15,7 @@ function App() {
           <Router>
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/search/advanced" element={<Results />} />
               <Route path="/search" element={<Results />} />
             </Routes>
           </Router>

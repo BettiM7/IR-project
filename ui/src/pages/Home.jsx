@@ -8,17 +8,6 @@ export default function Home() {
   function sendSearch() {
     // GET http://<solr-server>:8983/solr/<collection_name>/select?q=<user_input>&wt=json
 
-    // fetch(`http://localhost:8983/solr/textbooks/select?q=${encodeURIComponent(searchInput === "" ? "*:*" : searchInput)}&wt=json`);
-
-    // -- uses searchInput for fields like title description and genre (^2 boosts matches in the respective field) !! --
-    // fetch(`http://localhost:8983/solr/textbooks/select?q=${encodeURIComponent(searchInput === "" ? "*:*" : searchInput)}&defType=edismax&qf=title^2 description genres authors publisher&wt=json`)
-    //   .then((response) => response.json())
-    //   .then((data) => {
-    //     console.log("Search Results:", data.response.docs);
-    //     // Process and display results
-    //   })
-    //   .catch((error) => console.error("Error querying Solr:", error));
-
     window.location.href = "/search?q=" + encodeURIComponent(searchInput === "" ? "*:*" : searchInput);
   }
 
