@@ -113,8 +113,8 @@ if __name__ == "__main__":
     start_page = 2
     end_page = 50
     #
-    urls = ["https://openlibrary.org/search?q=subject%3ATextbooks&subject_facet=Textbooks&subject_facet=Geography"] + [
-        f"https://openlibrary.org/search?q=subject%3ATextbooks&subject_facet=Textbooks&subject_facet=Geography&page={x}" for x in
+    urls = ["https://openlibrary.org/search?q=subject%3ATextbooks&subject_facet=Textbooks&subject_facet=Psychology"] + [
+        f"https://openlibrary.org/search?q=subject%3ATextbooks&subject_facet=Textbooks&subject_facet=Psychology&page={x}" for x in
         range(start_page, end_page + 1)
     ]
     all_links = set()
