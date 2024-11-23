@@ -85,7 +85,7 @@ def scrape_book_details(url, read_timeout=10):
                 "subtitle": subtitle,
                 "publish_date": publish_date,
                 "authors": authors,
-                "genres": genres,
+                "subjects": genres,
                 "image": img_src,
                 "description": description,
                 "publisher": publisher,
@@ -113,8 +113,8 @@ if __name__ == "__main__":
     start_page = 2
     end_page = 50
     #
-    urls = ["https://openlibrary.org/search?q=subject%3ATextbooks&subject_facet=Textbooks&subject_facet=Algebra"] + [
-        f"https://openlibrary.org/search?q=subject%3ATextbooks&subject_facet=Textbooks&subject_facet=Algebra&page={x}" for x in
+    urls = ["https://openlibrary.org/search?q=subject%3ATextbooks&subject_facet=Textbooks&subject_facet=Education"] + [
+        f"https://openlibrary.org/search?q=subject%3ATextbooks&subject_facet=Textbooks&subject_facet=Education&page={x}" for x in
         range(start_page, end_page + 1)
     ]
     all_links = set()
