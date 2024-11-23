@@ -30,7 +30,7 @@ h6 {
 }
 
 button1 {
-  @apply bg-royalRed text-white px-2 py-1 border-2 border-royalRed hover:bg-transparent hover:text-royalRed transition-all duration-300 rounded-sm;
+  @apply bg-royalRed text-white px-2 py-1 border-2 border-royalRed hover:bg-transparent hover:text-royalRed transition-all duration-300 rounded-sm cursor-pointer;
 }
 
 input {

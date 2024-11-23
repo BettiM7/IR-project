@@ -14,9 +14,9 @@ export default function SideFilterSelect() {
 
       {isOpen && (
         <div className="flex flex-col gap-1 mt-1">
-          {filters.map((filter) => (
-            <div>
-              <label className="cursor-pointer flex gap-1">
+          {filters.map((filter, index) => (
+            <div key={index}>
+              <label className="cursor-pointer flex gap-2">
                 <input type="checkbox" />
                 <p>{filter}</p>
               </label>

@@ -7,10 +7,10 @@ export default function ResultCard({ data }) {
         <img src={data.image} className="h-[200px] mx-auto" />
       </div>
       <div className="flex flex-col">
-        <p className="uppercase text-sm text-secondaryGray font-bold">{data.subjects.join(" • ")} </p>
+        <p className="uppercase text-sm text-secondaryGray font-bold">{data.subjects?.join(" • ")} </p>
         <h2 className="text-3xl">{data.title}</h2>
         <p className="mt-3">
-          {data.authors.join(", ")} - {data.publish_date}
+          {data.authors?.join(", ")} - {data.publish_date}
         </p>
         <p>{data.description}</p>
       </div>
