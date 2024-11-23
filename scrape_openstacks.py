@@ -1,10 +1,7 @@
 import os
-import requests
-from bs4 import BeautifulSoup
 import json
 import time
 from datetime import timedelta
-from utils.scrape_links_openTextbook import scrape_links_with_scroll
 
 
 def scrape_book_details(url, subjects, read_timeout=10):
@@ -18,22 +15,14 @@ def scrape_book_details(url, subjects, read_timeout=10):
             soup = BeautifulSoup(response.text, 'html.parser')
 
             title = None
-            img_src = None
 
-            div_cover = soup.find('div', id='cover')
-            if div_cover:
-                img = div_cover.find('img')
-                img_src = img['src']
+            img_header = soup.find('h1', class_='image-heading')
+            if img_header:
+                img = img_header.find('img')
+                if img and img.has_attr('alt'):
+                    title = img['alt']
 
-            div_info = soup.find('div', id='info')
-            if div_info:
-                h1 = div_info.find('h1')
-                if h1:
-                    title = h1.get_text(strip=True)
-
-            paragraphs = div_info.find_all('p')
-
-            copyright_year = None
+            publish_date = None
             last_update = None
             isbn_13 = None
             publisher = None
@@ -41,51 +30,25 @@ def scrape_book_details(url, subjects, read_timeout=10):
             authors = []
             description = None
 
-            for p in paragraphs[3:]:
-                text = p.get_text(strip=True)
+            pub_div = soup.find('div', class_='loc-pub-date')
+            if pub_div:
+                h4 = pub_div.find('h4')
+                if h4:
+                    publish_date = h4.text.replace('Publish date:', '').strip()
 
-                if not text:
-                    continue
-
-                normalized_text = text.lower().strip()
-
-                if "copyright year:" in normalized_text:
-                    time_tag = p.find('time')
-                    if time_tag:
-                        copyright_year = time_tag.get_text(strip=True)
-
-                elif "last update:" in normalized_text:
-                    last_update = normalized_text.replace("last update:", "").strip()
-
-                elif "isbn 13:" in normalized_text:
-                    isbn_13 = text.replace("ISBN 13:", "").strip()
-
-                elif "publisher:" in normalized_text:
-                    link = p.find('a')
-                    if link:
-                        publisher = link.get_text(strip=True)
-
-                elif "language:" in normalized_text:
-                    language = text.replace("Language:", "").strip()
-
-                elif copyright_year is None:  # Before copyright year
-                    authors.append(text)
-
-            about_section = soup.find('section', id='AboutBook')
-            if about_section:
-                span = about_section.find('span')
-                if span:
-                    description = span.get_text(strip=True)
-
-
+            upd_div = soup.find('div', class_='loc-web-update-date')
+            if upd_div:
+                h4 = upd_div.find('h4')
+                if h4:
+                    publish_date = h4.text.replace('Web Version Last Updated:', '').strip()
 
             book_details = {
                 "title": title,
-                "copyright_year": copyright_year,
+                "publish_date": publish_date,
                 "last_update": last_update,
                 "authors": authors,
                 "subjects": subjects,
-                "image": img_src,
+                "image": None,
                 "description": description,
                 "publisher": publisher,
                 "language": language,
@@ -106,37 +69,69 @@ def scrape_book_details(url, subjects, read_timeout=10):
     return None
 
 
+import requests
+from bs4 import BeautifulSoup
+
+
+def scrape_links(url, read_timeout=10):
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+    }
+    links = {}
+
+    try:
+        response = requests.get(url, headers=headers, timeout=read_timeout)
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.text, 'html.parser')
+
+            h1 = None
+            intro_section = soup.find('section', class_='subject-intro')
+            if intro_section:
+                h1 = intro_section.find('h1')
+            else:
+                print(f"No intro section found for {url}")
+            categories = soup.find('div', id='category')
+            for category in categories:
+                category_id = category.get('id')
+                books = category.find_all('div', class_="book_tile")
+                for book in books:
+                    link = "https://openstax.org " + book.find('a', href=True)
+                    if link and link not in links:
+                        links[link] = [h1, category_id]
+        else:
+            print(f"Failed to fetch {url}, status code: {response.status_code}")
+    except requests.exceptions.RequestException as e:
+        print(f"An error occurred: {e}")
+
+    return links
+
+
 if __name__ == "__main__":
     # Step 1: Scrape all links
-    start_page = 2
-    end_page = 100
-    #
-    extensions = ["social-sciences", "anthropology", "cultural-ethnic-studies", "economics", "gender-sexuality-studies", "geography", "library-science-and-museum-studies", "political-science", "psychology", "sociology"]
-    subjects = ["Social Sciences", "Anthropology", "Cultural and Ethnic Studies", "Economics", "Gender Sexuality Studies", "Geography", "Library Science and Museum Studies", "Political Science", "Psychology", "Sociology"]
-    url = "https://open.umn.edu/opentextbooks/subjects/"
+    
+    os.makedirs(os.path.join("scraped urls", "openstax"), exist_ok=True)
+    os.makedirs(os.path.join("scraped data", "openstax"), exist_ok=True)
 
     all_links = {}
 
-    parts = url.split('/')
-    filename_prefix = f"{parts[3]}_{extensions[0]}"
+    url = "https://openstax.org/subjects/"
+    extensions = ["business", "college-success",
+                       "computer-science", "humanities",
+                       "math", "nursing",
+                       "science", "social-sciences"]
 
-    os.makedirs(os.path.join("scraped urls", "opentextbooks"), exist_ok=True)
-    os.makedirs(os.path.join("scraped data", "opentextbooks"), exist_ok=True)
+    for page in extensions:
+        filename_prefix = f"openstax_{page}"
 
-    links_filename = f"{filename_prefix}.txt"
-    links_directory = os.path.join("scraped urls", "opentextbooks")
-    links_filepath = os.path.join(links_directory, links_filename)
 
-    for index, extension in enumerate(extensions):
-        composed_url = f"{url}{extension}"
-        links = scrape_links_with_scroll(composed_url, "div", "col-sm-3 cover center px-0", scroll_pause=2)
+        links_filename = f"{filename_prefix}.txt"
+        links_directory = os.path.join("scraped urls", "openstax")
+        links_filepath = os.path.join(links_directory, links_filename)
 
-        for link in links:
-            if link not in all_links:
-                all_links[link] = [subjects[0]]
-
-            if subjects[index] not in all_links[link]:
-                all_links[link].append(subjects[index])
+        for index, extension in enumerate(extensions):
+            composed_url = f"{url}{extension}"
+            links = scrape_links(composed_url)
+            all_links.update(links)
 
     # Step 2: Save links to a file in the subdirectory
     with open(links_filepath, "w") as file:
@@ -149,7 +144,7 @@ if __name__ == "__main__":
     book_data = []
     failed_links = []
 
-    json_filepath = os.path.join("scraped data", "opentextbooks", json_filename)
+    json_filepath = os.path.join("scraped data", "openstax", json_filename)
     try:
         with open(json_filepath, "r", encoding="utf-8") as json_file:
             book_data = json.load(json_file)
@@ -165,7 +160,7 @@ if __name__ == "__main__":
             with open(json_filepath, "w", encoding="utf-8") as json_file:
                 json.dump(book_data, json_file, ensure_ascii=False, indent=4)
         else:
-            failed_links.append(link)
+            failed_links.append([link, subjects])
             print(f"Failed to scrape {link}")
         completion_percentage = (i / total_links) * 100
         elapsed_time = time.time() - start_time
@@ -177,7 +172,7 @@ if __name__ == "__main__":
     if failed_links:
         print(f"Retrying {len(failed_links)} failed links...")
         for link in failed_links[:]:
-            book_details = scrape_book_details(link, read_timeout=30)
+            book_details = scrape_book_details(link[0], link[1], read_timeout=30)
             if book_details:
                 book_data.append(book_details)
                 failed_links.remove(link)

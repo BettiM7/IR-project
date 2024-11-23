@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 import json
 import re
 
-from scrape_links import scrape_links
+from utils.scrape_links import scrape_links
 
 
 def scrape_book_details(url, read_timeout=10):

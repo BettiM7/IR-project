@@ -28,4 +28,4 @@ def replace_key_in_json_files(directory):
                 json.dump(updated_data, file, indent=4, ensure_ascii=False)
 
 
-replace_key_in_json_files(os.path.join("scraped data", "openlibrary"))
+replace_key_in_json_files(os.path.join("../scraped data", "openlibrary"))
