@@ -98,8 +98,9 @@ def scrape_book_details(url, read_timeout=10):
             for key, value in book_details.items():
                 if isinstance(value, str):
                     book_details[key] = value.encode("utf-8", "replace").decode("utf-8")
+                    book_details[key] = value.replace('"', "'")
 
-            return json.dumps(book_details, ensure_ascii=False, indent=4)
+            return book_details
         else:
             print(f"Failed to fetch {url}, status code: {response.status_code}")
     except requests.exceptions.RequestException as e:
@@ -111,20 +112,19 @@ def scrape_book_details(url, read_timeout=10):
 if __name__ == "__main__":
     # Step 1: Scrape all links
     start_page = 2
-    end_page = 48
+    end_page = 50
     #
-    urls = ["https://openlibrary.org/search?q=subject%3ATextbook+subject%3ABusiness&subject_facet=Textbooks"] + [
-        f"https://openlibrary.org/search?q=subject%3ATextbook+subject%3ABusiness&subject_facet=Textbooks&page={x}" for x in
+    urls = ["https://openlibrary.org/search?q=subject%3ATextbooks&subject_facet=Textbooks&subject_facet=Chemistry"] + [
+        f"https://openlibrary.org/search?q=subject%3ATextbooks&subject_facet=Textbooks&subject_facet=Chemistry&page={x}" for x in
         range(start_page, end_page + 1)
     ]
     all_links = set()
 
     base_url = urls[0]
     domain = base_url.split("//")[1].split("/")[0].split(".")[0]
-    # result = re.search(r'Textbooks&subject_facet=Textbooks&subject_facet=([^&]+)', base_url)
-    # if result:
-    #     subject = result.group(1)
-    subject = "Business"
+    result = re.search(r'Textbooks&subject_facet=Textbooks&subject_facet=([^&]+)', base_url)
+    if result:
+        subject = result.group(1)
     filename_prefix = f"{domain}_{subject}_{start_page - 1}_{end_page}"
 
     os.makedirs(os.path.join("scraped urls", "openlibrary"), exist_ok=True)
@@ -192,7 +192,7 @@ if __name__ == "__main__":
         if book_details:
             book_data.append(book_details)
             with open(json_filepath, "w", encoding="utf-8") as json_file:
-                json.dump(book_data, json_file, ensure_ascii=False, indent=4)
+                json_file.write(json.dumps(book_data, ensure_ascii=False, indent=4))
         else:
             failed_links.append(link)
             print(f"Failed to scrape {link}")
@@ -211,7 +211,7 @@ if __name__ == "__main__":
                 book_data.append(book_details)
                 failed_links.remove(link)
                 with open(json_filepath, "w", encoding="utf-8") as json_file:
-                    json.dump(book_data, json_file, ensure_ascii=False, indent=4)
+                    json_file.write(json.dumps(book_data, ensure_ascii=False, indent=4))
             else:
                 print(f"Retry failed for {link}")
             time.sleep(1)

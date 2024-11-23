@@ -1,0 +1,3 @@
+https://openstax.org/details/books/introduction-computer-science
+https://openstax.org/details/books/introduction-python-programming
+https://openstax.org/details/books/workplace-software-skills
