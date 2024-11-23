@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         royalRed: "#990000",
         outlineGray: "#aaa",
+        secondaryGray: "#888",
       },
     },
   },
