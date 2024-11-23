@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route, useNavigate, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
+import Results from "./pages/Results";
 
 function App() {
   // inspired by https://www.jstor.org/
@@ -14,6 +15,7 @@ function App() {
           <Router>
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/search" element={<Results />} />
             </Routes>
           </Router>
         </div>
