@@ -1,53 +1,927 @@
 [
-    "{\n    \"title\": \"The Data Renaissance: Analyzing the Disciplinary Effects of Big Data, Artificial Intelligence, and Beyond [Revised Edition]\",\n    \"copyright_year\": \"2024\",\n    \"last_update\": null,\n    \"authors\": [\n        \"J.J. Sylvia IV, Fitchburg State University\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTMxNzIsInB1ciI6ImJsb2JfaWQifX0=--51aaeeaf6b69ed3e2156dcc4c0fe3cdf625cc4ed/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/Cover_RotelProject-FiSU_Data-Renaissance-Sylvia-RE-768x994.jpg\",\n    \"description\": \"The Data Renaissance delves into the complexities of data's role in various industries and its broader impact on society. It highlights the challenges in investigating data practices, citing examples like TikTok, where algorithms and data handling are closely guarded secrets. The content, contributed by students under the guidance of an expert, covers a wide range of topics, including the ethical aspects of generative AI in education and the workplace, and case studies reflecting real-world experiences. This evolving text, intended to be updated with each class, serves as a dynamic resource for educators and students alike, offering insights and discussion guides for an in-depth understanding of the ever-changing landscape of data in our digital age.\",\n    \"publisher\": \"ROTEL\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/the-data-renaissance-analyzing-the-disciplinary-effects-of-big-data-artificial-intelligence-and-beyond\"\n}",
-    "{\n    \"title\": \"Communication in the Real World - An Introduction to Communication Studies\",\n    \"copyright_year\": \"2016\",\n    \"last_update\": null,\n    \"authors\": [],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTk3MSwicHVyIjoiYmxvYl9pZCJ9fQ==--a854b6a552250595fb20eafa06015abef9f5d347/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/Communication-in-the-Real-World-683x1024.jpg\",\n    \"description\": \"Communication in the Real World: An Introduction to Communication Studiesoverviews the time-tested conceptual foundations of the field, while incorporating the latest research and cutting-edge applications of these basics. Each chapter will include timely, concrete, and real-life examples of communication concepts in action.A key feature of this book is the integration of content regarding diversity and organizational communication in each chapter through examples and/or discrete sub-sections. Discussions of diversity are not relegated to feature boxes. Also integrated into the content are examples that are inclusive in terms of race, gender, sexuality, ability, age, marital status, religion, and other diverse identity characteristics.\",\n    \"publisher\": \"University of Minnesota Libraries Publishing\",\n    \"language\": \"English\",\n    \"isbn13\": \"9781946135070\",\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/communication-in-the-real-world-an-introduction-to-communication-studies\"\n}",
-    "{\n    \"title\": \"Technical Writing and Simple Statistics : For laboratory classes\",\n    \"copyright_year\": \"2022\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Stephanie G. Wettstein, Montana State University\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDMzNSwicHVyIjoiYmxvYl9pZCJ9fQ==--4bd08854e1aa7079faa722cb6896ecf651953f2f/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/20221116%20TRAILS_Wettstein_Cover.jpg\",\n    \"description\": \"This upper division resource focuses on how to communicate results through technical writing, use Excel to perform simple statistics, and create professional charts/documents. Excel tutorials are provided for performing descriptive statistics, t-tests, and linear regression as well as using text boxes, formatting figures and captions, and using Equation Editor to insert equations. Additionally, guidance and examples of different communication components are provided along with team writing strategies and guidelines on how to hold efficient meetings.This textbook was designed for Biology and Chemistry majors for a 400 level course.\",\n    \"publisher\": \"TRAILS\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/technical-writing-and-simple-statistics-for-laboratory-classes\"\n}",
-    "{\n    \"title\": \"Communication for Business Success\",\n    \"copyright_year\": \"2015\",\n    \"last_update\": null,\n    \"authors\": [],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTk1OCwicHVyIjoiYmxvYl9pZCJ9fQ==--a055c223959f04649e60ce6edbcac1f25dc2ec1b/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/Business-Communication-for-Success-683x1024.jpg\",\n    \"description\": \"Business Communication for Success(BCS) provides a comprehensive, integrated approach to the study and application of written and oral business communication to serve both student and professor.This series features chapters with the following elements:Learning ObjectivesIntroductory ExercisesClear expectations, relevant background, and important theoriesPractical, real-world examplesKey Takeaways or quick internal summariesKey terms that are easily identifiedIn-chapter assignmentsPostchapter assessments linked to objectives and skills acquisitionEach chapter is self-contained, allowing for mix-and-match flexibility and custom or course-specific design. Each chapter focuses on clear objectives and skill demonstrations that can be easily linked to your syllabus and state or federal requirements. Supported by internal and external assessments, each chapter features time-saving and learning-enhancement support for instructors and students.BCS is designed to help students identify important information, reinforce for retention, and demonstrate mastery with a clear outcome product.The text has three content categories:FoundationsProcess and productsContextsThe first three chapters form the core foundation for the study of oral and written business communication. The next sequence of chapters focus on the process of writing, then oral performance with an emphasis on results. The final sequence focuses on contexts where business communication occurs, from interpersonal to intercultural, from groups to leadership.In each of the process and product chapter sequences, the chapters follow a natural flow, from prewriting to revision, from preparation for a presentation to performance. Each sequence comes together in a concluding chapter that focuses on action—where we apply the skills and techniques of written or oral communication in business, from writing a letter to presenting a sales speech. These performances not only serve to reinforce real-world applications but also may serve as course assessments.This text has been used in classes at: Ohio University, Miami University – Oxford, Kent State University – Salem Campus, Cuyahoga Community College – West, University of Toledo, Cuyahoga Community College – District, Northern Arizona University, Gateway Community College, University of Arizona, Arizona Western College, Boise State University,Western Governors University, Doane College, Mcpherson College, University of Nebraska Med Center, Suny Fredonia, State University of New York Institute of Technology at Utica/Rome, Trinidad State Junior College, University of Delaware, Brenau University, Brewton-Parker College, Loras College, Kapiolani Community College, Muscatine Community College, Greenville College, University of Illinois – Chicago, Millikin University, Rockland Community College, Cornell University, National-Louis University – Lisle, St. Gregory's University, University of Southern Indiana, Missouri State University – W Plains, Bucks County Community College – Newton, Clarion University of Pennsylvania, Pulaski Technical College, Temple University, Dixie State College of Utah, Averett University, Virginia Polytech Institute, Fond Du Lac Tribal Community College, Lipscomb University, Edgewood College, University of Wisconsin – Stout, Wisconsin Lutheran College, Virginia State University, North Georgia Technical College – Blairsville, Paradise Valley Community College, Fordham University – Lincoln Center, New England College of Business/Finance, Eastern New Mexico University, University of Alabama, Albertus Magnus College, Pepperdine University, Fullerton College, Santa Ana College, Miracosta College – Oceanside, San Jose State University, De Anza College, University of The Southwest, Florida Institute of Technology, Forida State University, Dean College, California State University, University of Massachusetts, Suffolk University, Stevenson University, Worcester State College, University of Maryland, Clover Park Technical College, Minnesota State University – Moorhead, College of St. Scholastica, Ferris State University, Concordia University, Southern New Hampshire University, Lower Columbia College, University of North Carolina – Greensboro, Rockingham Community College, Stanly Community College, Wayland Baptist University, Bunker Hill Community College, Salve Regina University, University of The Incarnate Word, St. Mary's University, University of Rhode Island, Texarkana College, Renton Technical College, Tarleton State University, Wayland Baptist University – Plainview, University of Houston, Stephen F. Austin State University, Bates Technical College, Chabot College, Bakersfield College, Azusa Pacific University, University of Houston – Downtown, California Southern University, Miracosta College, American Public University, American Public University System, Huntington Junior College, Flat World Knowledge University, Jackson Senior High School, Holmes High School, Dlielc, Clintondale High School, American University in Kosovo in Conjunction with Rochester Institute of Technology, Southeast Lauderdale High School, Benedict Business Hotel Management School, University of the People, Kwame Nkrumah University of Science and Technology, New Brunswick College of Craft and Design, New England School of English, Comsats Institute of Information Technology, Wayland Baptist University – Anchorage, Volcano Vista High School, Wayland Baptist University – San Antonio, Morrill High School, North Island College – B Campus, Seneca College, APOU, University of North Carolina – Greensboro, Southern New Hampshire University, University of Maryland University College, Harrisburg High School\",\n    \"publisher\": \"University of Minnesota Libraries Publishing\",\n    \"language\": \"English\",\n    \"isbn13\": \"9781946135056\",\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/business-communication-for-success\"\n}",
-    "{\n    \"title\": \"Graphic Design and Print Production Fundamentals\",\n    \"copyright_year\": \"2015\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Wayne Collins, British Columbia Institute of Technology\",\n        \"Alex Haas, Emily Carr University\",\n        \"Ken Jeffery, British Columbia Institute of Technology\",\n        \"Alan Martin, British Columbia Institute of Technology\",\n        \"Roberto Medeiros, Ricoh Canada\",\n        \"Steven Tomljanovic, British Columbia Institute of Technology\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjgzLCJwdXIiOiJibG9iX2lkIn19--d6565578cb171c57f8e11d96a6d7862f50447ce4/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/0000GraphicDe.png\",\n    \"description\": \"This textbook -- written by a group of select experts with a focus on different aspects of the design process, from creation to production -- addresses the many steps of creating and then producing physical, printed, or other imaged products that people interact with on a daily basis. It covers the concept that, while most modern graphic design is created on computers using design software, the ideas and concepts don't stay on the computer. The ideas need to be completed in the computer software, then progress to an imaging (traditionally referred to as printing) process. Keywords are highlighted throughout and summarized in a Glossary at the end of the book, and each chapter includes exercises and suggested readings.\",\n    \"publisher\": \"BCcampus\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/graphic-design-and-print-production-fundamentals\"\n}",
-    "{\n    \"title\": \"Critical Perspectives on Technology and the Family\",\n    \"copyright_year\": \"2022\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Susan K. Walker, Minneapolis, MN\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDI4NCwicHVyIjoiYmxvYl9pZCJ9fQ==--ff9c8164716b56aaa0cbaf30c3cf1b78940f2e76/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGVnIiwicmVzaXplIjoiNDkweDEwMDAifSwicHVyIjoidmFyaWF0aW9uIn19--c92470909b26b190444928a1af61081ff8429c19/postcard-front-2.jpeg\",\n    \"description\": \"From the perspective of a long time family practitioner, researcher, and educator, and technology innovator, this textbook offers the first comprehensive view of technology in the family for college students, professionals and the public. Each chapter offers content and a complete reference list, learning activities, ideas for critical blog posting and additional readings. The beginning chapters cover foundational information about our societal use of information and communications technology, family theories and ways of understanding families, and how families differ in their use and access to ICT. The main body of the book (chapters 4-10) covers elements of the family from couple relationships and dating apps, to children’s use and impacts on development from early childhood through young adulthood, use by parents and in the parent-child relationship, shared use by family members, and then topics important to family life: work-family balance and health and financial management and technology. The end of the book pivots to look closely at use by family professionals, the competencies needed to integrate technology into practice, and policy as a proactive and systemic avenue for change. End of book material include an additional reading list and recommended web content, social media and thought leaders. The authors lends her ideas on teaching for critical thinking with an overview at the beginning of the book, and classroom assessment ideas (actually short ways to engage learners in critical thinking activities).\",\n    \"publisher\": \"University of Minnesota Libraries Publishing\",\n    \"language\": \"English\",\n    \"isbn13\": \"9781946135926\",\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/critical-perspectives-on-technology-and-the-family\"\n}",
-    "{\n    \"title\": \"A Guide to Technical Communications: Strategies & Applications\",\n    \"copyright_year\": \"2016\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Lynn Hall, The Ohio State University\",\n        \"Leah Wahlin, The Ohio State University\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mzg0LCJwdXIiOiJibG9iX2lkIn19--57589b2077105c0e44e9fc41d83444086b8430b4/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/0000GuiTecCom.png\",\n    \"description\": \"Welcome to the textbook for Engineering Technical Communications courses at The Ohio State University. Our aim in writing this textbook was to create a resource specifically focused on and applicable to the kinds of communication skills most beneficial to the students who take our courses. Therefore, this textbook focuses on developing both technical and professional communication skills and will help readers practice strategies for critically analyzing audiences and contexts, real-world applications of rhetorical principles, and skills for producing documents (reports, proposals, instructions), presentations, videos, and wide variety of other professional communications.\",\n    \"publisher\": \"Ohio State University Libraries\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/a-guide-to-technical-communications-strategies-applications\"\n}",
-    "{\n    \"title\": \"Writing for Strategic Communication Industries\",\n    \"copyright_year\": \"2016\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Jasmine Roberts, Ohio State University\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjk5LCJwdXIiOiJibG9iX2lkIn19--0033aa84919619d34099fece8c360916ad146bd3/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/0000WritState.png\",\n    \"description\": \"Good writing skills are important in today's competitive work environment. This is especially the case for communication-related professions such as public relations, brand communication, journalism, and marketing. Writing for Strategic Communication Industries emphasizes practical application of academic inquiry to help readers improve their writing skills. This book gives readers:Straightforward chapters that use real-world examples to illustrate key points.Discussion of different writing styles and techniques.Examples of communication materials such as press releases, creative briefs, feature articles, and more.Embedded videos of insights from communication professionals.Tips on pitching to the media.A collection of popular sources for further explanation.\",\n    \"publisher\": \"Ohio State University Libraries\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/writing-for-strategic-communication-industries\"\n}",
-    "{\n    \"title\": \"Small Group Communication: Forming & Sustaining Teams\",\n    \"copyright_year\": \"2021\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Jasmine R. Linabary, Emporia State University\",\n        \"Moon Castro, Emporia State University\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjc5NSwicHVyIjoiYmxvYl9pZCJ9fQ==--4f23a394ec640e04afdcd10f4520b7f667a7a2c0/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/Small-Group-Book-Cover-350x559.jpg\",\n    \"description\": \"Small Group Communication: Forming & Sustaining Teams is an interdisciplinary textbook focused on communication in groups and teams. This textbook aims to provide students with theories, concepts, and skills they can put into practice to form and sustain successful groups across a variety of contexts.\",\n    \"publisher\": \"Jasmine R. Linabary\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/small-group-communication-forming-sustaining-teams\"\n}",
-    "{\n    \"title\": \"Information Strategies for Communicators\",\n    \"copyright_year\": \"2015\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Kathleen A. Hansen, University of Minnesota\",\n        \"Nora Paul, University of Minnesota\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTk2MywicHVyIjoiYmxvYl9pZCJ9fQ==--b97b94f63dea0cee06da6485638fbc1f1d57e66a/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/InformationStrategies_cvr_final-683x1024.jpg\",\n    \"description\": \"Written by two nationally recognized experts in information strategy,Information Strategies for Communicatorsleads students step-by-step through the information search and evaluation process for news and strategic communication message production. The book includes a conceptual model of the information strategy process, case studies to illustrate the process in action, and links to current examples throughout.The definitive text for the information search and evaluation process as practiced by news and strategic communication message producers. Currently used at the University of Minnesota School of Journalism and Mass Communication; JOUR 3004W/V, Information for Mass Communication.\",\n    \"publisher\": \"University of Minnesota Libraries Publishing\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/information-strategies-for-communicators\"\n}",
-    "{\n    \"title\": \"Open Technical Writing: An Open-Access Text for Instruction in Technical and Professional Writing\",\n    \"copyright_year\": \"2018\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Adam Rex Pope, University of Arkansas\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NzI1LCJwdXIiOiJibG9iX2lkIn19--54579cc44e8b14827b937caf4b11c238ac8a7613/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/0000OpeTecWri.png\",\n    \"description\": \"This book presents technical writing as an approach to researching and carrying out writing that centers on technical subject matter. Each and every chapter is devoted to helping students understand that good technical writing is situationally-aware and context-driven. Technical writing doesn’t work off knowing the one true right way of doing things—there is no magic report template out there that will always work. Instead, the focus is on offering students a series of approaches they can use to map out their situations and do research accordingly.\",\n    \"publisher\": \"University of Arkansas\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/open-technical-writing-an-open-access-text-for-instruction-in-technical-and-professional-writing\"\n}",
-    "{\n    \"title\": \"Management Communication\",\n    \"copyright_year\": \"2017\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Lisa Thomas, Brigham Young University\",\n        \"Julie Haupt, Brigham Young University\",\n        \"Andy Spackman, Brigham Young University\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NjE2LCJwdXIiOiJibG9iX2lkIn19--202e96175af7dd17db556c0eb42e49e655f84f3f/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/0000ManageCom.jpg\",\n    \"description\": \"Communication is the heart of business. Short emails, complex reports, private chats, impassioned pitches, formal presentations, and team meetings move information and ideas around an organization, define strategy, and drive decisions. Business communication is concise, direct, clear, and compelling.\",\n    \"publisher\": \"The Marriott School at Brigham Young University\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/management-communication\"\n}",
-    "{\n    \"title\": \"Arguing Using Critical Thinking\",\n    \"copyright_year\": \"2020\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Jim Marteney, Los Angeles Valley College\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTYyNiwicHVyIjoiYmxvYl9pZCJ9fQ==--90013bd24d32454b9939dab46e57c78013e863c6/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJQTkciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--89343f782352aa835ac38157b276868b90549fdb/Argue.PNG\",\n    \"description\": \"There is a quote that has been passed down many years and is most recently accounted to P.T. Barnum, “There is a sucker born every minute.” Are you that sucker? If you were, would you like to be “reborn?” The goal of this book is to help you through that “birthing” process. Critical thinking and standing up for your ideas and making decisions are important in both your personal and professional life. How good are we at making the decision to marry? According to the Centers for Disease Control, there is one divorce in America every 36 seconds. That is nearly 2,400 every day. And professionally, the Wall Street Journal predicts the average person will have 7 careers in their lifetime. Critical thinking skills are crucial.Critical thinking is a series learned skills. In each chapter of this book you will find a variety of skills that will help you improve your thinking and argumentative ability. As you improve, you will grow into a more confident person being more in charge of your world and the decisions you make.\",\n    \"publisher\": \"Academic Senate for California Community Colleges\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/arguing-using-critical-thinking\"\n}",
-    "{\n    \"title\": \"Media, Society, Culture and You\",\n    \"copyright_year\": \"2018\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Mark Poepsel, Southern Illinois University Edwardsville\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\",\n        \"New Media Journalism\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTY0LCJwdXIiOiJibG9iX2lkIn19--d8f2248432eb1f90b48f4f3a8124ae3bdc7ee38b/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/0000MedSocCul.png\",\n    \"description\": \"Media, Society, Culture, and Youis an approachable introductory Mass Communication text that covers major mass communication terms and concepts including \\\"digital culture.\\\" It discusses various media platforms and how they are evolving as Information and Communication Technologies change.This book has been peer-reviewed by 6 subject experts and is now available for adoption or adaptation. If you plan to adopt or adapt this open textbook, please let us know by filling out our adoption form.You can view the book's Review Statement for more information about reviewers and the review process. An Accessibility Assessment for this is book has also been prepared to see how this book meets accessibility standards.\",\n    \"publisher\": \"Rebus Community\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/media-society-culture-and-you\"\n}",
-    "{\n    \"title\": \"Reading Rhetorical Theory\",\n    \"copyright_year\": \"2022\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Atilla Hallsby, Minneapolis, MN\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzkxMiwicHVyIjoiYmxvYl9pZCJ9fQ==--3e29ffb52aed0b1d863feecdbf4f3519646c4d1e/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/Screen%20Shot%202022-08-17%20at%208.38.40%20AM.png\",\n    \"description\": \"This is a textbook that was originally designed for a 3000-level large lecture course on “Rhetorical Theory” at the University of Minnesota, Twin-Cities. An interdisciplinary tradition, rhetorical theory describes how speech, representation, and power are managed by techniques and technologies of communication. The plan of this book moves from rhetoric as an art of speech to rhetoric as a technology of power. The early chapters provide definitions and context for rhetoric asspeech,middle chapters (e.g., on signs, symbols, visual images, argumentation, and narrative) describe rhetoric asrepresentation,and the concluding chapters (e.g., on settler colonialism, secrecy, and digital rhetoric) elaborate on rhetoric as a technology ofpower.Of course, there is considerable overlap across these areas: the chapter on “rhetoric and ideology” sets the stage for later understandings of rhetoric aspower; the chapter on “the rhetorical situation” hearkens back to the introductory understanding of rhetoric asspeech. The book includes (audio and/or video) recordings with each chapter, as well as guidelines for proposed written assignments. Students using this resource should gain a thorough understanding of what rhetoric is, how it was practiced historically and today, and the ways that rhetoric wields an invisible influence over contemporary public and political life. Additionally, this book is designed for use across a variety of modalities, including in-person, online (synchronous/asynchronous), and hybridized formats. Additional resources (PowerPoint slides, quiz/exam questions) are also available to confirmed instructors upon request.\",\n    \"publisher\": \"University of Minnesota Libraries Publishing\",\n    \"language\": \"English\",\n    \"isbn13\": \"9781946135889\",\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/reading-rhetorical-theory\"\n}",
-    "{\n    \"title\": \"Technology, Media Literacy, and the Human Subject: A Posthuman Approach\",\n    \"copyright_year\": \"2021\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Richard S. Lewis, Prescott College\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\",\n        \"New Media Journalism\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzA5MSwicHVyIjoiYmxvYl9pZCJ9fQ==--b96d807342db40af0c1d03207a827b3c8b5cbf97/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/1405.jpg\",\n    \"description\": \"What does it mean to be media literate in today’s world? How are we transformed by the many media infrastructures around us? We are immersed in a world mediated by information and communication technologies (ICTs). From hardware like smartphones, smartwatches, and home assistants to software like Facebook, Instagram, Twitter, and Snapchat, our lives have become a complex, interconnected network of relations. Scholarship on media literacy has tended to focus on developing the skills to access, analyze, evaluate, and create media messages without considering or weighing the impact of the technological medium—how it enables and constrains both messages and media users. Additionally, there is often little attention paid to the broader context of interrelations which affect our engagement with media technologies.This book addresses these issues by providing a transdisciplinary method that allows for both practical and theoretical analyses of media investigations. Informed by postphenomenology, media ecology, philosophical posthumanism, and complexity theory the author proposes both a framework and a pragmatic instrument for understanding the multiplicity of relations that all contribute to how we affect—and are affected by—our relations with media technology. The author argues persuasively that the increased awareness provided by this posthuman approach affords us a greater chance for reclaiming some of our agency and provides a sound foundation upon which we can then judge our media relations. This book will be an indispensable tool for educators in media literacy and media studies, as well as academics in philosophy of technology, media and communication studies, and the post-humanities.\",\n    \"publisher\": \"Open Book Publishers\",\n    \"language\": \"English\",\n    \"isbn13\": \"9781800641846\",\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/technology-media-literacy-and-the-human-subject-a-posthuman-approach\"\n}",
-    "{\n    \"title\": \"Language and Culture in Context - A Primer on Intercultural Communication\",\n    \"copyright_year\": \"2020\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Robert Godwin-Jones, Virginia Commonwealth University\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"/assets/common/placeholder-58e710bb6ec2738611b58ac5607240013133c8af9a01be9ca7136ff1b085eef1.webp\",\n    \"description\": \"The text introduces some of the key concepts in intercultural communication as traditionally presented in (North American) courses and textbooks, namely the study of differences between cultures, as represented in the works and theories of Edward Hall and Geert Hofstede. Common to these approaches is the prominence of context, leading to a view of human interactions as dynamic and changeable, given the complexity of language and culture, as human agents interact with their environments.\",\n    \"publisher\": \"Virginia Commonwealth University\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/language-and-culture-in-context-a-primer-on-intercultural-communication\"\n}",
-    "{\n    \"title\": \"The International Journalism Handbook - 1st Ed.\",\n    \"copyright_year\": \"2022\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Rodrigo Zamith, Amherst, Massachusetts\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\",\n        \"New Media Journalism\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzkxMSwicHVyIjoiYmxvYl9pZCJ9fQ==--54c2ae38c934ae31bc30a2f29380a8ec19cecd32/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/book-cover.png\",\n    \"description\": \"International journalism is crucial to our understanding of the world beyond our own borders. This book is designed to explain key theories and concepts that allow us to understand the general practice of journalism around the world, and to illustrate some of the challenges that arise from practicing journalism in those contexts. It begins by providing a theoretical foundation that helps us understand why international journalism matters and the key forces that shape what it looks like; highlights some of the key challenges to bearing witness to developments, sourcing information, and simply doing 'the job' of journalism; and describes important similarities and differences in how journalism is imagined and performed in different regions of the world.\",\n    \"publisher\": \"University of Massachusetts Amherst Libraries\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/the-international-journalism-handbook\"\n}",
-    "{\n    \"title\": \"Stand up, Speak out - The Practice and Ethics of Public Speaking\",\n    \"copyright_year\": \"2016\",\n    \"last_update\": \"2023\",\n    \"authors\": [],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTk3MiwicHVyIjoiYmxvYl9pZCJ9fQ==--3abd8417cd3164d161ece0a88b376a5dad872aad/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/Stand-Up-Speak-Out-683x1024.jpg\",\n    \"description\": \"Stand up, Speak out: The Practice and Ethics of Public Speakingfeatures two key themes. First it focuses on helping students become more seasoned and polished public speakers, and second is its emphasis on ethics in communication. It is this practical approach and integrated ethical coverage that setsStand up, Speak out: The Practice and Ethics of Public Speakingapart from the other texts in this market.\",\n    \"publisher\": \"University of Minnesota Libraries Publishing\",\n    \"language\": \"English\",\n    \"isbn13\": \"9781946135254\",\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/stand-up-speak-out-the-practice-and-ethics-of-public-speaking\"\n}",
-    "{\n    \"title\": \"Introduction to Speech Communication\",\n    \"copyright_year\": \"2021\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Sarah E. Hollingsworth, Oklahoma State University\",\n        \"Megan Linsenmeyer, Oklahoma State University\",\n        \"Terrisa Elwood, Oklahoma State University\",\n        \"Sasha Hanrahan, Oklahoma State University\",\n        \"Mary Walker, Oklahoma State University\",\n        \"Kathryn Weinland, Oklahoma State University\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTI1NzgsInB1ciI6ImJsb2JfaWQifX0=--cec08780ea3f7ae116b0a7532b1bb285c12d670c/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJKUEciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--427a9ad23b67f6db86d2706f85458e5f46b6e0ef/Intro%20to%20Speech%20cover.JPG\",\n    \"description\": \"Introduction to Speech Communication is used to support teaching, learning and research for SPCH 2713 at Oklahoma State University (OSU). In addition to inclusion of original work authored by the editors to meet the needs of their course at OSU, the editors adapted portions of Exploring Public Speaking: 4th Edition,  Stand Up, Speak Out, and Fundamentals of Public Speaking. Please see the Acknowledgements chapter for full citations. We at Oklahoma State University Libraries acknowledge our gratitude for the expertise and generosity of the scholars at Affordable Learning Georgia, College of the Canyons, the Open Education Network and elsewhere for creating and sharing customizable versions of their work. This book also includes an audio version funded by Women for OSU, as well as updated images enabled by a grant from the Oklahoma State Regents for Higher Education.\",\n    \"publisher\": \"Oklahoma State University\",\n    \"language\": \"English\",\n    \"isbn13\": \"9781957983059\",\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/introduction-to-speech-communication\"\n}",
-    "{\n    \"title\": \"Communication, Affect, & Learning in the Classroom - 4th Edition\",\n    \"copyright_year\": \"2020\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Jason S. Wrench\",\n        \"Virginia Peck Richmond\",\n        \"Joan Gorham\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODA3LCJwdXIiOiJibG9iX2lkIn19--a6fa4899f25ac2e84d79cbcce0966f42850bb206/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/0000CALearCla.png\",\n    \"description\": \"Communication, Affect, & Learning in the Classroom was original published by Virginia Richmond and Joan Gorham in 1992 and then updated a decade later by Virginia Richmond, Jason S. Wrench, and Joan Gorham in 2001. As we enter into the revision of the 3rd edition of the text, the basic content has not been drastically altered over the years. However, the research in Instructional Communication has clearly become more prominent and stronger.  Probably the single most important development in the past two decades was the publication of the Handbook of Instructional Communication: Rhetorical and Relational Perspectives edited by Mottet et al. (2006). The purpose of the handbook was to synthesize the first three decades of research in instructional communication into a single volume that could help both researchers and instructors understand the value of communication in the instructional process.\",\n    \"publisher\": \"Jason S. Wrench\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/communication-affect-learning-in-the-classroom\"\n}",
-    "{\n    \"title\": \"Be Credible\",\n    \"copyright_year\": \"2018\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Peter Bobkowski\",\n        \"Karna Younger\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NzQyLCJwdXIiOiJibG9iX2lkIn19--85d0b8ac1d0cf40e61b9db12e16bec65113b290e/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/978-1-936153-12-1.jpg\",\n    \"description\": \"The primary audience for this book starts with students in Journalism 302: Infomania, a course we teach at the University of Kansas. When they take this class, these students usually are in their second or third semesters in the William Allen White School of Journalism and Mass Communications. They have varied career aspirations. A few of them want to be “traditional” journalists, writing for online news sites, magazines, or newspapers. Some of them want to be broadcast journalists. Many of them want to work in strategic communications, which encompasses public relations, advertising, marketing, and related fields.\",\n    \"publisher\": \"Peter Bobkowski and Karna Younger\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/be-credible\"\n}",
-    "{\n    \"title\": \"Humans R Social Media - 2024 \\\"Living Book\\\" Edition\",\n    \"copyright_year\": \"2024\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Diana Daly, University of Arizona\",\n        \"Jacquie Kuru, University of Arizona\",\n        \"Alexandria Fripp, University of Arizona\",\n        \"Nathan Schneider, University of Colorado Boulder\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\",\n        \"New Media Journalism\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTE4MzgsInB1ciI6ImJsb2JfaWQifX0=--acec401bc68976844752fc8267c459f51ff248d1/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/HRSM_AIcover_FinalV3-350x525.png\",\n    \"description\": \"Social media and humans exist in a world of mutual influence, and humans play central roles in how this influence is mediated and transferred. Originally created by University of Arizona Information scholar Diana Daly, this 2024 \\\"living book\\\" edition of Humans R Social Media welcomes additional authors and features contributions by students to help readers understand how we as humans shape social media, and how social media shapes our world in turn.\",\n    \"publisher\": \"The University of Arizona\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/humans-r-social-media-open-textbook-edition\"\n}",
-    "{\n    \"title\": \"Teaching Pronunciation with Confidence: A Resource for ESL/EFL Teachers and Learners\",\n    \"copyright_year\": \"2024\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Agata Guskaroska\",\n        \"Zoë Zawadzki\",\n        \"John M. Levis\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTI4OTEsInB1ciI6ImJsb2JfaWQifX0=--9c93691f8da3e3825d06712e999e235ae4294496/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/Guskaroska-TeachingPronunciation-Cover-r1-350x453.png\",\n    \"description\": \"Teaching Pronunciation with Confidenceis an essential resource for both English teachers and learners, designed to effectively build strong pronunciation skills and knowledge of pronunciation. This guide covers key topics, including English sounds, word stress, intonation, rhythm, prominence, connected speech, and pronunciation diagnostics to guide improvement. The book includes a wide array of interactive H5P activities and sound recordings, which can be used for classroom teaching, or homework and individual practice. These exercises provide practical experience, reinforcing the concepts covered in each chapter.\",\n    \"publisher\": \"Iowa State University Digital Press\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/teaching-pronunciation-with-confidence-a-resource-for-esl-efl-teachers-and-learners\"\n}",
-    "{\n    \"title\": \"Introduction to Communication and Media Studies\",\n    \"copyright_year\": \"2024\",\n    \"last_update\": null,\n    \"authors\": [\n        \"J.J. Sylvia IV, Fitchburg State University\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\",\n        \"New Media Journalism\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTI4NTAsInB1ciI6ImJsb2JfaWQifX0=--e4df1dff751a9a4fac278aea23888d3252c2acda/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/Cover_RotelProject_FiSU-Intro-Comm-Final-Sylvia-768x994.jpg\",\n    \"description\": \"Introduction to Communication and Media Studiesis an in-depth exploration of how communication shapes our world. This book traces the historical evolution of media, from the early days of the printing press to today’s digital age, examining key developments such as the telegraph, radio, television, and the internet. It also covers critical theories that explain media’s impact on society, including the effects of advertising, the role of public relations, and the emergence of social media as a powerful force in modern communication. Chapters on media literacy, critical thinking, and rhetorical analysis help students develop critical skills for understanding and analyzing media messages.\",\n    \"publisher\": \"ROTEL\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/introduction-to-communication-and-media-studies\"\n}",
-    "{\n    \"title\": \"Exploring Public Speaking - 4th Edition\",\n    \"copyright_year\": \"2016\",\n    \"last_update\": \"2019\",\n    \"authors\": [\n        \"Kris Barton, Florida State University\",\n        \"Barbara G. Tucker, University of Georgia\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTY2MCwicHVyIjoiYmxvYl9pZCJ9fQ==--8f50c9cbf659a4339fec367cd6470c7e59d25295/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJQTkciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--89343f782352aa835ac38157b276868b90549fdb/eth.PNG\",\n    \"description\": \"In Exploring Public Speaking, especially in its second through fourth editions, we have attempted to create a usable, zero-cost textbook for basic public speaking courses or courses that include basic public speaking skills as one of their primary learning outcomes. The free, open nature of the text means that instructors are able to use all or part of it, and add their own materials.We believe this text addresses all the subjects that traditional publishers’ books would address in an appropriate writing style and with appropriate college-level learning theory in mind. The appendices address some additional topics that might be excluded from most texts, but that we believe add to the experience: learning theory, plagiarism, speaking online, speaking to diverse audiences, and humor in public speaking. In the third and fourth editions we have added “case study” examples and some different outline samples.We think this book is especially useful in coverage of PowerPoint, audience analysis and responsiveness, ethics in public speaking, persuasion, special occasion speeches, and structure of speeches. Because it was written by communication professors with decades of experience in the classroom, we are aware of the needs of basic public speaking students. Three ancillaries are currently available: electronic “flash cards” for study, PowerPoint slide decks on the 15 main chapters, and test banks for the 15 main chapters. As the website is developed, it will include videos of student speeches.\",\n    \"publisher\": \"University System of Georgia\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/exploring-public-speaking-2nd-revision\"\n}",
-    "{\n    \"title\": \"Preparing to Publish\",\n    \"copyright_year\": \"2023\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Sarah Huffman, Iowa State University\",\n        \"Elena Cotos, Iowa State University\",\n        \"Kimberly Becker, Iowa State University\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzgyNywicHVyIjoiYmxvYl9pZCJ9fQ==--df5bda8bda6a0e8a0c301740caeb76d0a77677bc/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/Huffman-Cover-1-350x453.png\",\n    \"description\": \"This book offers a wealth of instructional material on the topic of research article writing for publication and thesis or dissertation completion. The text provides graduate student writers with helpful information, strategies, and tips on navigating disciplinary writing in their fields and how to understand, dissect, and ultimately, construct their own research article. The text is organized according to a standard research article format, breaking down each section of the empirical research in a simple and straightforward manner to help graduate students build a quality, argument-driven manuscript as they write up their empirical study findings.\",\n    \"publisher\": \"Iowa State University\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/preparing-to-publish\"\n}",
-    "{\n    \"title\": \"Writing for Electronic Media\",\n    \"copyright_year\": \"2017\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Brian Champagne\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\",\n        \"New Media Journalism\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Njc2LCJwdXIiOiJibG9iX2lkIn19--d45c86add5d1ebe03282200af3ad180550cc18ea/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/0000WriEleMed.jpg\",\n    \"description\": \"Welcome to Writing for Electronic Media, an OER textbook. OER stands for Open Educational Resource, which means it’s free for all who access. Since it is electronic, I will do what I can to keep it updated with the changing media. People’s viewing habits are changing as they migrate to mobile sources, social media, and kitten videos.Television News is still a dominant #1 source, and radio is still the safest way to stay informed in your car. Hopefully, you already have some journalism background. This book does not teach the who, what, when, where, why, and how of reporting; its goal is to teach how to present the journalism you already know via electronic media, primarily television.\",\n    \"publisher\": \"Rebus Community\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/writing-for-electronic-media\"\n}",
-    "{\n    \"title\": \"Intercultural Communication\",\n    \"copyright_year\": \"2020\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Shannon Ahrndt, University of Missouri-St. Louis\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTgyMiwicHVyIjoiYmxvYl9pZCJ9fQ==--1bf7205d0812d376c322921fb95f9c33bf3b7f3d/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJQTkciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--89343f782352aa835ac38157b276868b90549fdb/Intercultural.PNG\",\n    \"description\": \"Intercultural Communication examines culture as a variable in interpersonal and collective communication. It explores the opportunities and problems arising from similarities and differences in communication patterns, processes, and codes among various cultural groups. It explores cultural universals, social categorization, stereotyping and discrimination, with a focus on topics including race, ethnicity, social class, religion, gender and sexuality as they relate to communication.\",\n    \"publisher\": \"University of Missouri - St. Louis\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/intercultural-communication\"\n}",
-    "{\n    \"title\": \"Media Innovation and Entrepreneurship\",\n    \"copyright_year\": \"2017\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Michelle Ferrier, Elon University\",\n        \"Elizabeth Mays, Arizona State University\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\",\n        \"New Media Journalism\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDM0LCJwdXIiOiJibG9iX2lkIn19--ecaf4dd9c76b54e3fef3eae21a6f9ddc5fe027e1/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/9781989014011.png\",\n    \"description\": \"This is the first edition of a modular open textbook designed for entrepreneurial journalism, media innovation, and related courses. This book has been undergoing student and faculty testing and open review in fall 2017. Feedback has been implemented in Version 1.0 and will continue to be implemented in Version 2.0 (ETA spring 2018). An accompanying handbook will include additional activities, ancillary materials and faculty resources on media innovation for instructors.\",\n    \"publisher\": \"Rebus Community\",\n    \"language\": \"English\",\n    \"isbn13\": \"9781989014011\",\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/media-innovation-and-entrepreneurship\"\n}",
-    "{\n    \"title\": \"The American Journalism Handbook: Concepts, Issues, and Skills - 1st Ed.\",\n    \"copyright_year\": \"2022\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Rodrigo Zamith, Amherst, Massachusetts\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\",\n        \"New Media Journalism\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzkxMCwicHVyIjoiYmxvYl9pZCJ9fQ==--b2c18da5f9bd582dcb36612d4630d9211b53d73f/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/book-cover.png\",\n    \"description\": \"This book is designed to help us understand the many changes to U.S. journalism and imagine new futures for it – futures in which it can serve as an even more useful tool for promoting a well-functioning society. But, before we can imagine new futures, we must take a step back and examine the institution of U.S. journalism through a critical and in-depth lens. This book aims to offer just that. It provides a conceptual foundation for understanding the development, logic, and practice of journalism in the United States; describes some of the key challenges, tensions, and opportunities it has faced, is facing, and will likely face; and offers guidance to help individuals develop the skills needed engage in impactful journalism.\",\n    \"publisher\": \"UMass Amherst\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/the-american-journalism-handbook-concepts-issues-and-skills\"\n}",
-    "{\n    \"title\": \"Intro to Journalism Handbook: An Open Educational Resource for Journalism Students\",\n    \"copyright_year\": \"2024\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Michael Downing, Kutztown University of Pennsylvania\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTE2NzgsInB1ciI6ImJsb2JfaWQifX0=--0a62142165f32ecd5556f53d3bd259cf387bb825/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/Donwing_IntroToJournalismHandbook-767x1024.png\",\n    \"description\": \"This book is intended as an open educational resource for beginning journalism students. It contains information on such topics as the First Amendment, 5 Ws (and H), the inverted pyramid, headlines and subheads, AP and in-house style, writing and editing exercises, and guidance on strategies for covering various stories and/or events.This book essentially replicates the structure of the author’s journalism classes, which are writing-intensive classes. As such, it focuses upon helping student writers begin working on reasonably serious, campus-level journalism assignments as quickly and effectively as possible. The goal is to submit stories, photos, and occasionally video to a university newspaper for publication, all the while following professional standards related to accuracy, clarity, grammar, and AP style.\",\n    \"publisher\": \"The Pennsylvania Alliance for Design of Open Textbooks (PA-ADOPT)\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/intro-to-journalism-handbook-an-open-educational-resource-for-journalism-students\"\n}",
-    "{\n    \"title\": \"Writing Fabulous Features\",\n    \"copyright_year\": \"2019\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Nicole Kraft, The Ohio State University\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjQwMiwicHVyIjoiYmxvYl9pZCJ9fQ==--7b5f3dddac2145b3553bca5d30a8922b8ceb9dd1/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/Kraft_Features_Cover-350x458.jpg\",\n    \"description\": \"\\\"Writing Fabulous Features\\\" teaches the art and craft of feature writing to help readers learning to write non-fiction with flair.\",\n    \"publisher\": \"The Ohio State University Pressbooks\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/writing-fabulous-features\"\n}",
-    "{\n    \"title\": \"Mass Communication, Media, and Culture - An Introduction to Mass Communication\",\n    \"copyright_year\": \"2016\",\n    \"last_update\": null,\n    \"authors\": [],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\",\n        \"New Media Journalism\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTk2OSwicHVyIjoiYmxvYl9pZCJ9fQ==--749954b615c5af4d4563a26d7841fce627c00d1d/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/Understanding-Media-and-Culture-683x1024.jpg\",\n    \"description\": \"According to the author, the world did not need another introductory text in mass communication. But the world did need another kind of introductory text in mass communication, and that is howUnderstanding Media and Culture: An Introduction to Mass Communicationwas birthed.The only question was: What would be the purpose of another introductory mass communication text?Understanding Media and Culture: An Introduction to Mass Communicationwas written to squarely emphasize media technology. The author believes that an introduction to mass communication text should be a compelling, historical narrative sketching the *ongoing evolution* of media technology and how that technology shapes and is shaped by culture — and that is what he set out to deliver with his new textbook.Today's students are immersed in media technology. They live in a world of cell phones, smart phones, video games, iPods, laptops, Facebook, Twitter, FourSquare, and more. They fully expect that new technology will be developed tomorrow. Yet students often lack an historical perspective on media technology. They lack knowledge of the social, political and economic forces that shape media technology. This is not knowledge for knowledge's sake. It is knowledge that can help them understand, comprehend, appreciate, anticipate, shape and control media technology.With this focus,Understanding Media and Culturebecomes an appropriate title. Indeed, the title has particular significance. Marshall McLuhan's Understanding Media is a key text in media studies. Written in the 1960s, Understanding Media was the subject of intense debates that continue to this day. Its central message was that the technology of media — not their content — was their most important feature. In a typically pithy phrase, McLuhan said, \\\"The medium is the message.\\\" The title,Understanding Media and Culture: An Introduction to Mass Communication, situates the introductory text in a large, engrossing theoretical conversation.The goal is to adopt a textbook that will support and complement your teaching of this course.Understanding Media and Culture: An Introduction to Mass Communicationwill support an engaging and interesting course experience for students that will not only show them the powerful social, political and economic forces will affect the future of media technology, but will challenge students to do their part in shaping that future.\",\n    \"publisher\": \"University of Minnesota Libraries Publishing\",\n    \"language\": \"English\",\n    \"isbn13\": \"9781946135261\",\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/understanding-media-and-culture-an-introduction-to-mass-communication\"\n}",
-    "{\n    \"title\": \"University Academic Writing for International Students: A Usage-based Approach\",\n    \"copyright_year\": \"2020\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Carol Lynn Moder\",\n        \"Alys Avalos-Rivera\",\n        \"Ho'omana Nathan Horton\",\n        \"Miriam Kinfe\",\n        \"Paul Sims\",\n        \"Seth French\",\n        \"Yelin Zhao\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6OTMwMiwicHVyIjoiYmxvYl9pZCJ9fQ==--91f15a46d6d5587e1dc5f227fb2c989903c12947/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/Moder-cover_004-225x264.png\",\n    \"description\": \"This resource is designed specifically to meet the academic writing needs of international students studying at universities in the United States. The materials in the book can be covered within a 14-week semester, but each chapter or section may also be used independently. Based on a series of needs analysis projects, this resource provides an overview of major rhetorical patterns of writing that are commonly used in university settings in the United States. These commonly required genres include descriptive and evaluative summaries, short essays, comparison and contrast assignments, literature reviews, descriptive reports, and proposals. The resource includes chapters that address the structure and purpose of these more common genres, including an awareness of the ways that the target audience and situation should shape the writing of each.\",\n    \"publisher\": null,\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/university-academic-writing-for-international-students-a-usage-based-approach\"\n}",
-    "{\n    \"title\": \"OER: A Field Guide for Academic Librarians\",\n    \"copyright_year\": \"2018\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Andrew Wesolek, Vanderbilt University\",\n        \"Jonathan Lashley, Boise State University\",\n        \"Anne Langley, University of Connecticut\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTkyLCJwdXIiOiJibG9iX2lkIn19--d36f7ece729190f8c5150266549caecd4d95cdb4/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/9781945398797.jpg\",\n    \"description\": \"We intend this book to act as a guide writ large for would-be champions of OER, that anyone—called to action by the example set by our chapter authors—might serve as guides themselves. The following chapters tap into the deep experience of practitioners who represent a meaningful cross section of higher education institutions in North America. It is our hope that the examples and discussions presented by our authors will facilitate connections among practitioners, foster the development of best practices for OER adoption and creation, and more importantly, lay a foundation for novel, educational excellence.\",\n    \"publisher\": \"Pacific University Press\",\n    \"language\": \"English\",\n    \"isbn13\": \"9781945398797\",\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/oer-a-field-guide-for-academic-librarians\"\n}",
-    "{\n    \"title\": \"Media Studies 101\",\n    \"copyright_year\": \"2013\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Erika Pearson, University of Otago\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\",\n        \"New Media Journalism\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzIzLCJwdXIiOiJibG9iX2lkIn19--a852312c8d7b0fe9693f518f7527ac5ad7113ada/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/0000MedStu101.png\",\n    \"description\": \"Media Studies 101is the open educational resource for media studies studies in New Zealand, Australia, and Pacifica. We have constructed this text so it can be read in a number of ways. You may wish to follow the structured order of 'chapters' like you would in a traditional printed textbook. Each section builds on and refers back to previous sections to build up your knowledge and skills. Alternatively, you may want to go straight to the section you are interested in -- links will help guide you back to definitions and key ideas if you need to refresh your knowledge or understand a new concept.This text is open under a Creative Commons NZ BY license.\",\n    \"publisher\": \"BCcampus\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/media-studies-101\"\n}",
-    "{\n    \"title\": \"The Data Journalism Handbook\",\n    \"copyright_year\": \"2012\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Liliana Bounegru\",\n        \"Lucy Chambers\",\n        \"Jonathan Gray\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ0OSwicHVyIjoiYmxvYl9pZCJ9fQ==--ae928802cf0b42ffe31b630d6f88db9da564a4b6/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/Screen%20Shot%202020-08-21%20at%2011.48.05%20AM.png\",\n    \"description\": \"When you combine the sheer scale and range of digital information now available with a journalist’s \\\"nose for news\\\" and her ability to tell a compelling story, a new world of possibility opens up. WithThe Data Journalism Handbook, you’ll explore the potential, limits, and applied uses of this new and fascinating field.This valuable handbook has attracted scores of contributors since the European Journalism Centre and the Open Knowledge Foundation launched the project at MozFest 2011. Through a collection of tips and techniques from leading journalists, professors, software developers, and data analysts, you’ll learn how data can be either the source of data journalism or a tool with which the story is told—or both.\",\n    \"publisher\": \"European Journalism Centre\",\n    \"language\": \"English\",\n    \"isbn13\": \"9781449330064\",\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/the-data-journalism-handbook\"\n}",
-    "{\n    \"title\": \"Introduction to Social Media\",\n    \"copyright_year\": \"2022\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Cheryl Lawson, Oklahoma State University\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mzg1MywicHVyIjoiYmxvYl9pZCJ9fQ==--19b37f171442512391fd75506af68b22b755bc47/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJQTkciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--89343f782352aa835ac38157b276868b90549fdb/Social%20Media.PNG\",\n    \"description\": \"This book is aimed at managers, business owners, marketing managers, and aspiring social media marketing interns and managers. I will assume that however accomplished in your own field - baker, developer, teacher and that even as successful business owners, you approach the topic of social media marketing as a beginner. Even if you are an avid personal user of social networks, we will treat this book as a guided tour of social media for marketing purposes.\",\n    \"publisher\": null,\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/introduction-to-social-media\"\n}",
-    "{\n    \"title\": \"New Media Futures\",\n    \"copyright_year\": \"2019\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Daniel Faltesek, Oregon State University\",\n        \"Daniel Adams, Oregon State University\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\",\n        \"New Media Journalism\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTI0MywicHVyIjoiYmxvYl9pZCJ9fQ==--6518782d43781a8625210fdd7f2400896eed09df/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/newmediafture.jpg\",\n    \"description\": \"This book is intended for use in a large introductory class in new media in a program that covers the “full-stack” including critical/cultural studies, media management, diffusion of innovation, and synthetic media production. The first half of this basic sequence covered new media and democracy, finance, intellectual property law, basic games, and transmedia. The second half of the sequence covers many topics related to aesthetics, design, technology, and methodology.To that end, this book needed to be written so that it would be helpful for many different professors and trajectories of study. This book is in neither engineering, social science, nor the humanities, but also all of those. At the same time, this is a program in the Communication Studies and Media Studies traditions of the United States and that texture will come across.\",\n    \"publisher\": \"Oregon State University\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/new-media-futures-faltesek\"\n}",
-    "{\n    \"title\": \"Introduction to Narrative Journalism\",\n    \"copyright_year\": \"2021\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Benjamin Wielechowski, University of Michigan-Dearborn\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjk4MCwicHVyIjoiYmxvYl9pZCJ9fQ==--ddb79d521c8a37639cbc581d251da7bc16f28e61/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/Cover-Image-for-Intro-to-Narrative-Journalism-350x467.png\",\n    \"description\": \"This textbook was created for beginning narrative journalists exploring the craft. It is inspired by the Narrative Journalism course (JASS/COMP/ENGL 310) at the University of Michigan-Dearborn, and it is intended to be used as a guide and handbook. It is structured around the five elements of fiction, and provides both instruction and student examples of various narrative journalism projects.\",\n    \"publisher\": \"UM-Dearborn Open Education\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/introduction-to-narrative-journalism\"\n}",
-    "{\n    \"title\": \"Tools for Podcasting\",\n    \"copyright_year\": \"2019\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Jill Olmsted\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\",\n        \"New Media Journalism\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6OTQ5NSwicHVyIjoiYmxvYl9pZCJ9fQ==--16dd7fa3355a1c484807a710b8616f2fd4c373eb/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/Screenshot%202023-09-01%20at%2010.14.54%20AM.png\",\n    \"description\": \"Welcome! If you’re interested in learning about the growing universe of podcasting, how it works and finding tools and inspiration to create your own podcast, this online resource is for you. My focus is on audio podcasting and this practical guide will help you navigate the technology and best practices in an easy-to-understand handbook.You will also find many audio and video clips that provide examples and video tutorials leading you through editing software, vocal delivery, promotion ideas and more. All videos have closed captioning and there is an extensive section on the importance of transcription of podcasts to enable web accessibility for the deaf, hearing impaired and language learning audiences. There is also an emphasis on diversity and inclusion with resources listing mentorships and employment opportunities. For even more information click on the extensive links throughout this e-book.In addition, each chapter has learning objectives and there are practice exercises in Appendix C at the end of the e-book along with additional resources about podcasting from newsletters and conferences to how-to-create tools and podcast recommendations.Podcasting is a dynamic way to use your smarts and creativity to tell stories about compelling subjects. This handbook provides instruction and tools to produce your own podcast — whether you are a professional in journalism, the arts, sciences, business or law, an activist or just someone who has a story to tell. The tools discussed are focused on keeping costs low for entry-level podcasters and designed to help anyone who wants to record, edit and distribute podcasts.\",\n    \"publisher\": \"American University\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/tools-for-podcasting\"\n}",
-    "{\n    \"title\": \"Launch! Advertising and Promotion in Real Time\",\n    \"copyright_year\": \"2009\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Michael Solomon, St. Joseph’s University\",\n        \"Lisa Duke Cornell, University of Florida\",\n        \"Amit Nizan, Advertising Age\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTgsInB1ciI6ImJsb2JfaWQifX0=--af590901bd978407823790378d88a932e9549b6b/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/9780982043028.png\",\n    \"description\": \"Launch! Advertising and Promotion is written for advertising and promotion courses taught to students in the business school and journalism & mass communication students.This textbook is the first of its kind to teach advertising concepts by reverse engineering a real advertising campaign from beginning to end.In April 2007, SS+K, an innovative New York City communications agency, launched the first ever branding campaign for msnbc.com with the tag \\\"A Fuller Spectrum of News.\\\" Launch! follows that campaign from initial agency pitch through roll-out of print and media assets to post-campaign analysis. Throughout, it exposes readers to the theory and concepts of advertising and promotion, and the personalities and decisions that drove this campaign. The book takes a rare look ”behind the curtain“ — even letting you see some of the paths not chosen by the agency and client.Students get a realistic sense of how theory plays out in practice, and get a flavor for the exciting field of advertising and promotion. And, they consistently learn the perspectives of both the advertising agency (where many journalism and communications students will work) and the client (where many marketing majors will work).This is a unique book, with a unique perspective, by a unique author team, and you won't find this kind of insight in any other text on the market. We think you're going to love it!This textbook has been used in classes at:Ball State University, Emerson College, Florida Institute of Technology, Grand Valley State University, Johnson County Community College, Manchester Business School, McLennan Community College, Michigan State University, North Hennepin Community College, Pierce College, Rochester Institute of Technology, Saint Louis University, Salem State College, South Dakota State University, Texas State University, Texas Tech University, University of New Hampshire, University of North Carolina, University of Notre Dame, University of South Florida, Virginia Tech, Western Kentucky University.\",\n    \"publisher\": \"Saylor Foundation\",\n    \"language\": \"English\",\n    \"isbn13\": \"9780982043028\",\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/launch-advertising-and-promotion-in-real-time\"\n}",
-    "{\n    \"title\": \"PRODUCCIÓN DE NOTICIAS TELEVISIVAS EN ESPAÑOL EN ESTADOS UNIDOS DE AMÉRICA\",\n    \"copyright_year\": null,\n    \"last_update\": null,\n    \"authors\": [\n        \"Julián Rodríguez, Arlington, Texas\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\",\n        \"New Media Journalism\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDU1NiwicHVyIjoiYmxvYl9pZCJ9fQ==--70d2019388d7d70fdf73625585716e442e2967d6/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGVnIiwicmVzaXplIjoiNDkweDEwMDAifSwicHVyIjoidmFyaWF0aW9uIn19--c92470909b26b190444928a1af61081ff8429c19/MicrosoftTeams-image-1-768x994.jpeg\",\n    \"description\": \"Producción de Noticias Televisivas en Español en Estados Unidos de América es el primer Recurso Educativo Abierto (REA) dedicado exclusivamente al tema. Este REA expone la terminología empleada en las salas de redacción, facilita el entendimiento de la profesión y presenta ejemplos reales que conllevan al mejoramiento de la educación y la producción de noticias televisivas estadounidenses.\",\n    \"publisher\": \"Mavs Open Press\",\n    \"language\": \"Spanish; Castilian\",\n    \"isbn13\": \"9781648169854\",\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/produccion-de-noticias-televisivas-en-espanol-en-estados-unidos-de-america\"\n}",
-    "{\n    \"title\": \"Effective Professional Communication: A Rhetorical Approach\",\n    \"copyright_year\": \"2021\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Rebekah Bennetch, University of Saskatchewan\",\n        \"Corey Owen, University of Saskatchewan\",\n        \"Zachary Keesey, University of Saskatchewan\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzI4NCwicHVyIjoiYmxvYl9pZCJ9fQ==--57315b5fa6b9511dc3a57025fac43bcfdc1dadc8/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/RCM200OEROption2Final-350x453.png\",\n    \"description\": \"Welcome toEffective Professional Communication, your text book for the RCM 200 course at the University of Saskatchewan in Saskatoon, Saskatchewan.As you already know, this course focuses on communicating in professional environments. Even if you haven’t held a job before, you know–at least on a basic level–that how you communicate changes depending on the context of your situation; specifically, you talk differently when you speak to customers/clients versus your co-workers versus your supervisors.Our goal in this text is to break down the communication process in professional environments so you can maximize your chance to get hired and retain your job once you graduate from university. We will do this by looking at communication through political, rhetorical, ethical, and interpersonal lenses and applying this knowledge to your future career.\",\n    \"publisher\": \"University of Saskatchewan\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/effective-professional-communication-a-rhetorical-approach\"\n}",
-    "{\n    \"title\": \"Workplace Writing: A Handbook for Common Workplace Genres and Professional Writing\",\n    \"copyright_year\": \"2016\",\n    \"last_update\": \"2024\",\n    \"authors\": [\n        \"Anna Goins, Kansas State University\",\n        \"Cheryl Rauh, Kansas State University\",\n        \"Danielle Tarner, Kansas State University\",\n        \"Daniel Von Holten, Kansas State University\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTExODQsInB1ciI6ImJsb2JfaWQifX0=--52377ce770afc26d12b82d8e4a870b7906f8ab54/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/workplace.jpg\",\n    \"description\": \"This handbook is designed for a generalized business writing course that seeks to meet the needs of a variety of student majors and career interests. In it you will find: descriptions and discussions of common genres, both routine and formal, print and electronic, and in-class activities and sample assignments. You will also find commentary on how to adapt the writing process to the rhetorical constraints of a workplace as well as how to think about, conduct, and use research outside an academic setting. Throughout you will note a persistent emphasis on audience awareness and direct style\",\n    \"publisher\": \"New Prairie Press\",\n    \"language\": \"English\",\n    \"isbn13\": \"9781944548001\",\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/workplace-writing-a-handbook-for-common-workplace-genres-and-professional-writing\"\n}",
-    "{\n    \"title\": \"Advanced Public Speaking\",\n    \"copyright_year\": \"2021\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Lynn Meade, University of Arkansas\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjkxNCwicHVyIjoiYmxvYl9pZCJ9fQ==--9778fd0b087153eada47476ad3a65a29bfaf42e7/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/Coffee-cup.jpg\",\n    \"description\": \"This advanced public speaking textbook is designed to encourage you as a speaker and to help you sharpen your skills. It is written to feel like you are sitting with a trusted mentor over coffee as you receive practical advice on speaking. Grow in confidence, unleash your personal power and find your unique style as you learn to take your speaking to the next level--polished and professional.\",\n    \"publisher\": \"University of Arkansas\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/advanced-public-speaking\"\n}",
-    "{\n    \"title\": \"Technical and Professional Writing Genres: A Study in Theory and Practice\",\n    \"copyright_year\": \"2019\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Eric Howerton, Oklahoma State University\",\n        \"Michael Beilfuss, Missouri Southern State University\",\n        \"Katrina Peterson, Roswell, New Mexico\",\n        \"Staci Bettes\",\n        \"Katie Rieger\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NzE5LCJwdXIiOiJibG9iX2lkIn19--7123901ff48759e503be87c040b4a544e7b2864d/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/Technical%20Writing_Cover_Final_001.png\",\n    \"description\": \"This modern, open-source guide to technical and professional writing explores workplace composition through theoretical and practical applications. Discussions of multiple writing genres will assist you in understanding how to apply for jobs, how to compose clear and precise business communications once the job has been acquired, and how to create documents -- such as proposals and reports -- that will be instrumental in helping to advance your career.\",\n    \"publisher\": \"Oklahoma State University\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/technical-and-professional-writing-genres-study\"\n}",
-    "{\n    \"title\": \"Message Processing: The Science of Creating Understanding\",\n    \"copyright_year\": \"2018\",\n    \"last_update\": null,\n    \"authors\": [\n        \"Jessica Gasiorek\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTQzLCJwdXIiOiJibG9iX2lkIn19--da430d7e679aeed326a1c47d40fe3de560ddd431/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/0000MesProSCU.png\",\n    \"description\": \"The text provides an upper-level undergraduate introduction and explanation of the social and cognitive processes involved in human communication, focusing on how people create understanding.\",\n    \"publisher\": \"University of Hawaii Manoa\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/message-processing-the-science-of-creating-understanding\"\n}",
-    "{\n    \"title\": \"Writing Unleashed: Content and Structure - 3.0\",\n    \"copyright_year\": \"2019\",\n    \"last_update\": \"2020\",\n    \"authors\": [\n        \"Sybil Priebe, Fargo, North Dakota\",\n        \"Ronda Marman, Fargo, North Dakota\",\n        \"Dana Anderson, Fargo, North Dakota\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTU5MywicHVyIjoiYmxvYl9pZCJ9fQ==--710c3dbacbda3291991a605d7d23e95331209103/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJQTkciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--89343f782352aa835ac38157b276868b90549fdb/uNLEASHED.PNG\",\n    \"description\": \"Welcome to Writing Unleashed, designed for use as a textbook in first-year college composition programs, written as an extremely brief guide for students, jam-packed with teachers’ voices, students’ voices, and engineered for fun.\",\n    \"publisher\": \"North Dakota University System\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/writing-unleashed\"\n}",
-    "{\n    \"title\": \"Digital Foundations: Introduction to Media Design with the Adobe Creative Cloud - Revised Edition\",\n    \"copyright_year\": \"2017\",\n    \"last_update\": null,\n    \"authors\": [\n        \"xtine burrough\",\n        \"Michael Mandiberg\"\n    ],\n    \"subjects\": [\n        \"Journalism, Media Studies and Communications\",\n        \"New Media Journalism\"\n    ],\n    \"image\": \"https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NjMyLCJwdXIiOiJibG9iX2lkIn19--0e1f10e39a987fe1bb7d83083be8583934607c08/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/0000DigFouMed.jpg\",\n    \"description\": \"Digital Foundations uses formal exercises of the Bauhaus to teach the Adobe Creative Suite. All students of digital design and production—whether learning in a classroom or on their own—need to understand the basic principles of design in order to implement them using current software. Far too often design is left out of books that teach software for the trade and academic markets. Consequently, the design software training exercise is often a lost opportunity for visual learning. This revised edition updates the original text for use with Adobe Creative Cloud 2017 software.\",\n    \"publisher\": \"Open Oregon Educational Resources\",\n    \"language\": \"English\",\n    \"isbn13\": null,\n    \"source\": \"https://open.umn.edu/opentextbooks/textbooks/digital-foundations-introduction-to-media-design-with-the-adobe-creative-cloud-revised-edition\"\n}"
+    {
+        "title": "Mass Communication, Media, and Culture - An Introduction to Mass Communication",
+        "copyright_year": "2016",
+        "last_update": null,
+        "authors": [],
+        "subjects": [
+            "Journalism, Media Studies and Communications",
+            "New Media Journalism"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTk2OSwicHVyIjoiYmxvYl9pZCJ9fQ==--749954b615c5af4d4563a26d7841fce627c00d1d/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/Understanding-Media-and-Culture-683x1024.jpg",
+        "description": "According to the author, the world did not need another introductory text in mass communication. But the world did need another kind of introductory text in mass communication, and that is howUnderstanding Media and Culture: An Introduction to Mass Communicationwas birthed.The only question was: What would be the purpose of another introductory mass communication text?Understanding Media and Culture: An Introduction to Mass Communicationwas written to squarely emphasize media technology. The author believes that an introduction to mass communication text should be a compelling, historical narrative sketching the *ongoing evolution* of media technology and how that technology shapes and is shaped by culture — and that is what he set out to deliver with his new textbook.Today's students are immersed in media technology. They live in a world of cell phones, smart phones, video games, iPods, laptops, Facebook, Twitter, FourSquare, and more. They fully expect that new technology will be developed tomorrow. Yet students often lack an historical perspective on media technology. They lack knowledge of the social, political and economic forces that shape media technology. This is not knowledge for knowledge's sake. It is knowledge that can help them understand, comprehend, appreciate, anticipate, shape and control media technology.With this focus,Understanding Media and Culturebecomes an appropriate title. Indeed, the title has particular significance. Marshall McLuhan's Understanding Media is a key text in media studies. Written in the 1960s, Understanding Media was the subject of intense debates that continue to this day. Its central message was that the technology of media — not their content — was their most important feature. In a typically pithy phrase, McLuhan said, 'The medium is the message.' The title,Understanding Media and Culture: An Introduction to Mass Communication, situates the introductory text in a large, engrossing theoretical conversation.The goal is to adopt a textbook that will support and complement your teaching of this course.Understanding Media and Culture: An Introduction to Mass Communicationwill support an engaging and interesting course experience for students that will not only show them the powerful social, political and economic forces will affect the future of media technology, but will challenge students to do their part in shaping that future.",
+        "publisher": "University of Minnesota Libraries Publishing",
+        "language": "English",
+        "isbn13": "9781946135261",
+        "source": "https://open.umn.edu/opentextbooks/textbooks/understanding-media-and-culture-an-introduction-to-mass-communication"
+    },
+    {
+        "title": "OER: A Field Guide for Academic Librarians",
+        "copyright_year": "2018",
+        "last_update": null,
+        "authors": [
+            "Andrew Wesolek, Vanderbilt University",
+            "Jonathan Lashley, Boise State University",
+            "Anne Langley, University of Connecticut"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTkyLCJwdXIiOiJibG9iX2lkIn19--d36f7ece729190f8c5150266549caecd4d95cdb4/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/9781945398797.jpg",
+        "description": "We intend this book to act as a guide writ large for would-be champions of OER, that anyone—called to action by the example set by our chapter authors—might serve as guides themselves. The following chapters tap into the deep experience of practitioners who represent a meaningful cross section of higher education institutions in North America. It is our hope that the examples and discussions presented by our authors will facilitate connections among practitioners, foster the development of best practices for OER adoption and creation, and more importantly, lay a foundation for novel, educational excellence.",
+        "publisher": "Pacific University Press",
+        "language": "English",
+        "isbn13": "9781945398797",
+        "source": "https://open.umn.edu/opentextbooks/textbooks/oer-a-field-guide-for-academic-librarians"
+    },
+    {
+        "title": "New Media Futures",
+        "copyright_year": "2019",
+        "last_update": null,
+        "authors": [
+            "Daniel Faltesek, Oregon State University",
+            "Daniel Adams, Oregon State University"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications",
+            "New Media Journalism"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTI0MywicHVyIjoiYmxvYl9pZCJ9fQ==--6518782d43781a8625210fdd7f2400896eed09df/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/newmediafture.jpg",
+        "description": "This book is intended for use in a large introductory class in new media in a program that covers the “full-stack” including critical/cultural studies, media management, diffusion of innovation, and synthetic media production. The first half of this basic sequence covered new media and democracy, finance, intellectual property law, basic games, and transmedia. The second half of the sequence covers many topics related to aesthetics, design, technology, and methodology.To that end, this book needed to be written so that it would be helpful for many different professors and trajectories of study. This book is in neither engineering, social science, nor the humanities, but also all of those. At the same time, this is a program in the Communication Studies and Media Studies traditions of the United States and that texture will come across.",
+        "publisher": "Oregon State University",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/new-media-futures-faltesek"
+    },
+    {
+        "title": "The Data Journalism Handbook",
+        "copyright_year": "2012",
+        "last_update": null,
+        "authors": [
+            "Liliana Bounegru",
+            "Lucy Chambers",
+            "Jonathan Gray"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ0OSwicHVyIjoiYmxvYl9pZCJ9fQ==--ae928802cf0b42ffe31b630d6f88db9da564a4b6/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/Screen%20Shot%202020-08-21%20at%2011.48.05%20AM.png",
+        "description": "When you combine the sheer scale and range of digital information now available with a journalist’s 'nose for news' and her ability to tell a compelling story, a new world of possibility opens up. WithThe Data Journalism Handbook, you’ll explore the potential, limits, and applied uses of this new and fascinating field.This valuable handbook has attracted scores of contributors since the European Journalism Centre and the Open Knowledge Foundation launched the project at MozFest 2011. Through a collection of tips and techniques from leading journalists, professors, software developers, and data analysts, you’ll learn how data can be either the source of data journalism or a tool with which the story is told—or both.",
+        "publisher": "European Journalism Centre",
+        "language": "English",
+        "isbn13": "9781449330064",
+        "source": "https://open.umn.edu/opentextbooks/textbooks/the-data-journalism-handbook"
+    },
+    {
+        "title": "Writing Unleashed: Content and Structure - 3.0",
+        "copyright_year": "2019",
+        "last_update": "2020",
+        "authors": [
+            "Sybil Priebe, Fargo, North Dakota",
+            "Ronda Marman, Fargo, North Dakota",
+            "Dana Anderson, Fargo, North Dakota"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTU5MywicHVyIjoiYmxvYl9pZCJ9fQ==--710c3dbacbda3291991a605d7d23e95331209103/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJQTkciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--89343f782352aa835ac38157b276868b90549fdb/uNLEASHED.PNG",
+        "description": "Welcome to Writing Unleashed, designed for use as a textbook in first-year college composition programs, written as an extremely brief guide for students, jam-packed with teachers’ voices, students’ voices, and engineered for fun.",
+        "publisher": "North Dakota University System",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/writing-unleashed"
+    },
+    {
+        "title": "Management Communication",
+        "copyright_year": "2017",
+        "last_update": null,
+        "authors": [
+            "Lisa Thomas, Brigham Young University",
+            "Julie Haupt, Brigham Young University",
+            "Andy Spackman, Brigham Young University"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NjE2LCJwdXIiOiJibG9iX2lkIn19--202e96175af7dd17db556c0eb42e49e655f84f3f/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/0000ManageCom.jpg",
+        "description": "Communication is the heart of business. Short emails, complex reports, private chats, impassioned pitches, formal presentations, and team meetings move information and ideas around an organization, define strategy, and drive decisions. Business communication is concise, direct, clear, and compelling.",
+        "publisher": "The Marriott School at Brigham Young University",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/management-communication"
+    },
+    {
+        "title": "Intro to Journalism Handbook: An Open Educational Resource for Journalism Students",
+        "copyright_year": "2024",
+        "last_update": null,
+        "authors": [
+            "Michael Downing, Kutztown University of Pennsylvania"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTE2NzgsInB1ciI6ImJsb2JfaWQifX0=--0a62142165f32ecd5556f53d3bd259cf387bb825/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/Donwing_IntroToJournalismHandbook-767x1024.png",
+        "description": "This book is intended as an open educational resource for beginning journalism students. It contains information on such topics as the First Amendment, 5 Ws (and H), the inverted pyramid, headlines and subheads, AP and in-house style, writing and editing exercises, and guidance on strategies for covering various stories and/or events.This book essentially replicates the structure of the author’s journalism classes, which are writing-intensive classes. As such, it focuses upon helping student writers begin working on reasonably serious, campus-level journalism assignments as quickly and effectively as possible. The goal is to submit stories, photos, and occasionally video to a university newspaper for publication, all the while following professional standards related to accuracy, clarity, grammar, and AP style.",
+        "publisher": "The Pennsylvania Alliance for Design of Open Textbooks (PA-ADOPT)",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/intro-to-journalism-handbook-an-open-educational-resource-for-journalism-students"
+    },
+    {
+        "title": "Message Processing: The Science of Creating Understanding",
+        "copyright_year": "2018",
+        "last_update": null,
+        "authors": [
+            "Jessica Gasiorek"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTQzLCJwdXIiOiJibG9iX2lkIn19--da430d7e679aeed326a1c47d40fe3de560ddd431/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/0000MesProSCU.png",
+        "description": "The text provides an upper-level undergraduate introduction and explanation of the social and cognitive processes involved in human communication, focusing on how people create understanding.",
+        "publisher": "University of Hawaii Manoa",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/message-processing-the-science-of-creating-understanding"
+    },
+    {
+        "title": "The Data Renaissance: Analyzing the Disciplinary Effects of Big Data, Artificial Intelligence, and Beyond [Revised Edition]",
+        "copyright_year": "2024",
+        "last_update": null,
+        "authors": [
+            "J.J. Sylvia IV, Fitchburg State University"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTMxNzIsInB1ciI6ImJsb2JfaWQifX0=--51aaeeaf6b69ed3e2156dcc4c0fe3cdf625cc4ed/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/Cover_RotelProject-FiSU_Data-Renaissance-Sylvia-RE-768x994.jpg",
+        "description": "The Data Renaissance delves into the complexities of data's role in various industries and its broader impact on society. It highlights the challenges in investigating data practices, citing examples like TikTok, where algorithms and data handling are closely guarded secrets. The content, contributed by students under the guidance of an expert, covers a wide range of topics, including the ethical aspects of generative AI in education and the workplace, and case studies reflecting real-world experiences. This evolving text, intended to be updated with each class, serves as a dynamic resource for educators and students alike, offering insights and discussion guides for an in-depth understanding of the ever-changing landscape of data in our digital age.",
+        "publisher": "ROTEL",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/the-data-renaissance-analyzing-the-disciplinary-effects-of-big-data-artificial-intelligence-and-beyond"
+    },
+    {
+        "title": "Reading Rhetorical Theory",
+        "copyright_year": "2022",
+        "last_update": null,
+        "authors": [
+            "Atilla Hallsby, Minneapolis, MN"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzkxMiwicHVyIjoiYmxvYl9pZCJ9fQ==--3e29ffb52aed0b1d863feecdbf4f3519646c4d1e/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/Screen%20Shot%202022-08-17%20at%208.38.40%20AM.png",
+        "description": "This is a textbook that was originally designed for a 3000-level large lecture course on “Rhetorical Theory” at the University of Minnesota, Twin-Cities. An interdisciplinary tradition, rhetorical theory describes how speech, representation, and power are managed by techniques and technologies of communication. The plan of this book moves from rhetoric as an art of speech to rhetoric as a technology of power. The early chapters provide definitions and context for rhetoric asspeech,middle chapters (e.g., on signs, symbols, visual images, argumentation, and narrative) describe rhetoric asrepresentation,and the concluding chapters (e.g., on settler colonialism, secrecy, and digital rhetoric) elaborate on rhetoric as a technology ofpower.Of course, there is considerable overlap across these areas: the chapter on “rhetoric and ideology” sets the stage for later understandings of rhetoric aspower; the chapter on “the rhetorical situation” hearkens back to the introductory understanding of rhetoric asspeech. The book includes (audio and/or video) recordings with each chapter, as well as guidelines for proposed written assignments. Students using this resource should gain a thorough understanding of what rhetoric is, how it was practiced historically and today, and the ways that rhetoric wields an invisible influence over contemporary public and political life. Additionally, this book is designed for use across a variety of modalities, including in-person, online (synchronous/asynchronous), and hybridized formats. Additional resources (PowerPoint slides, quiz/exam questions) are also available to confirmed instructors upon request.",
+        "publisher": "University of Minnesota Libraries Publishing",
+        "language": "English",
+        "isbn13": "9781946135889",
+        "source": "https://open.umn.edu/opentextbooks/textbooks/reading-rhetorical-theory"
+    },
+    {
+        "title": "Critical Perspectives on Technology and the Family",
+        "copyright_year": "2022",
+        "last_update": null,
+        "authors": [
+            "Susan K. Walker, Minneapolis, MN"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDI4NCwicHVyIjoiYmxvYl9pZCJ9fQ==--ff9c8164716b56aaa0cbaf30c3cf1b78940f2e76/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGVnIiwicmVzaXplIjoiNDkweDEwMDAifSwicHVyIjoidmFyaWF0aW9uIn19--c92470909b26b190444928a1af61081ff8429c19/postcard-front-2.jpeg",
+        "description": "From the perspective of a long time family practitioner, researcher, and educator, and technology innovator, this textbook offers the first comprehensive view of technology in the family for college students, professionals and the public. Each chapter offers content and a complete reference list, learning activities, ideas for critical blog posting and additional readings. The beginning chapters cover foundational information about our societal use of information and communications technology, family theories and ways of understanding families, and how families differ in their use and access to ICT. The main body of the book (chapters 4-10) covers elements of the family from couple relationships and dating apps, to children’s use and impacts on development from early childhood through young adulthood, use by parents and in the parent-child relationship, shared use by family members, and then topics important to family life: work-family balance and health and financial management and technology. The end of the book pivots to look closely at use by family professionals, the competencies needed to integrate technology into practice, and policy as a proactive and systemic avenue for change. End of book material include an additional reading list and recommended web content, social media and thought leaders. The authors lends her ideas on teaching for critical thinking with an overview at the beginning of the book, and classroom assessment ideas (actually short ways to engage learners in critical thinking activities).",
+        "publisher": "University of Minnesota Libraries Publishing",
+        "language": "English",
+        "isbn13": "9781946135926",
+        "source": "https://open.umn.edu/opentextbooks/textbooks/critical-perspectives-on-technology-and-the-family"
+    },
+    {
+        "title": "Graphic Design and Print Production Fundamentals",
+        "copyright_year": "2015",
+        "last_update": null,
+        "authors": [
+            "Wayne Collins, British Columbia Institute of Technology",
+            "Alex Haas, Emily Carr University",
+            "Ken Jeffery, British Columbia Institute of Technology",
+            "Alan Martin, British Columbia Institute of Technology",
+            "Roberto Medeiros, Ricoh Canada",
+            "Steven Tomljanovic, British Columbia Institute of Technology"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjgzLCJwdXIiOiJibG9iX2lkIn19--d6565578cb171c57f8e11d96a6d7862f50447ce4/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/0000GraphicDe.png",
+        "description": "This textbook -- written by a group of select experts with a focus on different aspects of the design process, from creation to production -- addresses the many steps of creating and then producing physical, printed, or other imaged products that people interact with on a daily basis. It covers the concept that, while most modern graphic design is created on computers using design software, the ideas and concepts don't stay on the computer. The ideas need to be completed in the computer software, then progress to an imaging (traditionally referred to as printing) process. Keywords are highlighted throughout and summarized in a Glossary at the end of the book, and each chapter includes exercises and suggested readings.",
+        "publisher": "BCcampus",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/graphic-design-and-print-production-fundamentals"
+    },
+    {
+        "title": "The American Journalism Handbook: Concepts, Issues, and Skills - 1st Ed.",
+        "copyright_year": "2022",
+        "last_update": null,
+        "authors": [
+            "Rodrigo Zamith, Amherst, Massachusetts"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications",
+            "New Media Journalism"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzkxMCwicHVyIjoiYmxvYl9pZCJ9fQ==--b2c18da5f9bd582dcb36612d4630d9211b53d73f/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/book-cover.png",
+        "description": "This book is designed to help us understand the many changes to U.S. journalism and imagine new futures for it – futures in which it can serve as an even more useful tool for promoting a well-functioning society. But, before we can imagine new futures, we must take a step back and examine the institution of U.S. journalism through a critical and in-depth lens. This book aims to offer just that. It provides a conceptual foundation for understanding the development, logic, and practice of journalism in the United States; describes some of the key challenges, tensions, and opportunities it has faced, is facing, and will likely face; and offers guidance to help individuals develop the skills needed engage in impactful journalism.",
+        "publisher": "UMass Amherst",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/the-american-journalism-handbook-concepts-issues-and-skills"
+    },
+    {
+        "title": "Introduction to Social Media",
+        "copyright_year": "2022",
+        "last_update": null,
+        "authors": [
+            "Cheryl Lawson, Oklahoma State University"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mzg1MywicHVyIjoiYmxvYl9pZCJ9fQ==--19b37f171442512391fd75506af68b22b755bc47/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJQTkciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--89343f782352aa835ac38157b276868b90549fdb/Social%20Media.PNG",
+        "description": "This book is aimed at managers, business owners, marketing managers, and aspiring social media marketing interns and managers. I will assume that however accomplished in your own field - baker, developer, teacher and that even as successful business owners, you approach the topic of social media marketing as a beginner. Even if you are an avid personal user of social networks, we will treat this book as a guided tour of social media for marketing purposes.",
+        "publisher": null,
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/introduction-to-social-media"
+    },
+    {
+        "title": "A Guide to Technical Communications: Strategies & Applications",
+        "copyright_year": "2016",
+        "last_update": null,
+        "authors": [
+            "Lynn Hall, The Ohio State University",
+            "Leah Wahlin, The Ohio State University"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mzg0LCJwdXIiOiJibG9iX2lkIn19--57589b2077105c0e44e9fc41d83444086b8430b4/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/0000GuiTecCom.png",
+        "description": "Welcome to the textbook for Engineering Technical Communications courses at The Ohio State University. Our aim in writing this textbook was to create a resource specifically focused on and applicable to the kinds of communication skills most beneficial to the students who take our courses. Therefore, this textbook focuses on developing both technical and professional communication skills and will help readers practice strategies for critically analyzing audiences and contexts, real-world applications of rhetorical principles, and skills for producing documents (reports, proposals, instructions), presentations, videos, and wide variety of other professional communications.",
+        "publisher": "Ohio State University Libraries",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/a-guide-to-technical-communications-strategies-applications"
+    },
+    {
+        "title": "Open Technical Writing: An Open-Access Text for Instruction in Technical and Professional Writing",
+        "copyright_year": "2018",
+        "last_update": null,
+        "authors": [
+            "Adam Rex Pope, University of Arkansas"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NzI1LCJwdXIiOiJibG9iX2lkIn19--54579cc44e8b14827b937caf4b11c238ac8a7613/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/0000OpeTecWri.png",
+        "description": "This book presents technical writing as an approach to researching and carrying out writing that centers on technical subject matter. Each and every chapter is devoted to helping students understand that good technical writing is situationally-aware and context-driven. Technical writing doesn’t work off knowing the one true right way of doing things—there is no magic report template out there that will always work. Instead, the focus is on offering students a series of approaches they can use to map out their situations and do research accordingly.",
+        "publisher": "University of Arkansas",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/open-technical-writing-an-open-access-text-for-instruction-in-technical-and-professional-writing"
+    },
+    {
+        "title": "PRODUCCIÓN DE NOTICIAS TELEVISIVAS EN ESPAÑOL EN ESTADOS UNIDOS DE AMÉRICA",
+        "copyright_year": null,
+        "last_update": null,
+        "authors": [
+            "Julián Rodríguez, Arlington, Texas"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications",
+            "New Media Journalism"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDU1NiwicHVyIjoiYmxvYl9pZCJ9fQ==--70d2019388d7d70fdf73625585716e442e2967d6/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGVnIiwicmVzaXplIjoiNDkweDEwMDAifSwicHVyIjoidmFyaWF0aW9uIn19--c92470909b26b190444928a1af61081ff8429c19/MicrosoftTeams-image-1-768x994.jpeg",
+        "description": "Producción de Noticias Televisivas en Español en Estados Unidos de América es el primer Recurso Educativo Abierto (REA) dedicado exclusivamente al tema. Este REA expone la terminología empleada en las salas de redacción, facilita el entendimiento de la profesión y presenta ejemplos reales que conllevan al mejoramiento de la educación y la producción de noticias televisivas estadounidenses.",
+        "publisher": "Mavs Open Press",
+        "language": "Spanish; Castilian",
+        "isbn13": "9781648169854",
+        "source": "https://open.umn.edu/opentextbooks/textbooks/produccion-de-noticias-televisivas-en-espanol-en-estados-unidos-de-america"
+    },
+    {
+        "title": "Be Credible",
+        "copyright_year": "2018",
+        "last_update": null,
+        "authors": [
+            "Peter Bobkowski",
+            "Karna Younger"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NzQyLCJwdXIiOiJibG9iX2lkIn19--85d0b8ac1d0cf40e61b9db12e16bec65113b290e/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/978-1-936153-12-1.jpg",
+        "description": "The primary audience for this book starts with students in Journalism 302: Infomania, a course we teach at the University of Kansas. When they take this class, these students usually are in their second or third semesters in the William Allen White School of Journalism and Mass Communications. They have varied career aspirations. A few of them want to be “traditional” journalists, writing for online news sites, magazines, or newspapers. Some of them want to be broadcast journalists. Many of them want to work in strategic communications, which encompasses public relations, advertising, marketing, and related fields.",
+        "publisher": "Peter Bobkowski and Karna Younger",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/be-credible"
+    },
+    {
+        "title": "Workplace Writing: A Handbook for Common Workplace Genres and Professional Writing",
+        "copyright_year": "2016",
+        "last_update": "2024",
+        "authors": [
+            "Anna Goins, Kansas State University",
+            "Cheryl Rauh, Kansas State University",
+            "Danielle Tarner, Kansas State University",
+            "Daniel Von Holten, Kansas State University"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTExODQsInB1ciI6ImJsb2JfaWQifX0=--52377ce770afc26d12b82d8e4a870b7906f8ab54/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/workplace.jpg",
+        "description": "This handbook is designed for a generalized business writing course that seeks to meet the needs of a variety of student majors and career interests. In it you will find: descriptions and discussions of common genres, both routine and formal, print and electronic, and in-class activities and sample assignments. You will also find commentary on how to adapt the writing process to the rhetorical constraints of a workplace as well as how to think about, conduct, and use research outside an academic setting. Throughout you will note a persistent emphasis on audience awareness and direct style",
+        "publisher": "New Prairie Press",
+        "language": "English",
+        "isbn13": "9781944548001",
+        "source": "https://open.umn.edu/opentextbooks/textbooks/workplace-writing-a-handbook-for-common-workplace-genres-and-professional-writing"
+    },
+    {
+        "title": "Stand up, Speak out - The Practice and Ethics of Public Speaking",
+        "copyright_year": "2016",
+        "last_update": "2023",
+        "authors": [],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTk3MiwicHVyIjoiYmxvYl9pZCJ9fQ==--3abd8417cd3164d161ece0a88b376a5dad872aad/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/Stand-Up-Speak-Out-683x1024.jpg",
+        "description": "Stand up, Speak out: The Practice and Ethics of Public Speakingfeatures two key themes. First it focuses on helping students become more seasoned and polished public speakers, and second is its emphasis on ethics in communication. It is this practical approach and integrated ethical coverage that setsStand up, Speak out: The Practice and Ethics of Public Speakingapart from the other texts in this market.",
+        "publisher": "University of Minnesota Libraries Publishing",
+        "language": "English",
+        "isbn13": "9781946135254",
+        "source": "https://open.umn.edu/opentextbooks/textbooks/stand-up-speak-out-the-practice-and-ethics-of-public-speaking"
+    },
+    {
+        "title": "Arguing Using Critical Thinking",
+        "copyright_year": "2020",
+        "last_update": null,
+        "authors": [
+            "Jim Marteney, Los Angeles Valley College"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTYyNiwicHVyIjoiYmxvYl9pZCJ9fQ==--90013bd24d32454b9939dab46e57c78013e863c6/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJQTkciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--89343f782352aa835ac38157b276868b90549fdb/Argue.PNG",
+        "description": "There is a quote that has been passed down many years and is most recently accounted to P.T. Barnum, “There is a sucker born every minute.” Are you that sucker? If you were, would you like to be “reborn?” The goal of this book is to help you through that “birthing” process. Critical thinking and standing up for your ideas and making decisions are important in both your personal and professional life. How good are we at making the decision to marry? According to the Centers for Disease Control, there is one divorce in America every 36 seconds. That is nearly 2,400 every day. And professionally, the Wall Street Journal predicts the average person will have 7 careers in their lifetime. Critical thinking skills are crucial.Critical thinking is a series learned skills. In each chapter of this book you will find a variety of skills that will help you improve your thinking and argumentative ability. As you improve, you will grow into a more confident person being more in charge of your world and the decisions you make.",
+        "publisher": "Academic Senate for California Community Colleges",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/arguing-using-critical-thinking"
+    },
+    {
+        "title": "Digital Foundations: Introduction to Media Design with the Adobe Creative Cloud - Revised Edition",
+        "copyright_year": "2017",
+        "last_update": null,
+        "authors": [
+            "xtine burrough",
+            "Michael Mandiberg"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications",
+            "New Media Journalism"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NjMyLCJwdXIiOiJibG9iX2lkIn19--0e1f10e39a987fe1bb7d83083be8583934607c08/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/0000DigFouMed.jpg",
+        "description": "Digital Foundations uses formal exercises of the Bauhaus to teach the Adobe Creative Suite. All students of digital design and production—whether learning in a classroom or on their own—need to understand the basic principles of design in order to implement them using current software. Far too often design is left out of books that teach software for the trade and academic markets. Consequently, the design software training exercise is often a lost opportunity for visual learning. This revised edition updates the original text for use with Adobe Creative Cloud 2017 software.",
+        "publisher": "Open Oregon Educational Resources",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/digital-foundations-introduction-to-media-design-with-the-adobe-creative-cloud-revised-edition"
+    },
+    {
+        "title": "Introduction to Narrative Journalism",
+        "copyright_year": "2021",
+        "last_update": null,
+        "authors": [
+            "Benjamin Wielechowski, University of Michigan-Dearborn"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjk4MCwicHVyIjoiYmxvYl9pZCJ9fQ==--ddb79d521c8a37639cbc581d251da7bc16f28e61/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/Cover-Image-for-Intro-to-Narrative-Journalism-350x467.png",
+        "description": "This textbook was created for beginning narrative journalists exploring the craft. It is inspired by the Narrative Journalism course (JASS/COMP/ENGL 310) at the University of Michigan-Dearborn, and it is intended to be used as a guide and handbook. It is structured around the five elements of fiction, and provides both instruction and student examples of various narrative journalism projects.",
+        "publisher": "UM-Dearborn Open Education",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/introduction-to-narrative-journalism"
+    },
+    {
+        "title": "Advanced Public Speaking",
+        "copyright_year": "2021",
+        "last_update": null,
+        "authors": [
+            "Lynn Meade, University of Arkansas"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjkxNCwicHVyIjoiYmxvYl9pZCJ9fQ==--9778fd0b087153eada47476ad3a65a29bfaf42e7/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/Coffee-cup.jpg",
+        "description": "This advanced public speaking textbook is designed to encourage you as a speaker and to help you sharpen your skills. It is written to feel like you are sitting with a trusted mentor over coffee as you receive practical advice on speaking. Grow in confidence, unleash your personal power and find your unique style as you learn to take your speaking to the next level--polished and professional.",
+        "publisher": "University of Arkansas",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/advanced-public-speaking"
+    },
+    {
+        "title": "Writing Fabulous Features",
+        "copyright_year": "2019",
+        "last_update": null,
+        "authors": [
+            "Nicole Kraft, The Ohio State University"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjQwMiwicHVyIjoiYmxvYl9pZCJ9fQ==--7b5f3dddac2145b3553bca5d30a8922b8ceb9dd1/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/Kraft_Features_Cover-350x458.jpg",
+        "description": "'Writing Fabulous Features' teaches the art and craft of feature writing to help readers learning to write non-fiction with flair.",
+        "publisher": "The Ohio State University Pressbooks",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/writing-fabulous-features"
+    },
+    {
+        "title": "Communication for Business Success",
+        "copyright_year": "2015",
+        "last_update": null,
+        "authors": [],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTk1OCwicHVyIjoiYmxvYl9pZCJ9fQ==--a055c223959f04649e60ce6edbcac1f25dc2ec1b/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/Business-Communication-for-Success-683x1024.jpg",
+        "description": "Business Communication for Success(BCS) provides a comprehensive, integrated approach to the study and application of written and oral business communication to serve both student and professor.This series features chapters with the following elements:Learning ObjectivesIntroductory ExercisesClear expectations, relevant background, and important theoriesPractical, real-world examplesKey Takeaways or quick internal summariesKey terms that are easily identifiedIn-chapter assignmentsPostchapter assessments linked to objectives and skills acquisitionEach chapter is self-contained, allowing for mix-and-match flexibility and custom or course-specific design. Each chapter focuses on clear objectives and skill demonstrations that can be easily linked to your syllabus and state or federal requirements. Supported by internal and external assessments, each chapter features time-saving and learning-enhancement support for instructors and students.BCS is designed to help students identify important information, reinforce for retention, and demonstrate mastery with a clear outcome product.The text has three content categories:FoundationsProcess and productsContextsThe first three chapters form the core foundation for the study of oral and written business communication. The next sequence of chapters focus on the process of writing, then oral performance with an emphasis on results. The final sequence focuses on contexts where business communication occurs, from interpersonal to intercultural, from groups to leadership.In each of the process and product chapter sequences, the chapters follow a natural flow, from prewriting to revision, from preparation for a presentation to performance. Each sequence comes together in a concluding chapter that focuses on action—where we apply the skills and techniques of written or oral communication in business, from writing a letter to presenting a sales speech. These performances not only serve to reinforce real-world applications but also may serve as course assessments.This text has been used in classes at: Ohio University, Miami University – Oxford, Kent State University – Salem Campus, Cuyahoga Community College – West, University of Toledo, Cuyahoga Community College – District, Northern Arizona University, Gateway Community College, University of Arizona, Arizona Western College, Boise State University,Western Governors University, Doane College, Mcpherson College, University of Nebraska Med Center, Suny Fredonia, State University of New York Institute of Technology at Utica/Rome, Trinidad State Junior College, University of Delaware, Brenau University, Brewton-Parker College, Loras College, Kapiolani Community College, Muscatine Community College, Greenville College, University of Illinois – Chicago, Millikin University, Rockland Community College, Cornell University, National-Louis University – Lisle, St. Gregory's University, University of Southern Indiana, Missouri State University – W Plains, Bucks County Community College – Newton, Clarion University of Pennsylvania, Pulaski Technical College, Temple University, Dixie State College of Utah, Averett University, Virginia Polytech Institute, Fond Du Lac Tribal Community College, Lipscomb University, Edgewood College, University of Wisconsin – Stout, Wisconsin Lutheran College, Virginia State University, North Georgia Technical College – Blairsville, Paradise Valley Community College, Fordham University – Lincoln Center, New England College of Business/Finance, Eastern New Mexico University, University of Alabama, Albertus Magnus College, Pepperdine University, Fullerton College, Santa Ana College, Miracosta College – Oceanside, San Jose State University, De Anza College, University of The Southwest, Florida Institute of Technology, Forida State University, Dean College, California State University, University of Massachusetts, Suffolk University, Stevenson University, Worcester State College, University of Maryland, Clover Park Technical College, Minnesota State University – Moorhead, College of St. Scholastica, Ferris State University, Concordia University, Southern New Hampshire University, Lower Columbia College, University of North Carolina – Greensboro, Rockingham Community College, Stanly Community College, Wayland Baptist University, Bunker Hill Community College, Salve Regina University, University of The Incarnate Word, St. Mary's University, University of Rhode Island, Texarkana College, Renton Technical College, Tarleton State University, Wayland Baptist University – Plainview, University of Houston, Stephen F. Austin State University, Bates Technical College, Chabot College, Bakersfield College, Azusa Pacific University, University of Houston – Downtown, California Southern University, Miracosta College, American Public University, American Public University System, Huntington Junior College, Flat World Knowledge University, Jackson Senior High School, Holmes High School, Dlielc, Clintondale High School, American University in Kosovo in Conjunction with Rochester Institute of Technology, Southeast Lauderdale High School, Benedict Business Hotel Management School, University of the People, Kwame Nkrumah University of Science and Technology, New Brunswick College of Craft and Design, New England School of English, Comsats Institute of Information Technology, Wayland Baptist University – Anchorage, Volcano Vista High School, Wayland Baptist University – San Antonio, Morrill High School, North Island College – B Campus, Seneca College, APOU, University of North Carolina – Greensboro, Southern New Hampshire University, University of Maryland University College, Harrisburg High School",
+        "publisher": "University of Minnesota Libraries Publishing",
+        "language": "English",
+        "isbn13": "9781946135056",
+        "source": "https://open.umn.edu/opentextbooks/textbooks/business-communication-for-success"
+    },
+    {
+        "title": "Communication, Affect, & Learning in the Classroom - 4th Edition",
+        "copyright_year": "2020",
+        "last_update": null,
+        "authors": [
+            "Jason S. Wrench",
+            "Virginia Peck Richmond",
+            "Joan Gorham"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODA3LCJwdXIiOiJibG9iX2lkIn19--a6fa4899f25ac2e84d79cbcce0966f42850bb206/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/0000CALearCla.png",
+        "description": "Communication, Affect, & Learning in the Classroom was original published by Virginia Richmond and Joan Gorham in 1992 and then updated a decade later by Virginia Richmond, Jason S. Wrench, and Joan Gorham in 2001. As we enter into the revision of the 3rd edition of the text, the basic content has not been drastically altered over the years. However, the research in Instructional Communication has clearly become more prominent and stronger.  Probably the single most important development in the past two decades was the publication of the Handbook of Instructional Communication: Rhetorical and Relational Perspectives edited by Mottet et al. (2006). The purpose of the handbook was to synthesize the first three decades of research in instructional communication into a single volume that could help both researchers and instructors understand the value of communication in the instructional process.",
+        "publisher": "Jason S. Wrench",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/communication-affect-learning-in-the-classroom"
+    },
+    {
+        "title": "Teaching Pronunciation with Confidence: A Resource for ESL/EFL Teachers and Learners",
+        "copyright_year": "2024",
+        "last_update": null,
+        "authors": [
+            "Agata Guskaroska",
+            "Zoë Zawadzki",
+            "John M. Levis"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTI4OTEsInB1ciI6ImJsb2JfaWQifX0=--9c93691f8da3e3825d06712e999e235ae4294496/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/Guskaroska-TeachingPronunciation-Cover-r1-350x453.png",
+        "description": "Teaching Pronunciation with Confidenceis an essential resource for both English teachers and learners, designed to effectively build strong pronunciation skills and knowledge of pronunciation. This guide covers key topics, including English sounds, word stress, intonation, rhythm, prominence, connected speech, and pronunciation diagnostics to guide improvement. The book includes a wide array of interactive H5P activities and sound recordings, which can be used for classroom teaching, or homework and individual practice. These exercises provide practical experience, reinforcing the concepts covered in each chapter.",
+        "publisher": "Iowa State University Digital Press",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/teaching-pronunciation-with-confidence-a-resource-for-esl-efl-teachers-and-learners"
+    },
+    {
+        "title": "Small Group Communication: Forming & Sustaining Teams",
+        "copyright_year": "2021",
+        "last_update": null,
+        "authors": [
+            "Jasmine R. Linabary, Emporia State University",
+            "Moon Castro, Emporia State University"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjc5NSwicHVyIjoiYmxvYl9pZCJ9fQ==--4f23a394ec640e04afdcd10f4520b7f667a7a2c0/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/Small-Group-Book-Cover-350x559.jpg",
+        "description": "Small Group Communication: Forming & Sustaining Teams is an interdisciplinary textbook focused on communication in groups and teams. This textbook aims to provide students with theories, concepts, and skills they can put into practice to form and sustain successful groups across a variety of contexts.",
+        "publisher": "Jasmine R. Linabary",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/small-group-communication-forming-sustaining-teams"
+    },
+    {
+        "title": "Information Strategies for Communicators",
+        "copyright_year": "2015",
+        "last_update": null,
+        "authors": [
+            "Kathleen A. Hansen, University of Minnesota",
+            "Nora Paul, University of Minnesota"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTk2MywicHVyIjoiYmxvYl9pZCJ9fQ==--b97b94f63dea0cee06da6485638fbc1f1d57e66a/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/InformationStrategies_cvr_final-683x1024.jpg",
+        "description": "Written by two nationally recognized experts in information strategy,Information Strategies for Communicatorsleads students step-by-step through the information search and evaluation process for news and strategic communication message production. The book includes a conceptual model of the information strategy process, case studies to illustrate the process in action, and links to current examples throughout.The definitive text for the information search and evaluation process as practiced by news and strategic communication message producers. Currently used at the University of Minnesota School of Journalism and Mass Communication; JOUR 3004W/V, Information for Mass Communication.",
+        "publisher": "University of Minnesota Libraries Publishing",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/information-strategies-for-communicators"
+    },
+    {
+        "title": "Language and Culture in Context - A Primer on Intercultural Communication",
+        "copyright_year": "2020",
+        "last_update": null,
+        "authors": [
+            "Robert Godwin-Jones, Virginia Commonwealth University"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "/assets/common/placeholder-58e710bb6ec2738611b58ac5607240013133c8af9a01be9ca7136ff1b085eef1.webp",
+        "description": "The text introduces some of the key concepts in intercultural communication as traditionally presented in (North American) courses and textbooks, namely the study of differences between cultures, as represented in the works and theories of Edward Hall and Geert Hofstede. Common to these approaches is the prominence of context, leading to a view of human interactions as dynamic and changeable, given the complexity of language and culture, as human agents interact with their environments.",
+        "publisher": "Virginia Commonwealth University",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/language-and-culture-in-context-a-primer-on-intercultural-communication"
+    },
+    {
+        "title": "Launch! Advertising and Promotion in Real Time",
+        "copyright_year": "2009",
+        "last_update": null,
+        "authors": [
+            "Michael Solomon, St. Joseph’s University",
+            "Lisa Duke Cornell, University of Florida",
+            "Amit Nizan, Advertising Age"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTgsInB1ciI6ImJsb2JfaWQifX0=--af590901bd978407823790378d88a932e9549b6b/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/9780982043028.png",
+        "description": "Launch! Advertising and Promotion is written for advertising and promotion courses taught to students in the business school and journalism & mass communication students.This textbook is the first of its kind to teach advertising concepts by reverse engineering a real advertising campaign from beginning to end.In April 2007, SS+K, an innovative New York City communications agency, launched the first ever branding campaign for msnbc.com with the tag 'A Fuller Spectrum of News.' Launch! follows that campaign from initial agency pitch through roll-out of print and media assets to post-campaign analysis. Throughout, it exposes readers to the theory and concepts of advertising and promotion, and the personalities and decisions that drove this campaign. The book takes a rare look ”behind the curtain“ — even letting you see some of the paths not chosen by the agency and client.Students get a realistic sense of how theory plays out in practice, and get a flavor for the exciting field of advertising and promotion. And, they consistently learn the perspectives of both the advertising agency (where many journalism and communications students will work) and the client (where many marketing majors will work).This is a unique book, with a unique perspective, by a unique author team, and you won't find this kind of insight in any other text on the market. We think you're going to love it!This textbook has been used in classes at:Ball State University, Emerson College, Florida Institute of Technology, Grand Valley State University, Johnson County Community College, Manchester Business School, McLennan Community College, Michigan State University, North Hennepin Community College, Pierce College, Rochester Institute of Technology, Saint Louis University, Salem State College, South Dakota State University, Texas State University, Texas Tech University, University of New Hampshire, University of North Carolina, University of Notre Dame, University of South Florida, Virginia Tech, Western Kentucky University.",
+        "publisher": "Saylor Foundation",
+        "language": "English",
+        "isbn13": "9780982043028",
+        "source": "https://open.umn.edu/opentextbooks/textbooks/launch-advertising-and-promotion-in-real-time"
+    },
+    {
+        "title": "Introduction to Communication and Media Studies",
+        "copyright_year": "2024",
+        "last_update": null,
+        "authors": [
+            "J.J. Sylvia IV, Fitchburg State University"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications",
+            "New Media Journalism"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTI4NTAsInB1ciI6ImJsb2JfaWQifX0=--e4df1dff751a9a4fac278aea23888d3252c2acda/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/Cover_RotelProject_FiSU-Intro-Comm-Final-Sylvia-768x994.jpg",
+        "description": "Introduction to Communication and Media Studiesis an in-depth exploration of how communication shapes our world. This book traces the historical evolution of media, from the early days of the printing press to today’s digital age, examining key developments such as the telegraph, radio, television, and the internet. It also covers critical theories that explain media’s impact on society, including the effects of advertising, the role of public relations, and the emergence of social media as a powerful force in modern communication. Chapters on media literacy, critical thinking, and rhetorical analysis help students develop critical skills for understanding and analyzing media messages.",
+        "publisher": "ROTEL",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/introduction-to-communication-and-media-studies"
+    },
+    {
+        "title": "Preparing to Publish",
+        "copyright_year": "2023",
+        "last_update": null,
+        "authors": [
+            "Sarah Huffman, Iowa State University",
+            "Elena Cotos, Iowa State University",
+            "Kimberly Becker, Iowa State University"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzgyNywicHVyIjoiYmxvYl9pZCJ9fQ==--df5bda8bda6a0e8a0c301740caeb76d0a77677bc/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/Huffman-Cover-1-350x453.png",
+        "description": "This book offers a wealth of instructional material on the topic of research article writing for publication and thesis or dissertation completion. The text provides graduate student writers with helpful information, strategies, and tips on navigating disciplinary writing in their fields and how to understand, dissect, and ultimately, construct their own research article. The text is organized according to a standard research article format, breaking down each section of the empirical research in a simple and straightforward manner to help graduate students build a quality, argument-driven manuscript as they write up their empirical study findings.",
+        "publisher": "Iowa State University",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/preparing-to-publish"
+    },
+    {
+        "title": "University Academic Writing for International Students: A Usage-based Approach",
+        "copyright_year": "2020",
+        "last_update": null,
+        "authors": [
+            "Carol Lynn Moder",
+            "Alys Avalos-Rivera",
+            "Ho'omana Nathan Horton",
+            "Miriam Kinfe",
+            "Paul Sims",
+            "Seth French",
+            "Yelin Zhao"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6OTMwMiwicHVyIjoiYmxvYl9pZCJ9fQ==--91f15a46d6d5587e1dc5f227fb2c989903c12947/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/Moder-cover_004-225x264.png",
+        "description": "This resource is designed specifically to meet the academic writing needs of international students studying at universities in the United States. The materials in the book can be covered within a 14-week semester, but each chapter or section may also be used independently. Based on a series of needs analysis projects, this resource provides an overview of major rhetorical patterns of writing that are commonly used in university settings in the United States. These commonly required genres include descriptive and evaluative summaries, short essays, comparison and contrast assignments, literature reviews, descriptive reports, and proposals. The resource includes chapters that address the structure and purpose of these more common genres, including an awareness of the ways that the target audience and situation should shape the writing of each.",
+        "publisher": null,
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/university-academic-writing-for-international-students-a-usage-based-approach"
+    },
+    {
+        "title": "Writing for Electronic Media",
+        "copyright_year": "2017",
+        "last_update": null,
+        "authors": [
+            "Brian Champagne"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications",
+            "New Media Journalism"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Njc2LCJwdXIiOiJibG9iX2lkIn19--d45c86add5d1ebe03282200af3ad180550cc18ea/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/0000WriEleMed.jpg",
+        "description": "Welcome to Writing for Electronic Media, an OER textbook. OER stands for Open Educational Resource, which means it’s free for all who access. Since it is electronic, I will do what I can to keep it updated with the changing media. People’s viewing habits are changing as they migrate to mobile sources, social media, and kitten videos.Television News is still a dominant #1 source, and radio is still the safest way to stay informed in your car. Hopefully, you already have some journalism background. This book does not teach the who, what, when, where, why, and how of reporting; its goal is to teach how to present the journalism you already know via electronic media, primarily television.",
+        "publisher": "Rebus Community",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/writing-for-electronic-media"
+    },
+    {
+        "title": "Writing for Strategic Communication Industries",
+        "copyright_year": "2016",
+        "last_update": null,
+        "authors": [
+            "Jasmine Roberts, Ohio State University"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjk5LCJwdXIiOiJibG9iX2lkIn19--0033aa84919619d34099fece8c360916ad146bd3/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/0000WritState.png",
+        "description": "Good writing skills are important in today's competitive work environment. This is especially the case for communication-related professions such as public relations, brand communication, journalism, and marketing. Writing for Strategic Communication Industries emphasizes practical application of academic inquiry to help readers improve their writing skills. This book gives readers:Straightforward chapters that use real-world examples to illustrate key points.Discussion of different writing styles and techniques.Examples of communication materials such as press releases, creative briefs, feature articles, and more.Embedded videos of insights from communication professionals.Tips on pitching to the media.A collection of popular sources for further explanation.",
+        "publisher": "Ohio State University Libraries",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/writing-for-strategic-communication-industries"
+    },
+    {
+        "title": "Introduction to Speech Communication",
+        "copyright_year": "2021",
+        "last_update": null,
+        "authors": [
+            "Sarah E. Hollingsworth, Oklahoma State University",
+            "Megan Linsenmeyer, Oklahoma State University",
+            "Terrisa Elwood, Oklahoma State University",
+            "Sasha Hanrahan, Oklahoma State University",
+            "Mary Walker, Oklahoma State University",
+            "Kathryn Weinland, Oklahoma State University"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTI1NzgsInB1ciI6ImJsb2JfaWQifX0=--cec08780ea3f7ae116b0a7532b1bb285c12d670c/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJKUEciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--427a9ad23b67f6db86d2706f85458e5f46b6e0ef/Intro%20to%20Speech%20cover.JPG",
+        "description": "Introduction to Speech Communication is used to support teaching, learning and research for SPCH 2713 at Oklahoma State University (OSU). In addition to inclusion of original work authored by the editors to meet the needs of their course at OSU, the editors adapted portions of Exploring Public Speaking: 4th Edition,  Stand Up, Speak Out, and Fundamentals of Public Speaking. Please see the Acknowledgements chapter for full citations. We at Oklahoma State University Libraries acknowledge our gratitude for the expertise and generosity of the scholars at Affordable Learning Georgia, College of the Canyons, the Open Education Network and elsewhere for creating and sharing customizable versions of their work. This book also includes an audio version funded by Women for OSU, as well as updated images enabled by a grant from the Oklahoma State Regents for Higher Education.",
+        "publisher": "Oklahoma State University",
+        "language": "English",
+        "isbn13": "9781957983059",
+        "source": "https://open.umn.edu/opentextbooks/textbooks/introduction-to-speech-communication"
+    },
+    {
+        "title": "Media Studies 101",
+        "copyright_year": "2013",
+        "last_update": null,
+        "authors": [
+            "Erika Pearson, University of Otago"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications",
+            "New Media Journalism"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzIzLCJwdXIiOiJibG9iX2lkIn19--a852312c8d7b0fe9693f518f7527ac5ad7113ada/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/0000MedStu101.png",
+        "description": "Media Studies 101is the open educational resource for media studies studies in New Zealand, Australia, and Pacifica. We have constructed this text so it can be read in a number of ways. You may wish to follow the structured order of 'chapters' like you would in a traditional printed textbook. Each section builds on and refers back to previous sections to build up your knowledge and skills. Alternatively, you may want to go straight to the section you are interested in -- links will help guide you back to definitions and key ideas if you need to refresh your knowledge or understand a new concept.This text is open under a Creative Commons NZ BY license.",
+        "publisher": "BCcampus",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/media-studies-101"
+    },
+    {
+        "title": "Communication in the Real World - An Introduction to Communication Studies",
+        "copyright_year": "2016",
+        "last_update": null,
+        "authors": [],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTk3MSwicHVyIjoiYmxvYl9pZCJ9fQ==--a854b6a552250595fb20eafa06015abef9f5d347/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/Communication-in-the-Real-World-683x1024.jpg",
+        "description": "Communication in the Real World: An Introduction to Communication Studiesoverviews the time-tested conceptual foundations of the field, while incorporating the latest research and cutting-edge applications of these basics. Each chapter will include timely, concrete, and real-life examples of communication concepts in action.A key feature of this book is the integration of content regarding diversity and organizational communication in each chapter through examples and/or discrete sub-sections. Discussions of diversity are not relegated to feature boxes. Also integrated into the content are examples that are inclusive in terms of race, gender, sexuality, ability, age, marital status, religion, and other diverse identity characteristics.",
+        "publisher": "University of Minnesota Libraries Publishing",
+        "language": "English",
+        "isbn13": "9781946135070",
+        "source": "https://open.umn.edu/opentextbooks/textbooks/communication-in-the-real-world-an-introduction-to-communication-studies"
+    },
+    {
+        "title": "Exploring Public Speaking - 4th Edition",
+        "copyright_year": "2016",
+        "last_update": "2019",
+        "authors": [
+            "Kris Barton, Florida State University",
+            "Barbara G. Tucker, University of Georgia"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTY2MCwicHVyIjoiYmxvYl9pZCJ9fQ==--8f50c9cbf659a4339fec367cd6470c7e59d25295/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJQTkciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--89343f782352aa835ac38157b276868b90549fdb/eth.PNG",
+        "description": "In Exploring Public Speaking, especially in its second through fourth editions, we have attempted to create a usable, zero-cost textbook for basic public speaking courses or courses that include basic public speaking skills as one of their primary learning outcomes. The free, open nature of the text means that instructors are able to use all or part of it, and add their own materials.We believe this text addresses all the subjects that traditional publishers’ books would address in an appropriate writing style and with appropriate college-level learning theory in mind. The appendices address some additional topics that might be excluded from most texts, but that we believe add to the experience: learning theory, plagiarism, speaking online, speaking to diverse audiences, and humor in public speaking. In the third and fourth editions we have added “case study” examples and some different outline samples.We think this book is especially useful in coverage of PowerPoint, audience analysis and responsiveness, ethics in public speaking, persuasion, special occasion speeches, and structure of speeches. Because it was written by communication professors with decades of experience in the classroom, we are aware of the needs of basic public speaking students. Three ancillaries are currently available: electronic “flash cards” for study, PowerPoint slide decks on the 15 main chapters, and test banks for the 15 main chapters. As the website is developed, it will include videos of student speeches.",
+        "publisher": "University System of Georgia",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/exploring-public-speaking-2nd-revision"
+    },
+    {
+        "title": "The International Journalism Handbook - 1st Ed.",
+        "copyright_year": "2022",
+        "last_update": null,
+        "authors": [
+            "Rodrigo Zamith, Amherst, Massachusetts"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications",
+            "New Media Journalism"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzkxMSwicHVyIjoiYmxvYl9pZCJ9fQ==--54c2ae38c934ae31bc30a2f29380a8ec19cecd32/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/book-cover.png",
+        "description": "International journalism is crucial to our understanding of the world beyond our own borders. This book is designed to explain key theories and concepts that allow us to understand the general practice of journalism around the world, and to illustrate some of the challenges that arise from practicing journalism in those contexts. It begins by providing a theoretical foundation that helps us understand why international journalism matters and the key forces that shape what it looks like; highlights some of the key challenges to bearing witness to developments, sourcing information, and simply doing 'the job' of journalism; and describes important similarities and differences in how journalism is imagined and performed in different regions of the world.",
+        "publisher": "University of Massachusetts Amherst Libraries",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/the-international-journalism-handbook"
+    },
+    {
+        "title": "Media, Society, Culture and You",
+        "copyright_year": "2018",
+        "last_update": null,
+        "authors": [
+            "Mark Poepsel, Southern Illinois University Edwardsville"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications",
+            "New Media Journalism"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTY0LCJwdXIiOiJibG9iX2lkIn19--d8f2248432eb1f90b48f4f3a8124ae3bdc7ee38b/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/0000MedSocCul.png",
+        "description": "Media, Society, Culture, and Youis an approachable introductory Mass Communication text that covers major mass communication terms and concepts including 'digital culture.' It discusses various media platforms and how they are evolving as Information and Communication Technologies change.This book has been peer-reviewed by 6 subject experts and is now available for adoption or adaptation. If you plan to adopt or adapt this open textbook, please let us know by filling out our adoption form.You can view the book's Review Statement for more information about reviewers and the review process. An Accessibility Assessment for this is book has also been prepared to see how this book meets accessibility standards.",
+        "publisher": "Rebus Community",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/media-society-culture-and-you"
+    },
+    {
+        "title": "Tools for Podcasting",
+        "copyright_year": "2019",
+        "last_update": null,
+        "authors": [
+            "Jill Olmsted"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications",
+            "New Media Journalism"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6OTQ5NSwicHVyIjoiYmxvYl9pZCJ9fQ==--16dd7fa3355a1c484807a710b8616f2fd4c373eb/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/Screenshot%202023-09-01%20at%2010.14.54%20AM.png",
+        "description": "Welcome! If you’re interested in learning about the growing universe of podcasting, how it works and finding tools and inspiration to create your own podcast, this online resource is for you. My focus is on audio podcasting and this practical guide will help you navigate the technology and best practices in an easy-to-understand handbook.You will also find many audio and video clips that provide examples and video tutorials leading you through editing software, vocal delivery, promotion ideas and more. All videos have closed captioning and there is an extensive section on the importance of transcription of podcasts to enable web accessibility for the deaf, hearing impaired and language learning audiences. There is also an emphasis on diversity and inclusion with resources listing mentorships and employment opportunities. For even more information click on the extensive links throughout this e-book.In addition, each chapter has learning objectives and there are practice exercises in Appendix C at the end of the e-book along with additional resources about podcasting from newsletters and conferences to how-to-create tools and podcast recommendations.Podcasting is a dynamic way to use your smarts and creativity to tell stories about compelling subjects. This handbook provides instruction and tools to produce your own podcast — whether you are a professional in journalism, the arts, sciences, business or law, an activist or just someone who has a story to tell. The tools discussed are focused on keeping costs low for entry-level podcasters and designed to help anyone who wants to record, edit and distribute podcasts.",
+        "publisher": "American University",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/tools-for-podcasting"
+    },
+    {
+        "title": "Humans R Social Media - 2024 'Living Book' Edition",
+        "copyright_year": "2024",
+        "last_update": null,
+        "authors": [
+            "Diana Daly, University of Arizona",
+            "Jacquie Kuru, University of Arizona",
+            "Alexandria Fripp, University of Arizona",
+            "Nathan Schneider, University of Colorado Boulder"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications",
+            "New Media Journalism"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTE4MzgsInB1ciI6ImJsb2JfaWQifX0=--acec401bc68976844752fc8267c459f51ff248d1/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/HRSM_AIcover_FinalV3-350x525.png",
+        "description": "Social media and humans exist in a world of mutual influence, and humans play central roles in how this influence is mediated and transferred. Originally created by University of Arizona Information scholar Diana Daly, this 2024 'living book' edition of Humans R Social Media welcomes additional authors and features contributions by students to help readers understand how we as humans shape social media, and how social media shapes our world in turn.",
+        "publisher": "The University of Arizona",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/humans-r-social-media-open-textbook-edition"
+    },
+    {
+        "title": "Technical and Professional Writing Genres: A Study in Theory and Practice",
+        "copyright_year": "2019",
+        "last_update": null,
+        "authors": [
+            "Eric Howerton, Oklahoma State University",
+            "Michael Beilfuss, Missouri Southern State University",
+            "Katrina Peterson, Roswell, New Mexico",
+            "Staci Bettes",
+            "Katie Rieger"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NzE5LCJwdXIiOiJibG9iX2lkIn19--7123901ff48759e503be87c040b4a544e7b2864d/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/Technical%20Writing_Cover_Final_001.png",
+        "description": "This modern, open-source guide to technical and professional writing explores workplace composition through theoretical and practical applications. Discussions of multiple writing genres will assist you in understanding how to apply for jobs, how to compose clear and precise business communications once the job has been acquired, and how to create documents -- such as proposals and reports -- that will be instrumental in helping to advance your career.",
+        "publisher": "Oklahoma State University",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/technical-and-professional-writing-genres-study"
+    },
+    {
+        "title": "Effective Professional Communication: A Rhetorical Approach",
+        "copyright_year": "2021",
+        "last_update": null,
+        "authors": [
+            "Rebekah Bennetch, University of Saskatchewan",
+            "Corey Owen, University of Saskatchewan",
+            "Zachary Keesey, University of Saskatchewan"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzI4NCwicHVyIjoiYmxvYl9pZCJ9fQ==--57315b5fa6b9511dc3a57025fac43bcfdc1dadc8/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/RCM200OEROption2Final-350x453.png",
+        "description": "Welcome toEffective Professional Communication, your text book for the RCM 200 course at the University of Saskatchewan in Saskatoon, Saskatchewan.As you already know, this course focuses on communicating in professional environments. Even if you haven’t held a job before, you know–at least on a basic level–that how you communicate changes depending on the context of your situation; specifically, you talk differently when you speak to customers/clients versus your co-workers versus your supervisors.Our goal in this text is to break down the communication process in professional environments so you can maximize your chance to get hired and retain your job once you graduate from university. We will do this by looking at communication through political, rhetorical, ethical, and interpersonal lenses and applying this knowledge to your future career.",
+        "publisher": "University of Saskatchewan",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/effective-professional-communication-a-rhetorical-approach"
+    },
+    {
+        "title": "Technology, Media Literacy, and the Human Subject: A Posthuman Approach",
+        "copyright_year": "2021",
+        "last_update": null,
+        "authors": [
+            "Richard S. Lewis, Prescott College"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications",
+            "New Media Journalism"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzA5MSwicHVyIjoiYmxvYl9pZCJ9fQ==--b96d807342db40af0c1d03207a827b3c8b5cbf97/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/1405.jpg",
+        "description": "What does it mean to be media literate in today’s world? How are we transformed by the many media infrastructures around us? We are immersed in a world mediated by information and communication technologies (ICTs). From hardware like smartphones, smartwatches, and home assistants to software like Facebook, Instagram, Twitter, and Snapchat, our lives have become a complex, interconnected network of relations. Scholarship on media literacy has tended to focus on developing the skills to access, analyze, evaluate, and create media messages without considering or weighing the impact of the technological medium—how it enables and constrains both messages and media users. Additionally, there is often little attention paid to the broader context of interrelations which affect our engagement with media technologies.This book addresses these issues by providing a transdisciplinary method that allows for both practical and theoretical analyses of media investigations. Informed by postphenomenology, media ecology, philosophical posthumanism, and complexity theory the author proposes both a framework and a pragmatic instrument for understanding the multiplicity of relations that all contribute to how we affect—and are affected by—our relations with media technology. The author argues persuasively that the increased awareness provided by this posthuman approach affords us a greater chance for reclaiming some of our agency and provides a sound foundation upon which we can then judge our media relations. This book will be an indispensable tool for educators in media literacy and media studies, as well as academics in philosophy of technology, media and communication studies, and the post-humanities.",
+        "publisher": "Open Book Publishers",
+        "language": "English",
+        "isbn13": "9781800641846",
+        "source": "https://open.umn.edu/opentextbooks/textbooks/technology-media-literacy-and-the-human-subject-a-posthuman-approach"
+    },
+    {
+        "title": "Technical Writing and Simple Statistics : For laboratory classes",
+        "copyright_year": "2022",
+        "last_update": null,
+        "authors": [
+            "Stephanie G. Wettstein, Montana State University"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDMzNSwicHVyIjoiYmxvYl9pZCJ9fQ==--4bd08854e1aa7079faa722cb6896ecf651953f2f/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--92321c91481b14cf986468483667757f1e9e4957/20221116%20TRAILS_Wettstein_Cover.jpg",
+        "description": "This upper division resource focuses on how to communicate results through technical writing, use Excel to perform simple statistics, and create professional charts/documents. Excel tutorials are provided for performing descriptive statistics, t-tests, and linear regression as well as using text boxes, formatting figures and captions, and using Equation Editor to insert equations. Additionally, guidance and examples of different communication components are provided along with team writing strategies and guidelines on how to hold efficient meetings.This textbook was designed for Biology and Chemistry majors for a 400 level course.",
+        "publisher": "TRAILS",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/technical-writing-and-simple-statistics-for-laboratory-classes"
+    },
+    {
+        "title": "Intercultural Communication",
+        "copyright_year": "2020",
+        "last_update": null,
+        "authors": [
+            "Shannon Ahrndt, University of Missouri-St. Louis"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTgyMiwicHVyIjoiYmxvYl9pZCJ9fQ==--1bf7205d0812d376c322921fb95f9c33bf3b7f3d/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJQTkciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--89343f782352aa835ac38157b276868b90549fdb/Intercultural.PNG",
+        "description": "Intercultural Communication examines culture as a variable in interpersonal and collective communication. It explores the opportunities and problems arising from similarities and differences in communication patterns, processes, and codes among various cultural groups. It explores cultural universals, social categorization, stereotyping and discrimination, with a focus on topics including race, ethnicity, social class, religion, gender and sexuality as they relate to communication.",
+        "publisher": "University of Missouri - St. Louis",
+        "language": "English",
+        "isbn13": null,
+        "source": "https://open.umn.edu/opentextbooks/textbooks/intercultural-communication"
+    },
+    {
+        "title": "Media Innovation and Entrepreneurship",
+        "copyright_year": "2017",
+        "last_update": null,
+        "authors": [
+            "Michelle Ferrier, Elon University",
+            "Elizabeth Mays, Arizona State University"
+        ],
+        "subjects": [
+            "Journalism, Media Studies and Communications",
+            "New Media Journalism"
+        ],
+        "image": "https://open.umn.edu/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDM0LCJwdXIiOiJibG9iX2lkIn19--ecaf4dd9c76b54e3fef3eae21a6f9ddc5fe027e1/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemUiOiI0OTB4MTAwMCJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1d221d0e87311391d13a7728d03226e2fff3667a/9781989014011.png",
+        "description": "This is the first edition of a modular open textbook designed for entrepreneurial journalism, media innovation, and related courses. This book has been undergoing student and faculty testing and open review in fall 2017. Feedback has been implemented in Version 1.0 and will continue to be implemented in Version 2.0 (ETA spring 2018). An accompanying handbook will include additional activities, ancillary materials and faculty resources on media innovation for instructors.",
+        "publisher": "Rebus Community",
+        "language": "English",
+        "isbn13": "9781989014011",
+        "source": "https://open.umn.edu/opentextbooks/textbooks/media-innovation-and-entrepreneurship"
+    }
 ]
