@@ -112,17 +112,17 @@ def scrape_book_details(url, read_timeout=10):
 if __name__ == "__main__":
     # Step 1: Scrape all links
     start_page = 2
-    end_page = 28
+    end_page = 100
     #
-    urls = ["https://openlibrary.org/search?q=subject%3ATextbooks&subject_facet=Textbooks&subject_facet=Physics"] + [
-        f"https://openlibrary.org/search?q=subject%3ATextbooks&subject_facet=Textbooks&subject_facet=Physics&page={x}" for x in
+    urls = ["https://openlibrary.org/search?q=subject%3A%22Computer+science%22&sort=editions&subject_facet=Computer+science"] + [
+        f"https://openlibrary.org/search?q=subject%3A%22Computer+science%22&sort=editions&subject_facet=Computer+science&page={x}" for x in
         range(start_page, end_page + 1)
     ]
     all_links = set()
 
     base_url = urls[0]
     domain = base_url.split("//")[1].split("/")[0].split(".")[0]
-    result = re.search(r'Textbooks&subject_facet=Textbooks&subject_facet=([^&]+)', base_url)
+    result = re.search(r'&sort=editions&subject_facet=([^&]+)', base_url)
     if result:
         subject = result.group(1)
     filename_prefix = f"{domain}_{subject}_{start_page - 1}_{end_page}"
