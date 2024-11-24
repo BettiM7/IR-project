@@ -8,7 +8,8 @@ export default function ResultCard({ data }) {
       </div>
       <div className="flex flex-col">
         <p className="uppercase text-sm text-secondaryGray font-bold">{data.subjects?.join(" • ")} </p>
-        <h2 className="text-3xl">{data.title}</h2>
+        <h2 className="text-3xl text-royalRed">{data.title}</h2>
+        <h3 className="italic mt-[-5px] text-sm text-secondaryGray">{data.subtitle}</h3>
         <p className="mt-3">
           {data.authors?.join(", ")} - {data.publish_date}
         </p>

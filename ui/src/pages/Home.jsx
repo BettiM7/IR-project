@@ -26,7 +26,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="absolute top-[90%] h-[500px] w-full left-0 z-0" style={{ backgroundImage: `url(${bg})`, backgroundPosition: "center", backgroundSize: "cover" }}></div>
+      <div className="absolute top-[90%] h-[50vh] w-full left-0 z-0" style={{ backgroundImage: `url(${bg})`, backgroundPosition: "center", backgroundSize: "cover" }}></div>
     </div>
   );
 }

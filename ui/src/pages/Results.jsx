@@ -9,13 +9,14 @@ export default function Results() {
   const rowsPerPage = 40;
 
   async function fetchResults(query) {
-    const response = await fetch(`http://localhost:8983/solr/textbooks/select?q=${query}&defType=edismax&qf=title^2 description subjects authors publisher&start=${page * rowsPerPage}&rows=${rowsPerPage}&wt=json`);
+    const response = await fetch(`http://localhost:8983/solr/textbooks/select?q=${query}&defType=edismax&qf=title^2 description subtitle subjects authors publisher&start=${page * rowsPerPage}&rows=${rowsPerPage}&wt=json`);
 
     if (!response.ok) {
       throw new Error("Failed to fetch data from Solr");
     }
 
     const data = await response.json();
+    console.log(data.response.docs);
     setResults(data.response);
   }
 
@@ -54,7 +55,7 @@ export default function Results() {
           </div>
           {/* TBD */}
           <div>
-            {page * rowsPerPage}-{page * rowsPerPage + rowsPerPage} of {results.numFound} result{results.numFound != 1 && "s"}
+            {page * rowsPerPage + 1}-{page * rowsPerPage + rowsPerPage} of {results.numFound} result{results.numFound != 1 && "s"}
           </div>
         </h4>
         <div className="flex flex-col gap-4 mt-4">
