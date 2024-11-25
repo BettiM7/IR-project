@@ -8,12 +8,14 @@ export default function ResultCard({ data }) {
       </div>
       <div className="flex flex-col">
         <p className="uppercase text-sm text-secondaryGray font-bold">{data.subjects?.join(" • ")} </p>
-        <h2 className="text-3xl text-royalRed">{data.title}</h2>
+        <a href={`/details/${data.id}`}>
+          <h2 className="text-3xl hover:text-royalRed transition-all duration-300 cursor-pointer">{data.title}</h2>
+        </a>
         <h3 className="italic mt-[-5px] text-sm text-secondaryGray">{data.subtitle}</h3>
         <p className="mt-3">
           {data.authors?.join(", ")} - {data.publish_date}
         </p>
-        <p>{data.description}</p>
+        <p className="mt-3 line-clamp-4 text-[#666]">{data.description}</p>
       </div>
     </div>
   );
