@@ -60,6 +60,7 @@ export default function Results() {
     let newFilteredResults = results.filter((doc) => includesAll(doc[attribute], filters));
 
     setFilteredResultsCount(newFilteredResults.length);
+    console.log("results", newFilteredResults.length);
     setDisplayedResults(newFilteredResults);
   }
 
@@ -68,7 +69,7 @@ export default function Results() {
       {/* filter sidebar */}
       <div className="px-10 py-5 text-left min-w-[300px] border-r-[1px] border-outlineGray flex flex-col gap-4">
         <h5 className="text-xl">Refine Results</h5>
-        <SideFilterSelect filterChange={filterChange} dict={categoryCounts} />
+        <SideFilterSelect filterChange={filterChange} title="subjects" dict={categoryCounts} />
       </div>
 
       <div className="px-20 py-5">
@@ -90,9 +91,8 @@ export default function Results() {
               <MdKeyboardArrowRight />
             </button>
           </div>
-          {/* TBD */}
           <div>
-            {page * rowsPerPage + 1}-{page * rowsPerPage + rowsPerPage > filteredResultsCount ? filteredResultsCount : page * rowsPerPage + rowsPerPage} of {filteredResultsCount} result{results.numFound != 1 && "s"}
+            {filteredResultsCount ? page * rowsPerPage + 1 : 0}-{page * rowsPerPage + rowsPerPage > filteredResultsCount ? filteredResultsCount : page * rowsPerPage + rowsPerPage} of {filteredResultsCount} result{filteredResultsCount != 1 && "s"}
           </div>
         </h4>
         <div className="flex flex-col gap-4 mt-4">

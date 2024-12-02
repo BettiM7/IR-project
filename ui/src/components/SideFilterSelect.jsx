@@ -3,33 +3,7 @@ import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
 
 export default function SideFilterSelect(props) {
   const [isOpen, setIsOpen] = useState(true);
-  const [categories, setCategories] = useState({});
   const [filters, setFilters] = useState([]);
-  const [filterString, setFilterString] = useState("");
-
-  async function fetchFields(query) {
-    const response = await fetch(`http://localhost:8983/solr/textbooks/select?q=*:*&fl=subjects&rows=100000`);
-
-    if (!response.ok) {
-      throw new Error("Failed to fetch data from Solr");
-    }
-
-    const data = await response.json();
-
-    // count the number of documents for each subject
-    const categoryCounts = data.response.docs.reduce((acc, doc) => {
-      doc.subjects.forEach((subject) => {
-        acc[subject] = (acc[subject] || 0) + 1;
-      });
-      return acc;
-    }, {});
-
-    setCategories(categoryCounts);
-  }
-
-  useEffect(() => {
-    fetchFields();
-  }, []);
 
   function filterCheckboxChange(e) {
     let filter = e.target.name;
@@ -44,15 +18,13 @@ export default function SideFilterSelect(props) {
       setFilters(newFilters);
     }
 
-    setFilterString(newFilters.join("%0A"));
-
-    props.filterChange("subjects", newFilters);
+    props.filterChange(props.title, newFilters);
   }
 
   return (
     <div>
       <div className="flex justify-between items-center cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
-        <p className="uppercase text-secondaryGray font-bold">Category</p>
+        <p className="uppercase text-secondaryGray font-bold">{props.title}</p>
         {isOpen ? <MdKeyboardArrowUp className="text-secondaryGray" /> : <MdKeyboardArrowDown className="text-secondaryGray" />}
       </div>
 
