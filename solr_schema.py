@@ -3,7 +3,7 @@ import json
 
 # Solr configuration
 SOLR_URL = "http://localhost:8983/solr"
-COLLECTION_NAME = "test"
+COLLECTION_NAME = "textbooks"
 SCHEMA_URL = f"{SOLR_URL}/{COLLECTION_NAME}/schema"
 
 # Define fields
