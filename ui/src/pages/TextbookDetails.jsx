@@ -3,7 +3,7 @@ import {useParams} from "react-router-dom";
 import {TbError404} from "react-icons/tb";
 import {BiError} from "react-icons/bi";
 
-export default function BookInfoPage() {
+export default function TextbookDetails() {
     const {id} = useParams();
     const [data, setData] = useState(null);
     const [isImageValid, setIsImageValid] = useState(true);
