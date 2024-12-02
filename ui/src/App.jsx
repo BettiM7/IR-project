@@ -13,7 +13,7 @@ function App() {
     <>
       <div className="flex flex-col min-h-screen">
         <Navbar />
-        <div className="flex-grow relative">
+        <div className="flex-grow relative content-center">
           <Router>
             <Routes>
               <Route path="/" element={<Home />} />
@@ -23,8 +23,8 @@ function App() {
             </Routes>
           </Router>
         </div>
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 }
