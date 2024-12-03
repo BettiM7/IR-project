@@ -36,6 +36,10 @@ export default function Results() {
     }, {});
 
     setCategoryCounts(categoryCounts);
+
+    // get object of subjects that have count == 1, for archive cleaning
+    // const singleCountSubjects = Object.keys(categoryCounts).filter((key) => categoryCounts[key] == 1);
+    // console.log("count == 1", singleCountSubjects);
   }
 
   useEffect(() => {
@@ -63,7 +67,8 @@ export default function Results() {
     let newFilteredResults = results.filter((doc) => includesAll(doc[attribute], filters));
 
     setFilteredResultsCount(newFilteredResults.length);
-    console.log("results", newFilteredResults.length);
+
+    newFilteredResults = newFilteredResults.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage);
     setDisplayedResults(newFilteredResults);
   }
 
