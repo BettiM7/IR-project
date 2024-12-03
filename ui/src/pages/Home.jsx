@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { IoIosSearch } from "react-icons/io";
-import bg from "../images/landscape.png";
+import bg from "../images/bg5.jpg";
 
 export default function Home() {
   const [searchInput, setSearchInput] = useState("");

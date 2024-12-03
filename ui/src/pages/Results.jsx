@@ -73,7 +73,7 @@ export default function Results() {
       </div>
 
       <div className="px-20 py-5">
-        <h1 className="text-center mb-4">Results for "{search}"</h1>
+        <h1 className="text-center mb-4">{search == "*:*" ? "All textbooks" : `Results for ${search}`}</h1>
         <h4 className="text-2xl flex items-center">
           <div className="flex">
             <button
