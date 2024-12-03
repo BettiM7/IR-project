@@ -162,7 +162,7 @@ export default function TextbookDetails() {
       <div>
         <h3 className="text-center mt-20">More like this</h3>
 
-        <div className="flex gap-10 m-10">
+        <div className="flex gap-10 m-10 mx-auto w-fit">
           {recommendations.map((recommendation, index) => (
             <RecommendationThumb key={recommendation.id} data={recommendation} />
           ))}
