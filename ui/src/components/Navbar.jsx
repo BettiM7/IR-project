@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { IoIosSearch } from "react-icons/io";
+import Logo from "../images/logo.png";
 
 export default function Navbar() {
   const [searchInput, setSearchInput] = React.useState("");
@@ -19,7 +20,7 @@ export default function Navbar() {
     <div className="w-full flex justify-between items-center p-3 border-b-[1px] border-outlineGray">
       <div className="flex items-center gap-10">
         <div onClick={() => (window.location.href = "/")} className="cursor-pointer">
-          Lib
+          <img src={Logo} className="w-[80px]" />
         </div>
 
         {window.location.pathname != "/" && (
