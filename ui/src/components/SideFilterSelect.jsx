@@ -30,16 +30,22 @@ export default function SideFilterSelect(props) {
 
       {isOpen && (
         <div className="flex flex-col gap-1 mt-1">
-          {Object.keys(props.dict).map((key, index) => (
-            <div key={index}>
-              <label className="cursor-pointer flex gap-2">
-                <input type="checkbox" name={key} onChange={(e) => filterCheckboxChange(e)} />
-                <p>
-                  {key} ({props.dict[key]})
-                </p>
-              </label>
-            </div>
-          ))}
+          {/* for sorting alphabetically */}
+          {/* {Object.keys(props.dict)
+            .sort()
+            .map((key, index) => ( */}
+          {Object.entries(props.dict)
+            .sort((a, b) => b[1] - a[1])
+            .map(([key], index) => (
+              <div key={index}>
+                <label className="cursor-pointer flex gap-2">
+                  <input type="checkbox" name={key} onChange={(e) => filterCheckboxChange(e)} />
+                  <p>
+                    {key} ({props.dict[key]})
+                  </p>
+                </label>
+              </div>
+            ))}
         </div>
       )}
     </div>

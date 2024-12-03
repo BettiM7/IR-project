@@ -29,6 +29,7 @@ export default function Results() {
 
     // count the number of documents for each subject
     const categoryCounts = data.response.docs.reduce((acc, doc) => {
+      !doc.subjects && console.log(doc);
       doc.subjects.forEach((subject) => {
         acc[subject] = (acc[subject] || 0) + 1;
       });
@@ -40,6 +41,9 @@ export default function Results() {
     // get object of subjects that have count == 1, for archive cleaning
     // const singleCountSubjects = Object.keys(categoryCounts).filter((key) => categoryCounts[key] == 1);
     // console.log("count == 1", singleCountSubjects);
+
+    const singleCountSubjects = Object.keys(categoryCounts).filter((key) => categoryCounts[key] <= 10);
+    console.log("count <= 10", singleCountSubjects);
   }
 
   useEffect(() => {
