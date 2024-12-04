@@ -81,13 +81,13 @@ export default function Results() {
       {results.length ? (
         <div className="grid grid-cols-[auto,1fr]">
           {/* filter sidebar */}
-          <div className="px-10 py-5 text-left min-w-[300px] border-r-[1px] border-outlineGray flex flex-col gap-4">
+          <div className="px-10 py-5 text-left border-r-[1px] border-outlineGray flex flex-col gap-4 min-w-[300px] max-w-[400px]">
             <h5 className="text-xl">Refine Results</h5>
             <SideFilterSelect filterChange={filterChange} title="subjects" dict={categoryCounts} />
           </div>
 
           <div className="px-20 py-5">
-            <h1 className="text-center mb-4">{search == "*:*" ? "All textbooks" : `Results for ${search}`}</h1>
+            <h1 className="text-center mb-4">{search == "*:*" ? "All textbooks" : `Results for "${search}"`}</h1>
             <h4 className="text-2xl flex items-center">
               <div className="flex">
                 <button

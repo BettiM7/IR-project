@@ -38,6 +38,7 @@ export default function TextbookDetails() {
   }
 
   async function fetchRecommendations() {
+    console.log("fetching recommendations");
     // with weights, but error on
     // http://localhost:8983/solr/textbooks/mlt?q=id:{id}&mlt.fl=title,authors,subjects,publisher&mlt.qf=title^2 authors^1.5 subjects^2 publisher^0.5&mlt.mindf=1&mlt.mintf=1&rows=5
 
