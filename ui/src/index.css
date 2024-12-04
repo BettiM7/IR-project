@@ -40,3 +40,11 @@ input {
 h1 {
   @apply text-6xl;
 }
+
+h3 {
+  @apply text-4xl;
+}
+
+h4 {
+  @apply text-3xl;
+}

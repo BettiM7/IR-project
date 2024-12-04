@@ -3,7 +3,7 @@ import json
 
 # Solr configuration
 SOLR_URL = "http://localhost:8983/solr"
-COLLECTION_NAME = "test"
+COLLECTION_NAME = "textbooks"
 SCHEMA_URL = f"{SOLR_URL}/{COLLECTION_NAME}/schema"
 
 # Define fields
@@ -12,7 +12,7 @@ fields = [
     {"name": "subtitle", "type": "text_general", "stored": True, "indexed": False},
     {"name": "publish_date", "type": "string", "stored": True, "indexed": True},
     {"name": "authors", "type": "text_general", "stored": True, "indexed": True, "multiValued": True},
-    {"name": "subjects", "type": "text_general", "stored": True, "indexed": True, "multiValued": True},
+    {"name": "subjects", "type": "text_general", "stored": True, "indexed": True, "multiValued": True, "default": "[]"},
     {"name": "image", "type": "string", "stored": True, "indexed": False},
     {"name": "description", "type": "text_general", "stored": True, "indexed": True},
     {"name": "publisher", "type": "text_general", "stored": True, "indexed": True},

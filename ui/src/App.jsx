@@ -13,7 +13,7 @@ function App() {
     <>
       <div className="flex flex-col min-h-screen">
         <Navbar />
-        <div className="flex-grow relative content-center">
+        <div className="flex-grow relative">
           <Router>
             <Routes>
               <Route path="/" element={<Home />} />

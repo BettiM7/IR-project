@@ -1,9 +1,21 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { IoIosSearch } from "react-icons/io";
-import bg from "../images/landscape.png";
+import bg2 from "../images/bg2.jpg";
+import bg3 from "../images/bg3.jpg";
+import bg4 from "../images/bg4.jpg";
+import bg5 from "../images/bg5.jpg";
+
+const bgs = [bg2, bg3, bg4, bg5];
 
 export default function Home() {
   const [searchInput, setSearchInput] = useState("");
+  const [bg, setBg] = useState(bg2);
+
+  // useEffect(() => {
+  //   setInterval(() => {
+  //     setBg(bgs[Math.floor(Math.random() * bgs.length)]);
+  //   }, 5000);
+  // }, []);
 
   function sendSearch() {
     // GET http://<solr-server>:8983/solr/<collection_name>/select?q=<user_input>&wt=json
