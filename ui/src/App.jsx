@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Results from "./pages/Results";
 import AdvancedSearch from "./pages/AdvancedSearch";
 import TextbookDetails from "./pages/TextbookDetails";
+import Browse from "./pages/Browse";
 
 function App() {
   // inspired by https://www.jstor.org/
@@ -20,6 +21,7 @@ function App() {
               <Route path="/search/advanced" element={<AdvancedSearch />} />
               <Route path="/search" element={<Results />} />
               <Route path="/details/:id" element={<TextbookDetails />} />
+              <Route path="/browse" element={<Browse />} />
             </Routes>
           </Router>
         </div>
