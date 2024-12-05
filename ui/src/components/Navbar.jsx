@@ -9,7 +9,7 @@ export default function Navbar() {
     const params = new URLSearchParams(window.location.search);
     const query = params.get("q");
 
-    if (query != "*:*") {
+    if (query && query != "*:*") {
       setSearchInput(query);
     }
   }, []);
