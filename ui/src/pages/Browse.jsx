@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
 
 export default function Browse() {
   const [subjectsDictionary, setSubjectsDictionary] = useState({});
-  const navigate = useNavigate();
 
   async function fetchAllTextbooksResults() {
     const query = "http://localhost:8983/solr/textbooks/select?q=*:*&rows=100000";
@@ -40,7 +38,7 @@ export default function Browse() {
         {Object.entries(subjectsDictionary)
           .sort((a, b) => b[1] - a[1])
           .map(([key, value], index) => (
-            <a onClick={() => navigate(`/search?q=${key}`, { state: { query: `http://localhost:8983/solr/textbooks/select?q=subjects:${key}&rows=100000` } })} key={index} className="gap-2 hover:text-royalRed transition-all duration-300 cursor-pointer underline font-semibold">
+            <a onClick={() => (window.location.href = `/search?q=subjects:${key}`)} key={index} className="gap-2 hover:text-royalRed transition-all duration-300 cursor-pointer underline font-semibold">
               {key} ({value})
             </a>
           ))}

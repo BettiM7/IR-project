@@ -53,10 +53,7 @@ export default function Results(props) {
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const query = params.get("q");
-    // const fullQuery = `http://localhost:8983/solr/textbooks/select?q=${query}&defType=edismax&qf=title^2 description subtitle subjects authors publisher&start=${page * rowsPerPage}&rows=${rowsPerPage}&wt=json`;
-    // const fullQuery = `http://localhost:8983/solr/textbooks/select?q=${query}&defType=edismax&qf=title^2 description subtitle subjects authors publisher&rows=100000`;
-    const fullQuery = location.state?.query;
-    console.log("fullquery", fullQuery);
+    const fullQuery = `http://localhost:8983/solr/textbooks/select?q=${query}&defType=edismax&qf=title^2 description subtitle subjects authors publisher&rows=100000`;
     setSearch(query);
     fetchResults(fullQuery);
   }, []);

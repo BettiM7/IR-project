@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { IoIosSearch } from "react-icons/io";
-import { useNavigate } from "react-router-dom";
 import bg2 from "../images/bg2.jpg";
 import bg3 from "../images/bg3.jpg";
 import bg4 from "../images/bg4.jpg";
@@ -9,7 +8,6 @@ import bg5 from "../images/bg5.jpg";
 const bgs = [bg2, bg3, bg4, bg5];
 
 export default function Home() {
-  const navigate = useNavigate();
   const [searchInput, setSearchInput] = useState("");
   const [bg, setBg] = useState(bg2);
 
@@ -18,8 +16,7 @@ export default function Home() {
   }, []);
 
   function sendSearch() {
-    const query = `http://localhost:8983/solr/textbooks/select?q=${searchInput === "" ? "*:*" : searchInput}&defType=edismax&qf=title^2 description subtitle subjects authors publisher&rows=100000`;
-    navigate(`/search?q=${searchInput === "" ? "*:*" : searchInput}`, { state: { query } });
+    window.location.href = `/search?q=${searchInput === "" ? "*:*" : searchInput}`;
   }
 
   return (
