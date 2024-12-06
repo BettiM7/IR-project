@@ -110,9 +110,8 @@ export default function Results() {
               </div>
             </h4>
             <div className="flex flex-col gap-4 mt-4">
-              {displayedResults.map((result, index) => (
+              {displayedResults.map((result) => (
                 <>
-                  {index + 1}
                   <ResultCard key={result.id} data={result} />
                 </>
               ))}

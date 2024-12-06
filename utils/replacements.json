@@ -1,0 +1,1775 @@
+{
+    "Coding And Information Theory": [
+        "Information Theory"
+    ],
+    "Psychiatric-Mental Health Nursing": [
+        "Psychiatry",
+        "Nursing"
+    ],
+    "Business & Economics / Marketing / General": [
+        "Business & Economics",
+        "Marketing"
+    ],
+    "Information Storage And Retrieval": [],
+    "Mathematics / Algebra / General": [
+        "Algebra",
+        "Mathematics"
+    ],
+    "Partial Differential Equations": [
+        "Differential Equations",
+        "Arts"
+    ],
+    "United States, History": [
+        "United States",
+        "History"
+    ],
+    "Appl.Mathematics/Computational Methods Of Engineering": [
+        "Computers",
+        "Mathematics",
+        "Methods",
+        "Engineering"
+    ],
+    "Administration - General": [],
+    "Discrete Mathematics In Computer Science": [
+        "Computer Science",
+        "Computers",
+        "Mathematics"
+    ],
+    "Business / Economics / Finance": [
+        "Economics",
+        "Business",
+        "Finance"
+    ],
+    "Data Encryption (Computer Science)": [
+        "Computer Science",
+        "Data Encryption",
+        "Computers"
+    ],
+    "Moral And Ethical Aspects": [
+        "Ethics"
+    ],
+    "Electronic Data Processing": [
+        "Electronics",
+        "Data Processing"
+    ],
+    "Mathematics / General": [
+        "Mathematics"
+    ],
+    "High Performance Computing": [
+        "Computers"
+    ],
+    "Manuels D'Enseignement Superieur": [
+        "Manuels"
+    ],
+    "Computation By Abstract Devices": [
+        "Computers"
+    ],
+    "Symbolic And Algebraic Manipulation": [
+        "Algebra"
+    ],
+    "Computer Software, Development": [
+        "Computer Software",
+        "Development",
+        "Computers"
+    ],
+    "Education / General": [
+        "Education"
+    ],
+    "Information Storage And Retrieval Systems": [],
+    "Information Systems And Communication Service": [
+        "Communication",
+        "Information Systems"
+    ],
+    "United States, History, Study And Teaching": [
+        "United States",
+        "Study & Teaching"
+    ],
+    "Pattern Recognition Systems": [
+        "Pattern Recognition"
+    ],
+    "Chemistry - General": [
+        "Chemie",
+        "Chemistry"
+    ],
+    "Foundations Of Computer Science": [
+        "Computer Science",
+        "Computers"
+    ],
+    "Language Arts (Elementary)": [
+        "Language Arts",
+        "Languages"
+    ],
+    "Algebra - General": [
+        "Algebra"
+    ],
+    "Business & Economics / Accounting / General": [
+        "Accounting",
+        "Business & Economics"
+    ],
+    "Earth Sciences - Geography": [
+        "Earth Sciences",
+        "Geography",
+        "Arts"
+    ],
+    "Physical And Theoretical Chemistry": [
+        "Chemie",
+        "Physics",
+        "Chemistry"
+    ],
+    "Comic Books, Strips": [],
+    "Neural Networks (Computer Science)": [
+        "Computer Science",
+        "Computers"
+    ],
+    "Teaching Of Those With Special Educational Needs": [
+        "Special Education",
+        "Teaching"
+    ],
+    "Literature, Rhetoric And Poetry": [
+        "Literature",
+        "Rhetoric"
+    ],
+    "Physics, Study And Teaching": [
+        "Study & Teaching",
+        "Physics"
+    ],
+    "Spanish Language Materials": [
+        "Materials",
+        "Spanish Language",
+        "Languages"
+    ],
+    "Fiction, Historical, General": [
+        "Fiction",
+        "History"
+    ],
+    "Operating Systems (Computers)": [
+        "Operating Systems",
+        "Computers"
+    ],
+    "International Business Enterprises": [
+        "Business Enterprises"
+    ],
+    "Programming Languages (Electronic Computers)": [
+        "Programming Languages",
+        "Electronics",
+        "Computers"
+    ],
+    "Composition Et Exercices": [
+        "Composition"
+    ],
+    "Language Arts & Disciplines / Composition & Creative Writing": [
+        "Composition",
+        "Creative Writing",
+        "Languages",
+        "Language Arts"
+    ],
+    "Electronic Digital Computers": [
+        "Electronics",
+        "Computers"
+    ],
+    "Computer Science, Mathematics": [
+        "Computer Science",
+        "Computers",
+        "Mathematics"
+    ],
+    "Software Engineering/Programming And Operating Systems": [
+        "Operating Systems",
+        "Programming",
+        "Software Engineering"
+    ],
+    "Language Arts (Primary)": [
+        "Language Arts",
+        "Languages"
+    ],
+    "Algorithm Analysis And Problem Complexity": [
+        "Algorithms",
+        "Analysis"
+    ],
+    "Accounting - General": [
+        "Accounting"
+    ],
+    "Electronic Data Processing, Distributed Processing": [
+        "Electronics",
+        "Data Processing",
+        "Distributed Processing"
+    ],
+    "Computer Communication Networks": [
+        "Communication",
+        "Computers"
+    ],
+    "Computer Appl. In Arts And Humanities": [
+        "Humanities",
+        "Arts",
+        "Computers"
+    ],
+    "History / General": [
+        "History"
+    ],
+    "Computer System Performance": [
+        "Computer Systems",
+        "Computers"
+    ],
+    "Early Works To 1900": [],
+    "Parallel Processing (Electronic Computers)": [
+        "Electronics",
+        "Computers"
+    ],
+    "Document Preparation And Text Processing": [
+        "Texts"
+    ],
+    "Networks Communications Engineering": [
+        "Communication",
+        "Engineering"
+    ],
+    "Computer Science, General": [
+        "Computer Science",
+        "Computers"
+    ],
+    "Differential Equations, Partial": [
+        "Differential Equations",
+        "Arts"
+    ],
+    "New Business Enterprises": [
+        "Business Enterprises"
+    ],
+    "Computer Appl. In Social And Behavioral Sciences": [
+        "Computers",
+        "Science"
+    ],
+    "Mathematics / Applied": [
+        "Applied",
+        "Mathematics"
+    ],
+    "Education / Teaching Methods & Materials / General": [
+        "Education",
+        "Materials",
+        "Teaching",
+        "Methods"
+    ],
+    "Teaching Skills & Techniques": [
+        "Teaching"
+    ],
+    "Mathematics, Data Processing": [
+        "Data Processing",
+        "Mathematics"
+    ],
+    "Study And Teaching (Elementary)": [
+        "Study & Teaching"
+    ],
+    "Algebra, Graphic Methods": [
+        "Algebra",
+        "Graphic Methods"
+    ],
+    "Statistics As Topic": [
+        "Statistics"
+    ],
+    "Math Applications In Computer Science": [
+        "Computer Science",
+        "Applied",
+        "Computers"
+    ],
+    "Business, Data Processing": [
+        "Business",
+        "Data Processing"
+    ],
+    "Organization & Management Of Education": [
+        "Management",
+        "Education"
+    ],
+    "United States, History,": [
+        "United States"
+    ],
+    "Data Mining And Knowledge Discovery": [
+        "Data Mining"
+    ],
+    "Image Processing, Digital Techniques": [
+        "Image Processing",
+        "Digital Techniques"
+    ],
+    "Social Life And Customs": [],
+    "Mathematics, Study And Teaching": [
+        "Study & Teaching",
+        "Mathematics"
+    ],
+    "Children: Grades 4-6": [
+        "Children"
+    ],
+    "Computer Network Architectures": [
+        "Architecture",
+        "Computer Networks",
+        "Computers"
+    ],
+    "Logics And Meanings Of Programs": [
+        "Logic",
+        "Programming"
+    ],
+    "Natural Language Processing (Computer Science)": [
+        "Languages",
+        "Nature",
+        "Computer Science",
+        "Computers"
+    ],
+    "Education, Great Britain": [
+        "Great Britain",
+        "Education"
+    ],
+    "Mathematics, Study And Teaching (Elementary)": [
+        "Study & Teaching",
+        "Mathematics"
+    ],
+    "Composition & Creative Writing - General": [
+        "Composition",
+        "Creative Writing"
+    ],
+    "Middle School Education": [
+        "Schools",
+        "Education"
+    ],
+    "Business & Economics / Industries / Media & Communications Industries": [
+        "Business & Economics",
+        "Communication"
+    ],
+    "Large Type Books": [],
+    "Algebra, Problems, Exercises, Etc.": [
+        "Algebra",
+        "Problems, Exercises"
+    ],
+    "Science, Data Processing": [
+        "Data Processing",
+        "Science"
+    ],
+    "Study And Teaching (Middle School)": [
+        "Study & Teaching",
+        "Schools"
+    ],
+    "Business & Economics / Human Resources & Personnel Management": [
+        "Sources",
+        "Personnel Management",
+        "Human Resources",
+        "Business & Economics",
+        "Humanities",
+        "Personality"
+    ],
+    "Computational Mathematics And Numerical Analysis": [
+        "Computers",
+        "Numerical Analysis",
+        "Mathematics"
+    ],
+    "Image And Speech Processing Signal": [],
+    "Business Law And Ethics": [
+        "Business Law",
+        "Ethics"
+    ],
+    "Science / Chemistry / General": [
+        "Chemie",
+        "Chemistry",
+        "Science"
+    ],
+    "Problèmes Et Exercices": [],
+    "Probability & Statistics - General": [
+        "Probabilities",
+        "Probability & Statistics"
+    ],
+    "Professional, Career & Trade -> Computer Science -> System Administration": [
+        "Computer Science",
+        "Computers"
+    ],
+    "Étude Et Enseignement": [],
+    "Logic, Symbolic And Mathematical": [
+        "Logic",
+        "Mathematics"
+    ],
+    "Language Experience Approach": [
+        "Experiments",
+        "Languages"
+    ],
+    "Counseling - General": [
+        "Counselling"
+    ],
+    "Technologie De L'Information": [
+        "Technology"
+    ],
+    "Careers - General": [],
+    "Optical Pattern Recognition": [
+        "Pattern Recognition"
+    ],
+    "Information Resources Management": [
+        "Sources",
+        "Management"
+    ],
+    "World Wide Web": [],
+    "Mathematical Logic And Foundations": [
+        "Logic",
+        "Mathematics"
+    ],
+    "For Foreign Speakers": [
+        "Foreign Speakers"
+    ],
+    "Ouvrages Pour La Jeunesse": [],
+    "Étude Et Enseignement (École Moyenne)": [],
+    "Population And Community Health": [
+        "Communication"
+    ],
+    "Text Processing (Computer Science)": [
+        "Computer Science",
+        "Computers",
+        "Texts"
+    ],
+    "Study And Teaching (Higher)": [
+        "Study & Teaching",
+        "Higher"
+    ],
+    "Web Site Development": [
+        "Web Sites",
+        "Development"
+    ],
+    "English Language, Grammar": [
+        "Grammar",
+        "English Language",
+        "Languages"
+    ],
+    "Mathematics, Juvenile Literature": [
+        "Juvenile Literature",
+        "Mathematics"
+    ],
+    "Computer Books: General": [
+        "Computers"
+    ],
+    "Computer Imaging, Vision, Pattern Recognition And Graphics": [
+        "Computers",
+        "Pattern Recognition"
+    ],
+    "Teaching Methods & Materials - Reading": [
+        "Reading",
+        "Materials",
+        "Teaching",
+        "Methods"
+    ],
+    "Language Arts / Linguistics / Literacy": [
+        "Linguistics",
+        "Languages",
+        "Literacy",
+        "Language Arts"
+    ],
+    "Foreign Language Study": [
+        "Languages"
+    ],
+    "Expert Systems (Computer Science)": [
+        "Computer Science",
+        "Computers"
+    ],
+    "Education / Teaching Methods & Materials / Reading": [
+        "Methods",
+        "Teaching",
+        "Education",
+        "Reading",
+        "Materials"
+    ],
+    "Readers For New Literates": [
+        "Reading",
+        "Readers"
+    ],
+    "Teaching Methods & Materials - General": [
+        "Materials",
+        "Teaching",
+        "Methods"
+    ],
+    "Intelligent Agents (Computer Software)": [
+        "Computer Software",
+        "Computers"
+    ],
+    "Statistical Theory And Methods": [
+        "Statistics",
+        "Methods"
+    ],
+    "Introduction To Business": [
+        "Business"
+    ],
+    "Symbolic And Mathematical Logic": [
+        "Logic",
+        "Mathematics"
+    ],
+    "Professional, Career & Trade -> Computer Science -> Computer Science": [
+        "Computer Science",
+        "Computers"
+    ],
+    "Management - General": [
+        "Management"
+    ],
+    "Information Systems Applications (Incl.Internet)": [
+        "Internet",
+        "Applied",
+        "Information Systems"
+    ],
+    "Computer Systems Organization And Communication Networks": [
+        "Communication",
+        "Computer Systems",
+        "Computers"
+    ],
+    "Early Works To 1800": [],
+    "Christian Education Of Children": [
+        "Christian Education",
+        "Christianity",
+        "Children"
+    ],
+    "Image Processing And Computer Vision": [
+        "Image Processing",
+        "Computer Vision",
+        "Computers"
+    ],
+    "Special Education - General": [
+        "Special Education"
+    ],
+    "User Interfaces (Computer Systems)": [
+        "Computer Systems",
+        "Computers"
+    ],
+    "Education / Special Education / General": [
+        "Special Education"
+    ],
+    "Children: Young Adult (Gr. 7-9)": [
+        "Children"
+    ],
+    "Teaching Of A Specific Subject": [
+        "Teaching"
+    ],
+    "Business Information Systems": [
+        "Business",
+        "Information Systems"
+    ],
+    "Mathematical And Computational Physics Theoretical": [
+        "Physics",
+        "Computers",
+        "Mathematics Of Computing"
+    ],
+    "Distribution (Probability Theory)": [
+        "Probabilities"
+    ],
+    "Primary / Junior Schools": [
+        "Schools"
+    ],
+    "British And Irish Fiction (Fictional Works By One Author)": [
+        "Fiction"
+    ],
+    "Business &Amp; Economics": [
+        "Economics",
+        "Business"
+    ],
+    "Handbooks, Manuals, Etc": [
+        "Handbooks, Manuals"
+    ],
+    "Computers &Amp; The Internet": [
+        "Internet",
+        "Computers"
+    ],
+    "Systems And Data Security": [],
+    "English Language,  For Foreign Speakers": [
+        "English Language",
+        "Foreign Speakers",
+        "Languages"
+    ],
+    "Journalism, Media Studies And Communications": [
+        "Communication"
+    ],
+    "Language Arts (Secondary)": [
+        "Language Arts",
+        "Languages"
+    ],
+    "Curriculum Planning & Development": [
+        "Curriculum Planning",
+        "Development"
+    ],
+    "Computational Science And Engineering": [
+        "Computer Science",
+        "Computers",
+        "Engineering"
+    ],
+    "Manuels D'Enseignement Supérieur": [
+        "Manuels"
+    ],
+    "Algebra - Intermediate": [
+        "Algebra",
+        "Intermediate"
+    ],
+    "Mobile Communication Systems": [
+        "Communication"
+    ],
+    "Wireless Communication Systems": [
+        "Communication"
+    ],
+    "Mathematical Logic And Formal Languages": [
+        "Formal Languages",
+        "Logic",
+        "Mathematics"
+    ],
+    "Data Structures (Computer Science)": [
+        "Computer Science",
+        "Data Structures",
+        "Computers"
+    ],
+    "Control, Robotics, Mechatronics": [],
+    "English Language, Rhetoric": [
+        "Rhetoric",
+        "English Language",
+        "Languages"
+    ],
+    "New Media Journalism": [],
+    "Language Arts (Middle School)": [
+        "Schools",
+        "Language Arts",
+        "Languages"
+    ],
+    "Artificial Intelligence (Incl. Robotics)": [
+        "Arts",
+        "Artificial Intelligence"
+    ],
+    "Étude Et Enseignement (Primaire)": [],
+    "Problems, Exercises, Etc": [
+        "Problems, Exercises"
+    ],
+    "Study And Teaching (Secondary)": [
+        "Study & Teaching"
+    ],
+    "Human Resources & Personnel Management": [
+        "Sources",
+        "Personnel Management",
+        "Human Resources",
+        "Humanities",
+        "Personality"
+    ],
+    "Psychology & Psychiatry / Counseling": [
+        "Counselling",
+        "Psychiatry",
+        "Psychology"
+    ],
+    "User Interfaces And Human Computer Interaction": [
+        "Humanities",
+        "Computers"
+    ],
+    "English Language, Study And Teaching, Foreign Speakers": [
+        "Foreign Speakers",
+        "Languages",
+        "English Language",
+        "Study & Teaching"
+    ],
+    "Earth Sciences - Geology": [
+        "Earth Sciences",
+        "Arts"
+    ],
+    "Étude Et Enseignement (Secondaire)": [],
+    "Psychology, Study And Teaching": [
+        "Study & Teaching",
+        "Psychology"
+    ],
+    "Writing Guide With Handbook": [
+        "Writing"
+    ],
+    "Civilization, Western, History": [
+        "History",
+        "Civilization, Western"
+    ],
+    "United States, Politics And Government": [
+        "United States",
+        "Politics And Government"
+    ],
+    "Education, United States": [
+        "United States",
+        "Education"
+    ],
+    "Computer Networks, Congresses": [
+        "Computer Networks",
+        "Congresses",
+        "Computers"
+    ],
+    "Psychology & Psychiatry / General": [
+        "Psychiatry",
+        "Psychology"
+    ],
+    "Psychotherapy - Counseling": [
+        "Counselling",
+        "Psychotherapy"
+    ],
+    "Marketing - General": [
+        "Marketing"
+    ],
+    "World War, 1939-1945": [],
+    "General Theory Of Computing": [
+        "Computers",
+        "Theory Of Computation"
+    ],
+    "Chemistry, Physical And Theoretical": [
+        "Chemie",
+        "Physics"
+    ],
+    "Computer Networks, Security Measures": [
+        "Computer Networks",
+        "Computers",
+        "Security Measures"
+    ],
+    "Algebra, Study And Teaching": [
+        "Study & Teaching",
+        "Algebra"
+    ],
+    "Language Translation And Linguistics": [
+        "Linguistics",
+        "Languages"
+    ],
+    "Indians Of North America": [],
+    "Gender Sexuality Studies": [],
+    "Object-Oriented Programming (Computer Science)": [
+        "Computer Science",
+        "Computers",
+        "Programming"
+    ],
+    "Mathematical Modeling And Industrial Mathematics": [
+        "Mathematical Models",
+        "Mathematics"
+    ],
+    "Management Of Computing And Information Systems": [
+        "Computers",
+        "Management",
+        "Information Systems"
+    ],
+    "Business & Economics / Management": [
+        "Business & Economics",
+        "Management"
+    ],
+    "Cryptology And Information Theory Data Structures": [
+        "Information Theory",
+        "Data Structures"
+    ],
+    "Computer Input-Output Equipment": [
+        "Computers"
+    ],
+    "Ordinary Differential Equations": [
+        "Differential Equations"
+    ],
+    "Management Information Systems": [
+        "Management",
+        "Information Systems"
+    ],
+    "Information Systems Applications (Incl. Internet)": [
+        "Internet",
+        "Applied",
+        "Information Systems"
+    ],
+    "Physics, Problems, Exercises, Etc.": [
+        "Problems, Exercises",
+        "Physics"
+    ],
+    "English Language, Composition And Exercises": [
+        "Languages",
+        "English Language",
+        "Composition And Exercises"
+    ],
+    "Library Science And Museum Studies": [
+        "Science"
+    ],
+    "Geographic Information Systems": [
+        "Information Systems"
+    ],
+    "Probability Theory And Stochastic Processes": [
+        "Probabilities"
+    ],
+    "Life Sciences - Biology - General": [
+        "Life Sciences",
+        "Biology"
+    ],
+    "Special Purpose And Application-Based Systems": [
+        "Applied"
+    ],
+    "Probability And Statistics In Computer Science": [
+        "Probability & Statistics",
+        "Computer Science",
+        "Computers",
+        "Probabilities"
+    ],
+    "Language Arts & Disciplines": [
+        "Language Arts",
+        "Languages"
+    ],
+    "Computer Appl. In Administrative Data Processing": [
+        "Data Processing",
+        "Computers"
+    ],
+    "Economics - General": [
+        "Economics"
+    ],
+    "Education / Teaching": [
+        "Teaching",
+        "Education"
+    ],
+    "Computers - General Information": [
+        "Computers"
+    ],
+    "Science / Physics": [
+        "Physics",
+        "Science"
+    ],
+    "Global Analysis (Mathematics)": [
+        "Globalization",
+        "Analysis",
+        "Mathematics"
+    ],
+    "Internet, Security Measures": [
+        "Internet",
+        "Security Measures"
+    ],
+    "Chemistry, Problems, Exercises, Etc.": [
+        "Problems, Exercises",
+        "Chemie"
+    ],
+    "History - General History": [
+        "History"
+    ],
+    "System Performance And Evaluation": [
+        "Evaluation"
+    ],
+    "Interdisciplinary Approach In Education": [
+        "Education"
+    ],
+    "Computer System Implementation": [
+        "Computer Systems",
+        "Computers"
+    ],
+    "Programming Languages, Compilers, Interpreters": [
+        "Programming Languages"
+    ],
+    "Medical / Nursing": [
+        "Medical",
+        "Nursing"
+    ],
+    "Java (Computer Program Language)": [
+        "Programming Languages",
+        "Computer Programming",
+        "Computers"
+    ],
+    "Study And Teaching (Primary)": [
+        "Study & Teaching"
+    ],
+    "Embedded Computer Systems": [
+        "Computer Systems",
+        "Computers"
+    ],
+    "Translators (Computer Programs)": [
+        "Computer Programming",
+        "Computers"
+    ],
+    "Mathematics, Problems, Exercises, Etc.": [
+        "Problems, Exercises",
+        "Mathematics"
+    ],
+    "Computer-Aided Engineering (Cad, Cae) And Design": [
+        "Design",
+        "Computers",
+        "Engineering"
+    ],
+    "Cultural And Ethnic Studies": [],
+    "Classic Literature": [
+        "Literature"
+    ],
+    "Miscellanea": [],
+    "Mathematical Analysis": [
+        "Analysis",
+        "Mathematics"
+    ],
+    "Commercial Law": [
+        "Law"
+    ],
+    "Popular Works": [],
+    "Algèbre": [],
+    "Machine Learning": [],
+    "Early Childhood": [],
+    "Case Studies": [],
+    "Agriculture": [],
+    "Standards": [],
+    "Publishing": [],
+    "Syntax": [],
+    "Reading (Elementary)": [
+        "Reading"
+    ],
+    "Visualization": [],
+    "G.C.S.E.": [],
+    "Japanese Language": [
+        "Languages"
+    ],
+    "Constitutional Law": [
+        "Law"
+    ],
+    "Production Management": [
+        "Management"
+    ],
+    "Entreprises": [],
+    "Historical Fiction": [
+        "Fiction"
+    ],
+    "Women, Psychology": [
+        "Psychology"
+    ],
+    "Personal Finance": [
+        "Finance",
+        "Personality"
+    ],
+    "Minorities": [],
+    "Religious Aspects": [],
+    "Coding Theory": [],
+    "Distance Education": [
+        "Education"
+    ],
+    "Modern History": [
+        "History"
+    ],
+    "Programmed Instruction": [
+        "Programming"
+    ],
+    "Systems Engineering": [
+        "Engineering"
+    ],
+    "Music": [],
+    "Strategic Planning": [],
+    "Government Policy": [],
+    "Mental Health": [],
+    "African Americans": [],
+    "Database Management": [
+        "Management"
+    ],
+    "Business Education": [
+        "Business",
+        "Education"
+    ],
+    "Leadership": [],
+    "Guides, Manuels": [
+        "Manuels"
+    ],
+    "Trigonometry": [],
+    "Religious Education": [
+        "Education"
+    ],
+    "Higher Education": [
+        "Higher",
+        "Education"
+    ],
+    "Web Services": [],
+    "Aspect Psychologique": [
+        "Psychology"
+    ],
+    "Selling": [],
+    "Psychology, History": [
+        "History",
+        "Psychology"
+    ],
+    "Corporations": [],
+    "Mathematical Statistics": [
+        "Statistics",
+        "Mathematics"
+    ],
+    "Management And Marketing": [
+        "Marketing",
+        "Management"
+    ],
+    "Psychology, Methodology": [
+        "Psychology",
+        "Methods"
+    ],
+    "Computer Engineering": [
+        "Computers",
+        "Engineering"
+    ],
+    "Examinations": [],
+    "Electrical Engineering": [
+        "Engineering"
+    ],
+    "Middle Ages": [],
+    "Biochemistry": [
+        "Chemie",
+        "Chemistry"
+    ],
+    "Industrial Management": [
+        "Management"
+    ],
+    "Set Theory": [],
+    "Geometry": [],
+    "Church History": [
+        "History"
+    ],
+    "Numeric Computing": [
+        "Computers"
+    ],
+    "Biotechnology": [
+        "Technology"
+    ],
+    "Dictionaries": [],
+    "College Success": [],
+    "Civilization, History": [
+        "Civilization",
+        "History"
+    ],
+    "Wiskunde": [],
+    "Judaism": [],
+    "Reasoning": [],
+    "Design And Construction": [
+        "Design"
+    ],
+    "Aids And Devices": [],
+    "Economic Conditions": [
+        "Economics"
+    ],
+    "Mass Media": [],
+    "Reference": [],
+    "Business & Management": [
+        "Business",
+        "Management"
+    ],
+    "Textbook Bias": [
+        "Texts"
+    ],
+    "Computational Biology/Bioinformatics": [
+        "Biology",
+        "Computers"
+    ],
+    "Secondary Education": [
+        "Education"
+    ],
+    "Medical Radiology": [
+        "Medical"
+    ],
+    "Graphic Calculators": [],
+    "Geschichte": [],
+    "Imaging Systems": [],
+    "Biomedical Engineering": [
+        "Engineering"
+    ],
+    "Economic Aspects": [
+        "Economics"
+    ],
+    "Computers And Civilization": [
+        "Civilization",
+        "Computers"
+    ],
+    "Business Ethics": [
+        "Ethics",
+        "Business"
+    ],
+    "Technical Chemistry": [
+        "Chemie",
+        "Chemistry"
+    ],
+    "Electronic Commerce": [
+        "Electronics"
+    ],
+    "Femmes": [],
+    "Spellers": [],
+    "Usa": [],
+    "Signal Processing": [],
+    "Activity Programs": [
+        "Programming"
+    ],
+    "Psychological Aspects": [
+        "Psychology"
+    ],
+    "Atlases": [],
+    "Readers (Adult)": [
+        "Reading",
+        "Readers"
+    ],
+    "Gestion": [],
+    "Botany": [],
+    "Chimie": [],
+    "Information Technology": [
+        "Technology"
+    ],
+    "International Trade": [],
+    "Microsoft Office": [],
+    "Human-Computer Interaction": [
+        "Humanities",
+        "Computers"
+    ],
+    "Western Civilization": [
+        "Civilization"
+    ],
+    "Réseaux D'Ordinateurs": [],
+    "England, Fiction": [
+        "Fiction"
+    ],
+    "Rhétorique": [],
+    "Mechanical Engineering": [
+        "Engineering"
+    ],
+    "Adaptations": [],
+    "Decision Making": [],
+    "Success": [],
+    "History And Criticism": [
+        "History"
+    ],
+    "Number Theory": [],
+    "American Literature": [
+        "Literature"
+    ],
+    "Computer Architecture": [
+        "Architecture",
+        "Computers"
+    ],
+    "Travel": [],
+    "Children'S Fiction": [
+        "Fiction",
+        "Children"
+    ],
+    "Biometrics": [],
+    "Medicine": [
+        "Medical"
+    ],
+    "Commercial Correspondence": [],
+    "Business Technologies": [
+        "Technology",
+        "Business"
+    ],
+    "Chemistry, Organic": [
+        "Chemie"
+    ],
+    "System Design": [
+        "Design"
+    ],
+    "Mobile Computing": [
+        "Computers"
+    ],
+    "Vocational Guidance": [],
+    "Punctuation": [],
+    "Computer Literacy": [
+        "Literacy",
+        "Computers"
+    ],
+    "Computer-Assisted Instruction": [
+        "Computers"
+    ],
+    "Application Software": [
+        "Applied",
+        "Software"
+    ],
+    "Religion": [],
+    "Aspect Social": [],
+    "Examinations, Questions": [],
+    "Remedial Teaching": [
+        "Teaching"
+    ],
+    "Telecommunication Systems": [
+        "Communication"
+    ],
+    "Geography,": [],
+    "Computers And Education": [
+        "Computers",
+        "Education"
+    ],
+    "As Level": [],
+    "Matter": [],
+    "Precalculus": [],
+    "Soft Computing": [
+        "Computers"
+    ],
+    "Mathematical Physics": [
+        "Physics",
+        "Mathematics"
+    ],
+    "Retail Trade": [],
+    "Catalogs": [],
+    "Natural Sciences": [
+        "Nature",
+        "Science"
+    ],
+    "Nationalism And Education": [
+        "Education"
+    ],
+    "Computer Crimes": [
+        "Computers"
+    ],
+    "Bookkeeping": [],
+    "Cognitive Psychology": [
+        "Psychology"
+    ],
+    "Physique": [],
+    "Machine Theory": [],
+    "Computational Intelligence": [
+        "Computers"
+    ],
+    "Juvenile Fiction": [
+        "Fiction"
+    ],
+    "American Government": [],
+    "Environmental Sciences": [
+        "Science"
+    ],
+    "E-Commerce/E-Business": [
+        "Business"
+    ],
+    "For Children": [
+        "Children"
+    ],
+    "Maps": [],
+    "Commerce": [],
+    "Psychology, Experimental": [
+        "Experiments",
+        "Psychology"
+    ],
+    "Drama": [],
+    "Literary Collections": [],
+    "Jews": [],
+    "Educational Technology": [
+        "Technology",
+        "Education"
+    ],
+    "Experimental Psychology": [
+        "Experiments",
+        "Psychology"
+    ],
+    "Business Mathematics": [
+        "Business",
+        "Mathematics"
+    ],
+    "Méthodologie": [],
+    "Engineering Mathematics": [
+        "Mathematics",
+        "Engineering"
+    ],
+    "Computing Methodologies": [
+        "Computers",
+        "Methods"
+    ],
+    "Writing Skills": [
+        "Writing"
+    ],
+    "College Readers": [
+        "Reading",
+        "Readers"
+    ],
+    "Physical Sciences": [
+        "Physics",
+        "Science"
+    ],
+    "Catholic": [],
+    "Arithmetic": [],
+    "Mathematical Optimization": [
+        "Mathematics"
+    ],
+    "Methodology": [
+        "Methods"
+    ],
+    "Functional Analysis": [
+        "Analysis"
+    ],
+    "Procedural Law": [
+        "Law"
+    ],
+    "Plants": [],
+    "Mental Disorders": [],
+    "Conduct Of Life": [],
+    "Usage": [],
+    "Nationalism": [],
+    "Education And State": [
+        "Education"
+    ],
+    "Data Protection": [],
+    "Hardware": [],
+    "Sales Personnel": [
+        "Personality"
+    ],
+    "Child Psychology": [
+        "Psychology"
+    ],
+    "Organizational Behavior": [],
+    "Tables": [],
+    "Contemporary Math": [],
+    "Physiology": [],
+    "Women": [],
+    "Graph Theory": [],
+    "Advertising": [],
+    "Technology & Engineering": [
+        "Technology",
+        "Engineering"
+    ],
+    "Biometric Identification": [],
+    "Biography": [],
+    "Géographie": [],
+    "Human Development": [
+        "Humanities",
+        "Development"
+    ],
+    "Fiction, General": [
+        "Fiction"
+    ],
+    "Catholic Church": [],
+    "Psychoanalysis": [
+        "Analysis"
+    ],
+    "Children'S Literature": [
+        "Literature",
+        "Children"
+    ],
+    "Japanese": [],
+    "Social Psychology": [
+        "Psychology"
+    ],
+    "Foreign Relations": [],
+    "Multimedia Systems": [],
+    "Linear Algebras": [
+        "Algebra"
+    ],
+    "Laboratory Manuals": [],
+    "Calculators": [],
+    "Computational Linguistics": [
+        "Linguistics",
+        "Computers"
+    ],
+    "Nonfiction": [],
+    "Business/Economics": [
+        "Economics",
+        "Business"
+    ],
+    "Combinatorial Analysis": [
+        "Analysis"
+    ],
+    "Operations Research": [],
+    "Salesmen And Salesmanship": [],
+    "Property Law": [
+        "Law"
+    ],
+    "Computer Applications": [
+        "Applied",
+        "Computers"
+    ],
+    "Authorship": [],
+    "Literary Criticism": [],
+    "Logic Design": [
+        "Logic",
+        "Design"
+    ],
+    "Historia": [
+        "History"
+    ],
+    "Ancient History": [
+        "History"
+    ],
+    "Learning": [],
+    "Outlines, Syllabi": [],
+    "Virtual Reality": [],
+    "Social Aspects": [],
+    "Office Practice": [],
+    "Mathematics, General": [
+        "Mathematics"
+    ],
+    "Python Programming": [
+        "Programming"
+    ],
+    "Technological Innovations": [
+        "Technology"
+    ],
+    "Statistical Methods": [
+        "Statistics",
+        "Methods"
+    ],
+    "Guidance & Orientation": [],
+    "Psychology, Research": [
+        "Psychology"
+    ],
+    "Homeschool": [
+        "Schools"
+    ],
+    "Books And Reading": [
+        "Reading"
+    ],
+    "Sciences Sociales": [
+        "Science"
+    ],
+    "Business Planning": [
+        "Business"
+    ],
+    "Physical Geography": [
+        "Geography",
+        "Physics"
+    ],
+    "Language And Languages": [
+        "Languages"
+    ],
+    "Mymathlab": [],
+    "Study Guides": [],
+    "Processor Architectures": [
+        "Architecture"
+    ],
+    "Media Design": [
+        "Design"
+    ],
+    "Bibliography": [],
+    "Computer Science--Mathematics": [
+        "Computer Science",
+        "Computers",
+        "Mathematics"
+    ],
+    "Psychology Of Learning": [
+        "Psychology"
+    ],
+    "Social Work": [],
+    "Vocabulary": [],
+    "Academic Writing": [
+        "Writing"
+    ],
+    "Romans, Nouvelles": [],
+    "Informatique": [],
+    "Developmental Psychology": [
+        "Development",
+        "Psychology"
+    ],
+    "Educational Change": [
+        "Education"
+    ],
+    "Multicultural Education": [
+        "Education"
+    ],
+    "Cs.Cmp_Sc.App_Sw": [],
+    "Reading (Primary)": [
+        "Reading"
+    ],
+    "Ecology": [],
+    "Interpersonal Relations": [
+        "Personality"
+    ],
+    "Ubiquitous Computing": [
+        "Computers"
+    ],
+    "Collectionid:Hsmath": [],
+    "Thermodynamics": [],
+    "Catechetics": [],
+    "Censorship": [],
+    "Training Of": [],
+    "Information Retrieval": [],
+    "Philosophie": [],
+    "Evolution": [],
+    "Information Organization": [],
+    "College Algebra": [
+        "Algebra"
+    ],
+    "Statistiek": [
+        "Statistics"
+    ],
+    "Computer-Aided Design": [
+        "Design",
+        "Computers"
+    ],
+    "Business Logistics": [
+        "Business"
+    ],
+    "Pre-Calculus": [],
+    "Recherche": [],
+    "Research": [],
+    "Suco11645": [],
+    "Text-Books": [
+        "Texts"
+    ],
+    "Curriculum And Instruction": [],
+    "Etymology": [],
+    "Pronunciation": [],
+    "History: World": [],
+    "Sentences": [],
+    "Computer Graphics": [
+        "Computers"
+    ],
+    "Criticism And Interpretation": [],
+    "Office Management": [
+        "Management"
+    ],
+    "Anatomy And Physiology": [],
+    "Applied Mathematics": [
+        "Applied",
+        "Mathematics"
+    ],
+    "World History": [
+        "History"
+    ],
+    "Algebras, Linear": [
+        "Algebra"
+    ],
+    "Entrepreneurship": [],
+    "Cryptography": [],
+    "Home Education": [
+        "Education"
+    ],
+    "Science/Mathematics": [
+        "Science",
+        "Mathematics"
+    ],
+    "Sales & Marketing": [
+        "Marketing"
+    ],
+    "Psychologie": [
+        "Psychology"
+    ],
+    "System Analysis": [
+        "Analysis"
+    ],
+    "Chemical Engineering": [
+        "Chemie",
+        "Engineering"
+    ],
+    "Christian Life": [
+        "Christianity"
+    ],
+    "Manuels Scolaires": [
+        "Manuels"
+    ],
+    "Racism In": [],
+    "Cs.Cmp_Sc.Cmp_Sc": [],
+    "Collectionid:Elmmath": [],
+    "Nutrition": [],
+    "Report Writing": [
+        "Writing"
+    ],
+    "Computer Simulation": [
+        "Computers"
+    ],
+    "Computer Security": [
+        "Computers"
+    ],
+    "Sociology": [],
+    "Business English": [
+        "English",
+        "Business"
+    ],
+    "Elementary Education": [
+        "Education"
+    ],
+    "Penmanship": [],
+    "Secondary Schools": [
+        "Schools"
+    ],
+    "Business Writing": [
+        "Writing",
+        "Business"
+    ],
+    "Nutrition And Pharmacology": [],
+    "Elementary": [],
+    "Aufsatzsammlung": [],
+    "Encyclopedias": [],
+    "Telecommunication": [
+        "Communication"
+    ],
+    "Relations": [],
+    "Teachers": [
+        "Teaching"
+    ],
+    "Problem Solving": [],
+    "Consumer Education": [
+        "Education"
+    ],
+    "Law And Legislation": [
+        "Law"
+    ],
+    "Readers (Primary)": [
+        "Reading",
+        "Readers"
+    ],
+    "Computational Complexity": [
+        "Computers"
+    ],
+    "Educational Psychology": [
+        "Psychology",
+        "Education"
+    ],
+    "Algebra And Trigonometry": [
+        "Algebra"
+    ],
+    "Computers And Society": [
+        "Computers"
+    ],
+    "Biomathematics": [
+        "Mathematics"
+    ],
+    "Com051230": [],
+    "Project Management": [
+        "Management"
+    ],
+    "Mathématiques": [],
+    "Juvenile Nonfiction": [],
+    "Developmental Math": [
+        "Development"
+    ],
+    "English Literature": [
+        "English",
+        "Literature"
+    ],
+    "Programming Techniques": [
+        "Programming"
+    ],
+    "Discovery And Exploration": [],
+    "Readers (Elementary)": [
+        "Reading",
+        "Readers"
+    ],
+    "Anglais (Langue)": [],
+    "Criminal Law": [
+        "Law"
+    ],
+    "Civil Law": [
+        "Civilization",
+        "Law"
+    ],
+    "Einführung": [],
+    "Anthropology": [],
+    "Secondary": [],
+    "Medical-Surgical Nursing": [
+        "Medical",
+        "Nursing"
+    ],
+    "Reading Comprehension": [
+        "Reading"
+    ],
+    "Models And Principles": [],
+    "Calculus": [],
+    "Knowledge Management": [
+        "Management"
+    ],
+    "Administrative Law": [
+        "Law"
+    ],
+    "Biologie": [
+        "Biology"
+    ],
+    "Aims And Objectives": [],
+    "Natural History": [
+        "History",
+        "Nature"
+    ],
+    "A Level": [],
+    "Contract Law": [
+        "Law"
+    ],
+    "Semantics": [],
+    "Organic Chemistry": [
+        "Chemie",
+        "Chemistry"
+    ],
+    "Optimization": [],
+    "Bioinformatics": [],
+    "Simulation And Modeling": [],
+    "Pure Mathematics": [
+        "Mathematics"
+    ],
+    "Congrès": [],
+    "Social Conditions": [],
+    "Psychometrics": [],
+    "Medical Records": [
+        "Medical"
+    ],
+    "Maternal-Newborn Nursing": [
+        "Nursing"
+    ],
+    "Child Development": [
+        "Development"
+    ],
+    "English Composition": [
+        "English",
+        "Composition"
+    ],
+    "Shorthand": [],
+    "Microcomputers": [
+        "Computers"
+    ],
+    "Mathematik": [
+        "Mathematics"
+    ],
+    "Political Aspects": [],
+    "Essays": [],
+    "Databases": [],
+    "Experimental Design": [
+        "Experiments",
+        "Design"
+    ],
+    "Circuits And Systems": [],
+    "Histoire": [],
+    "Statistik": [
+        "Statistics"
+    ],
+    "Historiography": [
+        "History"
+    ],
+    "Applications Of Mathematics": [
+        "Applied",
+        "Mathematics"
+    ],
+    "Orthography And Spelling": [],
+    "Ordinateurs": [],
+    "Social Sciences": [
+        "Science"
+    ],
+    "Fundamentals And Skills": [],
+    "Quantum Theory": [],
+    "Functions": [],
+    "Lehrbuch": [],
+    "Éducation": [],
+    "Curricula": [],
+    "Inorganic Chemistry": [
+        "Chemie",
+        "Chemistry"
+    ],
+    "Description And Travel": [],
+    "Natuurkunde": [],
+    "Computer Algorithms": [
+        "Algorithms",
+        "Computers"
+    ],
+    "Grammaire": [],
+    "Civil Engineering": [
+        "Civilization",
+        "Engineering"
+    ],
+    "Cloud Computing": [
+        "Computers"
+    ],
+    "Research & Methodology": [
+        "Methods"
+    ],
+    "System Theory": [],
+    "Mechanics": [],
+    "U.S. History": [
+        "History"
+    ],
+    "Small Business": [
+        "Business"
+    ],
+    "Collectionid:Midmath": [],
+    "Applied Psychology": [
+        "Psychology",
+        "Applied"
+    ],
+    "Logiciels": [
+        "Logic"
+    ],
+    "Study Skills": [],
+    "Accounting And Finance": [
+        "Accounting",
+        "Finance"
+    ],
+    "Astronomy": [],
+    "Physik": [],
+    "Information Science": [
+        "Science"
+    ],
+    "Human Geography": [
+        "Humanities",
+        "Geography"
+    ],
+    "Open_Syllabus_Project": [],
+    "Self-Actualization (Psychology)": [
+        "Psychology"
+    ],
+    "Political Science": [
+        "Science"
+    ],
+    "Manners And Customs": [],
+    "Bible": [],
+    "Medical Informatics": [
+        "Medical"
+    ],
+    "Pattern Perception": [],
+    "Business Communication": [
+        "Communication",
+        "Business"
+    ],
+    "Analytic Geometry": []
+}
