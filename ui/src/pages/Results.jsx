@@ -4,6 +4,7 @@ import SideFilterSelect from "../components/SideFilterSelect";
 import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from "react-icons/md";
 import NoResults from "../components/NoResults";
 import { useLocation } from "react-router-dom";
+import { IoFilterSharp } from "react-icons/io5";
 
 export default function Results(props) {
   const location = useLocation();
@@ -15,6 +16,7 @@ export default function Results(props) {
   const [displayedResults, setDisplayedResults] = useState([]);
   const [categoryCounts, setCategoryCounts] = useState({});
   const [noResults, setNoResults] = useState(false);
+  const [isDrawerOpen, setIsDrawerOpen] = useState(true);
 
   async function fetchResults(query) {
     const response = await fetch(query);
@@ -82,10 +84,17 @@ export default function Results(props) {
     <>
       {results.length ? (
         <div className="grid grid-cols-[auto,1fr]">
-          {/* filter sidebar */}
-          <div className="px-10 py-5 text-left border-r-[1px] border-outlineGray flex flex-col gap-4 min-w-[300px] max-w-[400px]">
-            <h5 className="text-xl">Refine Results</h5>
-            <SideFilterSelect filterChange={filterChange} title="subjects" dict={categoryCounts} />
+          {/* drawer */}
+          {/* <div className={`relative overflow-hidden px-10 py-5 text-left border-r-[1px] border-outlineGray flex flex-col gap-4 ${isDrawerOpen ? "min-w-[300px] max-w-[400px]" : "w-0"} transition-all duration-300`}> */}
+          <div className={`relative py-5 text-left border-r-[1px] border-outlineGray ${isDrawerOpen ? "w-[300px] px-10" : "w-0"} transition-all duration-300`}>
+            {/* filter sidebar */}
+            <div className="flex flex-col gap-4 overflow-hidden">
+              <h5 className="text-xl">Refine Results</h5>
+              <SideFilterSelect filterChange={filterChange} title="subjects" dict={categoryCounts} />
+            </div>
+            <button className="absolute top-0 right-0 translate-x-[100%] border-[1px] border-outlineGray p-2" onClick={() => setIsDrawerOpen(!isDrawerOpen)}>
+              <IoFilterSharp className="w-6 h-6" />
+            </button>
           </div>
 
           <div className="px-20 py-5">
