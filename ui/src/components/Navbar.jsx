@@ -9,7 +9,7 @@ export default function Navbar() {
     const params = new URLSearchParams(window.location.search);
     const query = params.get("q");
 
-    if (query != "*:*") {
+    if (query && query != "*:*") {
       setSearchInput(query);
     }
   }, []);
@@ -40,7 +40,7 @@ export default function Navbar() {
         )}
       </div>
 
-      <button1>Browse</button1>
+      <button1 onClick={() => (window.location.href = "/browse")}>Browse</button1>
     </div>
   );
 }

@@ -3,8 +3,10 @@ import ResultCard from "../components/ResultCard";
 import SideFilterSelect from "../components/SideFilterSelect";
 import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from "react-icons/md";
 import NoResults from "../components/NoResults";
+import { useLocation } from "react-router-dom";
 
-export default function Results() {
+export default function Results(props) {
+  const location = useLocation();
   const [results, setResults] = useState([]);
   const [page, setPage] = useState(0);
   const rowsPerPage = 30;
@@ -50,10 +52,10 @@ export default function Results() {
     const params = new URLSearchParams(window.location.search);
     const query = params.get("q");
     // const fullQuery = `http://localhost:8983/solr/textbooks/select?q=${query}&defType=edismax&qf=title^2 description subtitle subjects authors publisher&start=${page * rowsPerPage}&rows=${rowsPerPage}&wt=json`;
-    const fullQuery = `http://localhost:8983/solr/textbooks/select?q=${query}&defType=edismax&qf=title^2 description subtitle subjects authors publisher&rows=100000`;
-
+    // const fullQuery = `http://localhost:8983/solr/textbooks/select?q=${query}&defType=edismax&qf=title^2 description subtitle subjects authors publisher&rows=100000`;
+    const fullQuery = location.state?.query;
+    console.log("fullquery", fullQuery);
     setSearch(query);
-
     fetchResults(fullQuery);
   }, []);
 
@@ -81,13 +83,13 @@ export default function Results() {
       {results.length ? (
         <div className="grid grid-cols-[auto,1fr]">
           {/* filter sidebar */}
-          <div className="px-10 py-5 text-left min-w-[300px] border-r-[1px] border-outlineGray flex flex-col gap-4">
+          <div className="px-10 py-5 text-left border-r-[1px] border-outlineGray flex flex-col gap-4 min-w-[300px] max-w-[400px]">
             <h5 className="text-xl">Refine Results</h5>
             <SideFilterSelect filterChange={filterChange} title="subjects" dict={categoryCounts} />
           </div>
 
           <div className="px-20 py-5">
-            <h1 className="text-center mb-4">{search == "*:*" ? "All textbooks" : `Results for ${search}`}</h1>
+            <h1 className="text-center mb-4">{search == "*:*" ? "All textbooks" : `Results for "${search}"`}</h1>
             <h4 className="text-2xl flex items-center">
               <div className="flex">
                 <button

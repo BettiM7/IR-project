@@ -44,9 +44,10 @@ export default function TextbookDetails() {
         }
     }
 
-    async function fetchRecommendations() {
-        // with weights, but error on
-        // http://localhost:8983/solr/textbooks/mlt?q=id:{id}&mlt.fl=title,authors,subjects,publisher&mlt.qf=title^2 authors^1.5 subjects^2 publisher^0.5&mlt.mindf=1&mlt.mintf=1&rows=5
+  async function fetchRecommendations() {
+    console.log("fetching recommendations");
+    // with weights, but error on
+    // http://localhost:8983/solr/textbooks/mlt?q=id:{id}&mlt.fl=title,authors,subjects,publisher&mlt.qf=title^2 authors^1.5 subjects^2 publisher^0.5&mlt.mindf=1&mlt.mintf=1&rows=5
 
         const response = await fetch(`http://localhost:8983/solr/textbooks/mlt?q=id:${id}&mlt.fl=title,authors,subjects,publisher&mlt.qf=title^2 authors^1.5 subjects^2 publisher^0.5&mlt.mindf=1&mlt.mintf=1&rows=5`);
 
@@ -188,7 +189,7 @@ export default function TextbookDetails() {
                 <h3 className="text-center mt-20">More like this</h3>
 
                 <div className="flex gap-10 m-10 mx-auto w-fit">
-                    {recommendations.map((recommendation, index) => (
+                    {recommendations.map((recommendation) => (
                         <RecommendationThumb key={recommendation.id} data={recommendation}/>
                     ))}
                 </div>
