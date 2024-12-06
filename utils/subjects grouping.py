@@ -1,10 +1,13 @@
 import json
+from collections import defaultdict
 from nltk.stem import PorterStemmer
 from pathlib import Path
 
-
-from nltk.stem import PorterStemmer
-import json
+from sklearn.decomposition import PCA
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.cluster import KMeans, DBSCAN
+from collections import defaultdict
+import tensorflow_hub as hub
 
 def process_subjects(json_path, output_path):
     connectors = {"and", "&", "the", "or", "of", "a", "an"}
@@ -92,9 +95,138 @@ def process_subjects(json_path, output_path):
         json.dump(final_subject_dict, output_file, ensure_ascii=False, indent=4)
 
 
+def replace_subjects(complete_archive_path, replacements_path, output_path):
+    with open(complete_archive_path, 'r', encoding='utf-8') as archive_file:
+        complete_archive = json.load(archive_file)
 
-data_file = Path(Path(__file__).parent.parent / "complete_archive.json")
+    with open(replacements_path, 'r', encoding='utf-8') as replacements_file:
+        replacements = json.load(replacements_file)
+
+    replacements_dict = {key: value for key, value in replacements.items() if value}
+
+    for obj in complete_archive:
+        if 'subjects' in obj and isinstance(obj['subjects'], list):
+            updated_subjects = set(obj['subjects'])
+            for subject in obj['subjects']:
+                if subject in replacements_dict:
+                    updated_subjects.update(replacements_dict[subject])
+                    updated_subjects.discard(subject)
+            obj['subjects'] = list(updated_subjects)
+
+    with open(output_path, 'w', encoding='utf-8') as output_file:
+        json.dump(complete_archive, output_file, ensure_ascii=False, indent=4)
+
+
+def compare_archives_grouped(original_path, modified_path, output_path):
+    with open(original_path, 'r', encoding='utf-8') as original_file:
+        original_archive = json.load(original_file)
+
+    with open(modified_path, 'r', encoding='utf-8') as modified_file:
+        modified_archive = json.load(modified_file)
+
+    changes_dict = defaultdict(list)
+
+    for orig_obj, mod_obj in zip(original_archive, modified_archive):
+        if 'title' in orig_obj and 'subjects' in orig_obj and 'subjects' in mod_obj:
+            original_subjects = set(orig_obj['subjects'])
+            modified_subjects = set(mod_obj['subjects'])
+
+            removed_subjects = original_subjects - modified_subjects
+            added_subjects = modified_subjects - original_subjects
+
+            if removed_subjects or added_subjects:
+                change_key = (tuple(sorted(removed_subjects)), tuple(sorted(added_subjects)))
+                changes_dict[change_key].append(orig_obj.get('title', 'Unknown Title'))
+
+    differences = []
+    for (removed, added), titles in changes_dict.items():
+        differences.append("Objects with the following change:")
+        differences.append(", ".join(titles))
+        differences.append("Original subjects -> New subjects")
+
+        all_unique_subjects = list(set(removed) | set(added))
+        max_width = max(len(subject) for subject in all_unique_subjects) + 5
+
+        removed_list = sorted(list(removed)) + [""] * (len(added) - len(removed))
+        added_list = sorted(list(added)) + [""] * (len(removed) - len(added))
+
+        for r, a in zip(removed_list, added_list):
+            differences.append(f"{r:<{max_width}}{a}")
+        differences.append("")
+
+    with open(output_path, 'w', encoding='utf-8') as output_file:
+        output_file.write("\n".join(differences))
+
+
+def count_unique_subjects(json_path):
+    with open(json_path, 'r', encoding='utf-8') as file:
+        data = json.load(file)
+
+    unique_subjects = set()
+
+    for obj in data:
+        if 'subjects' in obj and isinstance(obj['subjects'], list):
+            unique_subjects.update(obj['subjects'])
+
+    print(f"Number of unique subjects: {len(unique_subjects)}")
+    with open("subjects_list.txt", 'w', encoding='utf-8') as txt_file:
+        txt_file.write("\n".join(sorted(unique_subjects)))
+
+def subject_hierarchy_for_frontend(json_path,output_path):
+    with open(json_path, 'r', encoding='utf-8') as file:
+        books_subjects = json.load(file)
+
+    n_clusters = 30
+
+    subjects = set(subject for subjects_list in books_subjects.values() for subject in subjects_list)
+    subjects = list(subjects)  # Ensure consistent order
+
+    # Convert subjects into TF-IDF features
+    model = hub.load("https://tfhub.dev/google/universal-sentence-encoder/4")
+    X = model(subjects).numpy()
+
+    # Step 1: Apply PCA for dimensionality reduction
+    pca = PCA(n_components=50, random_state=42)
+    X_reduced = pca.fit_transform(X)
+
+    # Step 2: Perform KMeans clustering on the reduced data
+    kmeans = KMeans(n_clusters, random_state=42)  # Adjust n_clusters as needed
+    kmeans.fit(X_reduced)
+
+    # Step 3: Map items to their clusters based on the labels
+    clusters = defaultdict(list)
+    for subject, label in zip(subjects, kmeans.labels_):
+        clusters[label].append(subject)
+
+    sorted_clusters = {int(key): clusters[key] for key in sorted(clusters)}
+
+    with open(output_path, 'w', encoding='utf-8') as outfile:
+        json.dump(sorted_clusters, outfile, indent=4, ensure_ascii=False)
+
+
+def save_titles_with_subjects(json_path, output_json_path):
+    with open(json_path, 'r', encoding='utf-8') as file:
+        data = json.load(file)
+
+    title_subjects_mapping = {}
+
+    for obj in data:
+        if 'title' in obj and 'subjects' in obj and isinstance(obj['subjects'], list):
+            title_subjects_mapping[obj['title']] = obj['subjects']
+
+    with open(output_json_path, 'w', encoding='utf-8') as output_file:
+        json.dump(title_subjects_mapping, output_file, ensure_ascii=False, indent=4)
+
+
+archive_file = Path(Path(__file__).parent.parent / "complete_archive.json")
 output_file = "groupings.json"
+replacements_file = Path("replacements.json")
 
-process_subjects(data_file, output_file)
-# 586
+# process_subjects(archive_file, output_file)
+
+# replace_subjects(archive_file, replacements_file, "complete_archive_replaced1.json")
+# compare_archives_grouped("complete_archive_replaced.json", "complete_archive_replaced1.json", 'differences.txt')
+# count_unique_subjects('complete_archive_replaced1.json')
+
+#save_titles_with_subjects('complete_archive_replaced1.json', 'titles_with_subjects.json')
+subject_hierarchy_for_frontend("titles_with_subjects.json", "subjects_hierarchy_v4.json")
