@@ -25,9 +25,6 @@ SCHEMA = {
 }
 
 def create_core(solr_url, core_name):
-    """
-    Create a Solr core in standalone mode.
-    """
     create_url = f"{solr_url}/admin/cores?action=CREATE"
     params = {
         "name": core_name,
@@ -41,9 +38,6 @@ def create_core(solr_url, core_name):
         print(f"Failed to create core '{core_name}': {response.text}")
 
 def update_schema(solr_url, core_name, schema):
-    """
-    Update the schema for the given Solr core.
-    """
     schema_url = f"{solr_url}/{core_name}/schema"
     response = requests.post(schema_url, json=schema)
     if response.status_code == 200:
@@ -52,9 +46,6 @@ def update_schema(solr_url, core_name, schema):
         print(f"Failed to update schema for core '{core_name}': {response.text}")
 
 def post_documents(solr_url, core_name, json_file_path):
-    """
-    Post documents from a JSON file to the Solr core.
-    """
     update_url = f"{solr_url}/{core_name}/update?commit=true"
     try:
         with open(json_file_path, "r") as file:
@@ -69,6 +60,25 @@ def post_documents(solr_url, core_name, json_file_path):
     except json.JSONDecodeError:
         print(f"Error decoding JSON file: {json_file_path}")
 
+def activate_mlt(solr_url, core_name):
+    config_url = f"{solr_url}/{core_name}/config"
+    mlt_handler = {
+        "add-requesthandler": {
+            "name": "/mlt",
+            "class": "solr.MoreLikeThisHandler",
+            "defaults": {
+                "mlt.fl": "title",
+                "mlt.mindf": 1,
+                "mlt.mintf": 1,
+            }
+        }
+    }
+    response = requests.post(config_url, json=mlt_handler)
+    if response.status_code == 200:
+        print(f"MLT handler activated successfully for core '{core_name}'.")
+    else:
+        print(f"Failed to activate MLT handler for core '{core_name}': {response.text}")
+
 if __name__ == "__main__":
     # Step 1: Create the core
     create_core(SOLR_URL, CORE_NAME)
@@ -78,3 +88,6 @@ if __name__ == "__main__":
 
     # Step 3: Post documents from JSON file
     post_documents(SOLR_URL, CORE_NAME, JSON_FILE_PATH)
+
+    # Step 4: Activate MLT
+    activate_mlt(SOLR_URL, CORE_NAME)
