@@ -39,10 +39,6 @@ h6 {
   font-family: "Source Serif 4", sans-serif;
 }
 
-button1 {
-  @apply bg-royalRed text-white px-2 py-1 border-2 border-royalRed hover:bg-transparent hover:text-royalRed transition-all duration-300 rounded-sm cursor-pointer;
-}
-
 input {
   @apply border-[1px] border-outlineGray placeholder:text-outlineGray;
 }
@@ -52,13 +48,13 @@ h1 {
 }
 
 h2 {
-  @apply text-5xl;
-}
-
-h3 {
   @apply text-4xl;
 }
 
+h3 {
+  @apply text-2xl;
+}
+
 h4 {
-  @apply text-3xl;
+  @apply text-xl;
 }

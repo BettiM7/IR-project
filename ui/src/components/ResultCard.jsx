@@ -46,9 +46,9 @@ export default function ResultCard({ data }) {
                         {data.title}
                     </h2>
                 </a>
-                <h3 className="italic mt-[-5px] text-sm text-secondaryGray">
+                <h4 className="italic mt-[-5px] text-sm text-secondaryGray">
                     {data.subtitle}
-                </h3>
+                </h4>
                 <p className="mt-3">
                     {data.authors?.join(", ")} - {data.publish_date}
                 </p>

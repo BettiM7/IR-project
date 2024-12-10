@@ -25,9 +25,8 @@ export default function Browse() {
 
     const areAllOpen = activeIndicesLayer0.length === totalTabsLayer0;
 
-    const formatHeight = (value, index) => {
+    const formatHeight = (value, index, key) => {
         const values = Object.values(value);
-        
         const determineSubgroups = (values) => {
             const subgroups = [];
             let currentGroup = [];
@@ -56,7 +55,12 @@ export default function Browse() {
         };
         
         const subgroups = determineSubgroups(values);
-        
+        if (key !== undefined){
+            console.log("key", key);
+            console.log("value", value);
+            console.log("idx", index)
+            console.log("subgroups", subgroups);
+        }
         let subgroupIndex = 0;
         let totalProcessed = 0;
 
@@ -141,7 +145,7 @@ export default function Browse() {
                                                                                 <div className="ml-2">
                                                                                     {renderHierarchy(innerValue)}
                                                                                 </div>
-                                                                                <div>{formatHeight(innerValue, innerIdx)}</div>
+                                                                                <div>{formatHeight(subgroupValue, innerIdx, subgroupKey)}</div>
                                                                             </AccordionTab>
                                                                         </Accordion>
                                                                     </div>
@@ -174,7 +178,7 @@ export default function Browse() {
 
                     return (
                         <AccordionTab key={index} header={
-                            <h3 className="font-bold w-full text-royalRed">{key}</h3>
+                            <h3 className="font-bold w-full text-xs text-royalRed">{key}</h3>
                         }>
                             <div className="mt-4 ml-4">{renderHierarchy(value)}</div>
                         </AccordionTab>
@@ -189,7 +193,7 @@ export default function Browse() {
 
     return (
         <div className="m-auto flex flex-col justify-center items-center">
-            <h2 className="text-center font-semibold text-royalRed m-10">Browse by Subject</h2>
+            <h2 className="text-center font-semibold text-royalRed mt-10">Browse by Subject</h2>
             <div className="w-full flex justify-end mb-2 pr-4"  style={{width: '95%'}}>
                 <button
                     onClick={toggleAccordions}
