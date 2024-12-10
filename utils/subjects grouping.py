@@ -7,7 +7,7 @@ from sklearn.decomposition import PCA
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans, DBSCAN
 from collections import defaultdict
-import tensorflow_hub as hub
+# import tensorflow_hub as hub
 
 def process_subjects(json_path, output_path):
     connectors = {"and", "&", "the", "or", "of", "a", "an"}
@@ -172,36 +172,36 @@ def count_unique_subjects(json_path):
     with open("subjects_list.txt", 'w', encoding='utf-8') as txt_file:
         txt_file.write("\n".join(sorted(unique_subjects)))
 
-def subject_hierarchy_for_frontend(json_path,output_path):
-    with open(json_path, 'r', encoding='utf-8') as file:
-        books_subjects = json.load(file)
-
-    n_clusters = 30
-
-    subjects = set(subject for subjects_list in books_subjects.values() for subject in subjects_list)
-    subjects = list(subjects)  # Ensure consistent order
-
-    # Convert subjects into TF-IDF features
-    model = hub.load("https://tfhub.dev/google/universal-sentence-encoder/4")
-    X = model(subjects).numpy()
-
-    # Step 1: Apply PCA for dimensionality reduction
-    pca = PCA(n_components=50, random_state=42)
-    X_reduced = pca.fit_transform(X)
-
-    # Step 2: Perform KMeans clustering on the reduced data
-    kmeans = KMeans(n_clusters, random_state=42)  # Adjust n_clusters as needed
-    kmeans.fit(X_reduced)
-
-    # Step 3: Map items to their clusters based on the labels
-    clusters = defaultdict(list)
-    for subject, label in zip(subjects, kmeans.labels_):
-        clusters[label].append(subject)
-
-    sorted_clusters = {int(key): clusters[key] for key in sorted(clusters)}
-
-    with open(output_path, 'w', encoding='utf-8') as outfile:
-        json.dump(sorted_clusters, outfile, indent=4, ensure_ascii=False)
+# def subject_hierarchy_for_frontend(json_path,output_path):
+#     with open(json_path, 'r', encoding='utf-8') as file:
+#         books_subjects = json.load(file)
+#
+#     n_clusters = 30
+#
+#     subjects = set(subject for subjects_list in books_subjects.values() for subject in subjects_list)
+#     subjects = list(subjects)  # Ensure consistent order
+#
+#     # Convert subjects into TF-IDF features
+#     model = hub.load("https://tfhub.dev/google/universal-sentence-encoder/4")
+#     X = model(subjects).numpy()
+#
+#     # Step 1: Apply PCA for dimensionality reduction
+#     pca = PCA(n_components=50, random_state=42)
+#     X_reduced = pca.fit_transform(X)
+#
+#     # Step 2: Perform KMeans clustering on the reduced data
+#     kmeans = KMeans(n_clusters, random_state=42)  # Adjust n_clusters as needed
+#     kmeans.fit(X_reduced)
+#
+#     # Step 3: Map items to their clusters based on the labels
+#     clusters = defaultdict(list)
+#     for subject, label in zip(subjects, kmeans.labels_):
+#         clusters[label].append(subject)
+#
+#     sorted_clusters = {int(key): clusters[key] for key in sorted(clusters)}
+#
+#     with open(output_path, 'w', encoding='utf-8') as outfile:
+#         json.dump(sorted_clusters, outfile, indent=4, ensure_ascii=False)
 
 
 def save_titles_with_subjects(json_path, output_json_path):
@@ -218,15 +218,35 @@ def save_titles_with_subjects(json_path, output_json_path):
         json.dump(title_subjects_mapping, output_file, ensure_ascii=False, indent=4)
 
 
+def sort_json(input_path):
+    def sort_object(obj):
+        if isinstance(obj, dict):
+            sorted_obj = {k: sort_object(v) for k, v in sorted(obj.items(), key=lambda item: (item[0] != "reference_subject", item[0]))}
+            return sorted_obj
+        elif isinstance(obj, list):
+            # Sort lists alphabetically
+            return sorted([sort_object(item) for item in obj])
+        return obj
+
+    with open(input_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    sorted_data = sort_object(data)
+
+    output_path = input_path.replace('.json', '_sorted.json')
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump(sorted_data, f, indent=4, ensure_ascii=False)
+
+
 archive_file = Path(Path(__file__).parent.parent / "complete_archive.json")
 output_file = "groupings.json"
 replacements_file = Path("replacements.json")
 
 # process_subjects(archive_file, output_file)
-
 # replace_subjects(archive_file, replacements_file, "complete_archive_replaced1.json")
 # compare_archives_grouped("complete_archive_replaced.json", "complete_archive_replaced1.json", 'differences.txt')
 # count_unique_subjects('complete_archive_replaced1.json')
 
 #save_titles_with_subjects('complete_archive_replaced1.json', 'titles_with_subjects.json')
-subject_hierarchy_for_frontend("titles_with_subjects.json", "subjects_hierarchy_v4.json")
+#subject_hierarchy_for_frontend("titles_with_subjects.json", "subjects_hierarchy.json")
+sort_json("subjects_hierarchy.json")

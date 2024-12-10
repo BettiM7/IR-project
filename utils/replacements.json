@@ -29,7 +29,9 @@
     "Methods",
     "Engineering"
   ],
-  "Administration - General": [],
+  "Administration - General": [
+    "Administration"
+  ],
   "Discrete Mathematics In Computer Science": [
     "Computer Science",
     "Mathematics"
@@ -79,7 +81,7 @@
   ],
   "United States, History, Study And Teaching": [
     "United States",
-    "Study & Teaching"
+    "Study And Teaching"
   ],
   "Pattern Recognition Systems": [
     "Pattern Recognition"
@@ -124,8 +126,17 @@
     "Poetry"
   ],
   "Physics, Study And Teaching": [
-    "Study & Teaching",
+    "Study And Teaching",
     "Physics"
+  ],
+  "Spanish": [
+    "Spanish Language"
+  ],
+  "English": [
+    "English Language"
+  ],
+  "Japanese": [
+    "Japanese Language"
   ],
   "Spanish Language Materials": [
     "Spanish Language",
@@ -250,7 +261,7 @@
     "Mathematics"
   ],
   "Study And Teaching (Elementary)": [
-    "Study & Teaching",
+    "Study And Teaching",
     "Elementary Education"
   ],
   "Algebra, Graphic Methods": [
@@ -286,7 +297,7 @@
   ],
   "Social Life And Customs": [],
   "Mathematics, Study And Teaching": [
-    "Study & Teaching",
+    "Study And Teaching",
     "Mathematics"
   ],
   "Children: Grades 4-6": [
@@ -309,7 +320,7 @@
     "Education"
   ],
   "Mathematics, Study And Teaching (Elementary)": [
-    "Study & Teaching",
+    "Study And Teaching",
     "Mathematics",
     "Elementary Education"
   ],
@@ -336,7 +347,7 @@
     "Science"
   ],
   "Study And Teaching (Middle School)": [
-    "Study & Teaching",
+    "Study And Teaching",
     "Middle School"
   ],
   "Business & Economics / Human Resources & Personnel Management": [
@@ -368,7 +379,7 @@
     "Computer Science"
   ],
   "Étude Et Enseignement": [
-    "Study & Teaching"
+    "Study And Teaching"
   ],
   "Logic, Symbolic And Mathematical": [
     "Logic",
@@ -378,7 +389,7 @@
     "Languages"
   ],
   "Counseling - General": [
-    "Counselling"
+    "Counseling"
   ],
   "Technologie De L'Information": [
     "Technology"
@@ -403,7 +414,7 @@
     "Textbooks"
   ],
   "Étude Et Enseignement (École Moyenne)": [
-    "Study & Teaching"
+    "Study And Teaching"
   ],
   "Population And Community Health": [
     "Communication"
@@ -414,7 +425,7 @@
     "Data Processing"
   ],
   "Study And Teaching (Higher)": [
-    "Study & Teaching",
+    "Study And Teaching",
     "Higher Education"
   ],
   "Web Site Development": [
@@ -612,14 +623,14 @@
     "Artificial Intelligence"
   ],
   "Étude Et Enseignement (Primaire)": [
-    "Study & Teaching"
+    "Study And Teaching"
   ],
   "Problems, Exercises, Etc": [
     "Problems",
     "Exercises"
   ],
   "Study And Teaching (Secondary)": [
-    "Study & Teaching",
+    "Study And Teaching",
     "Secondary Education"
   ],
   "Human Resources & Personnel Management": [
@@ -627,7 +638,7 @@
     "Human Resources"
   ],
   "Psychology & Psychiatry / Counseling": [
-    "Counselling",
+    "Counseling",
     "Psychiatry",
     "Psychology"
   ],
@@ -639,16 +650,16 @@
     "Foreign Speakers",
     "Languages",
     "English Language",
-    "Study & Teaching"
+    "Study And Teaching"
   ],
   "Earth Sciences - Geology": [
     "Earth Sciences"
   ],
   "Étude Et Enseignement (Secondaire)": [
-    "Study & Teaching"
+    "Study And Teaching"
   ],
   "Psychology, Study And Teaching": [
-    "Study & Teaching",
+    "Study And Teaching",
     "Psychology"
   ],
   "Writing Guide With Handbook": [
@@ -656,7 +667,7 @@
   ],
   "Civilization, Western, History": [
     "History",
-    "Civilization, Western"
+    "Western Civilization"
   ],
   "United States, Politics And Government": [
     "United States",
@@ -676,7 +687,7 @@
     "Psychology"
   ],
   "Psychotherapy - Counseling": [
-    "Counselling",
+    "Counseling",
     "Psychotherapy"
   ],
   "Marketing - General": [
@@ -696,7 +707,7 @@
     "Security Measures"
   ],
   "Algebra, Study And Teaching": [
-    "Study & Teaching",
+    "Study And Teaching",
     "Algebra"
   ],
   "Language Translation And Linguistics": [
@@ -833,7 +844,7 @@
     "Computers"
   ],
   "Study And Teaching (Primary)": [
-    "Study & Teaching",
+    "Study And Teaching",
     "Primary Education"
   ],
   "Embedded Computer Systems": [
@@ -1032,7 +1043,9 @@
   "Atlases": [],
   "Readers (Adult)": [
   ],
-  "Gestion": [],
+  "Gestion": [
+    "Management"
+  ],
   "Botany": [],
   "Chimie": [
     "Chemistry"
@@ -1135,7 +1148,9 @@
   "Bookkeeping": [],
   "Cognitive Psychology": [
   ],
-  "Physique": [],
+  "Physique": [
+    "Phyisics"
+  ],
   "Machine Theory": [],
   "Computational Intelligence": [
   ],
@@ -1232,7 +1247,6 @@
     "Literature",
     "Children"
   ],
-  "Japanese": [],
   "Social Psychology": [
   ],
   "Foreign Relations": [],
@@ -1368,8 +1382,12 @@
   ],
   "Business Logistics": [
   ],
-  "Pre-Calculus": [],
-  "Recherche": [],
+  "Pre-Calculus": [
+    "Precalculus"
+  ],
+  "Recherche": [
+    "Research"
+  ],
   "Research": [],
   "Suco11645": [],
   "Text-Books": [
@@ -1435,7 +1453,7 @@
   ],
   "Sociology": [],
   "Business English": [
-    "English",
+    "English Language",
     "Business"
   ],
   "Elementary Education": [
@@ -1491,7 +1509,7 @@
   "Developmental Math": [
   ],
   "English Literature": [
-    "English",
+    "English Language",
     "Literature"
   ],
   "Programming Techniques": [
@@ -1642,7 +1660,9 @@
   ],
   "Human Geography": [
   ],
-  "Open_Syllabus_Project": [],
+  "Open_Syllabus_Project": [
+    "Open Syllabus Project"
+  ],
   "Self-Actualization (Psychology)": [
     "Self-Actualization",
     "Psychology"
