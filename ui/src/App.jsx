@@ -1,8 +1,10 @@
+import 'primereact/resources/themes/lara-light-blue/theme.css'
+import 'primereact/resources/primereact.min.css';
+import 'primeicons/primeicons.css';
 import "./App.css";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route, useNavigate, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
-import Footer from "./components/Footer";
 import Results from "./pages/Results";
 import AdvancedSearch from "./pages/AdvancedSearch";
 import TextbookDetails from "./pages/TextbookDetails";
@@ -25,7 +27,6 @@ function App() {
             </Routes>
           </Router>
         </div>
-        <Footer />
       </div>
     </>
   );
