@@ -4,9 +4,9 @@ import {TbError404} from "react-icons/tb";
 import {BiError} from "react-icons/bi";
 import ResultCard from "../components/ResultCard";
 import RecommendationThumb from "../components/RecommendationThumb";
-import { Card } from 'primereact/card';
-import { Dialog } from 'primereact/dialog';
-
+import {Card} from 'primereact/card';
+import {Dialog} from 'primereact/dialog';
+import Loading from "../components/Loading";
 
 
 export default function TextbookDetails() {
@@ -20,10 +20,9 @@ export default function TextbookDetails() {
     const hideDialog = () => setIsDialogVisible(false);
 
 
-
     async function fetchData() {
         try {
-            const response = await fetch(`http://localhost:8983/solr/textbooks/select?q=id:${id}`);
+            const response = await fetch(`/api/solr/textbooks/select?q=id:${id}`);
 
             if (!response.ok) {
                 throw new Error("Failed to fetch data from Solr");
@@ -54,12 +53,12 @@ export default function TextbookDetails() {
         }
     }
 
-  async function fetchRecommendations() {
-    console.log("fetching recommendations");
-    // with weights, but error on
-    // http://localhost:8983/solr/textbooks/mlt?q=id:{id}&mlt.fl=title,authors,subjects,publisher&mlt.qf=title^2 authors^1.5 subjects^2 publisher^0.5&mlt.mindf=1&mlt.mintf=1&rows=5
+    async function fetchRecommendations() {
+        console.log("fetching recommendations");
+        // with weights, but error on
+        // /api/solr/textbooks/mlt?q=id:{id}&mlt.fl=title,authors,subjects,publisher&mlt.qf=title^2 authors^1.5 subjects^2 publisher^0.5&mlt.mindf=1&mlt.mintf=1&rows=5
 
-        const response = await fetch(`http://localhost:8983/solr/textbooks/mlt?q=id:${id}&mlt.fl=title,authors,subjects,publisher&mlt.qf=title^2 authors^1.5 subjects^2 publisher^0.5&mlt.mindf=1&mlt.mintf=1&rows=5`);
+        const response = await fetch(`/api/solr/textbooks/mlt?q=id:${id}&mlt.fl=title,authors,subjects,publisher&mlt.qf=title^2 authors^1.5 subjects^2 publisher^0.5&mlt.mindf=1&mlt.mintf=1&rows=5`);
 
         if (!response.ok) {
             throw new Error("Failed to fetch data from Solr");
@@ -78,7 +77,9 @@ export default function TextbookDetails() {
     }, []);
 
     if (!data) {
-        return <div className="text-center text-lg font-medium mt-10">Loading book details...</div>;
+        return <div className="mt-[40vh]">
+            <Loading></Loading>
+        </div>;
     }
 
     const {
@@ -96,9 +97,8 @@ export default function TextbookDetails() {
     } = data;
 
     return (
-        <div className="flex flex-row mt-6">
-            <div className="w-1/6 ml-10"></div>
-            <Card className="max-w-[60vw] w-[50vw] mx-auto p-6 mb-2">
+        <div className="">
+            <Card className="max-w-[60vw] w-[50vw] mx-auto pl-6 pr-6 mt-6">
                 <div className="flex items-start gap-6">
                     {isImageValid && image ? (
                         <img className="w-40 h-auto rounded-lg shadow-md" src={image} alt={title[0]}
@@ -194,24 +194,22 @@ export default function TextbookDetails() {
                         )}
                     </div>
                 </div>
-            </Card>
-
-            <Card className="flex felx-col w-1/6 mr-10 justify-center">
-                <h3 className="text-center text-lg font-semibold">More like this</h3>
-                <div className=" flex flex-col">
-                    {recommendations.slice(0, 2).map((recommendation) => (
-                        <RecommendationThumb key={recommendation.id} data={recommendation} />
-                    ))}
-                </div>
-                    <button onClick={showDialog} className="text-royalRed hover:underline mt-2 w-full">
-                        More
+                <div className="w-full flex justify-center">
+                    <button
+                        onClick={showDialog}
+                        className="mt-6 font-semibold text-royalRed text-xl py-2 px-4 rounded hover:bg-royalRed hover:text-white"
+                    >
+                        Similar Books
                     </button>
+                </div>
+
+
             </Card>
 
-            <Dialog header="Recommendations" visible={isDialogVisible} style={{ width: '80vw' }} onHide={hideDialog}>
+            <Dialog header="Recommendations" visible={isDialogVisible} style={{width: '80vw'}} onHide={hideDialog}>
                 <div className="flex flex-row justify-between items-start p-6">
-                    {recommendations.map((recommendation) => (
-                        <RecommendationThumb key={recommendation.id} data={recommendation} />
+                {recommendations.map((recommendation) => (
+                        <RecommendationThumb key={recommendation.id} data={recommendation}/>
                     ))}
                 </div>
             </Dialog>

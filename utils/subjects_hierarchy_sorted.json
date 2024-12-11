@@ -468,30 +468,6 @@
             ]
         }
     },
-    "Mathematical and Theoretical Foundations": {
-        "reference_subjects": [
-            "Mathematics"
-        ],
-        "subgroups": {
-            "Computational Theory": [
-                "Information Theory",
-                "System Theory",
-                "Theory Of Computation"
-            ],
-            "Core Mathematics": [
-                "Functional Analysis",
-                "Graph Theory",
-                "Number Theory",
-                "Set Theory"
-            ],
-            "Probability and Statistics": [
-                "Probabilities",
-                "Probability & Statistics",
-                "Statistical Methods",
-                "Statistics"
-            ]
-        }
-    },
     "Mathematics and Quantitative Sciences": {
         "reference_subjects": [
             "Mathematics"
@@ -541,6 +517,25 @@
                 "Graphic Methods",
                 "Mymathlab"
             ],
+            "Mathematical and Theoretical Foundations": {
+                "Computational Theory": [
+                    "Information Theory",
+                    "System Theory",
+                    "Theory Of Computation"
+                ],
+                "Core Mathematics": [
+                    "Functional Analysis",
+                    "Graph Theory",
+                    "Number Theory",
+                    "Set Theory"
+                ],
+                "Probability and Statistics": [
+                    "Probabilities",
+                    "Probability & Statistics",
+                    "Statistical Methods",
+                    "Statistics"
+                ]
+            },
             "Specialized Fields": [
                 "Biomathematics",
                 "Combinatorial Analysis"
@@ -715,7 +710,8 @@
         ]
     },
     "Social and Political Studies": {
-        "Political Studies": [
+        "subgroups": {
+            "Political Studies": [
             "Foreign Relations",
             "Globalization",
             "Minorities",
@@ -734,6 +730,7 @@
             "Social Life And Customs",
             "Social Work"
         ]
+        }
     },
     "Society": [
         "African Americans",

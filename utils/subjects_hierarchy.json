@@ -1,28 +1,4 @@
 {
-    "Mathematical and Theoretical Foundations": {
-        "reference_subjects": [
-            "Mathematics"
-        ],
-        "subgroups": {
-            "Core Mathematics": [
-                "Set Theory",
-                "Graph Theory",
-                "Number Theory",
-                "Functional Analysis"
-            ],
-            "Probability and Statistics": [
-                "Probability & Statistics",
-                "Probabilities",
-                "Statistics",
-                "Statistical Methods"
-            ],
-            "Computational Theory": [
-                "Theory Of Computation",
-                "Information Theory",
-                "System Theory"
-            ]
-        }
-    },
     "Research and Inquiry Methods": [
         "Research & Methodology",
         "Operations Research",
@@ -329,6 +305,25 @@
             "Mathematics"
         ],
         "subgroups": {
+            "Mathematical and Theoretical Foundations": {
+                "Core Mathematics": [
+                    "Set Theory",
+                    "Graph Theory",
+                    "Number Theory",
+                    "Functional Analysis"
+                ],
+                "Probability and Statistics": [
+                    "Probability & Statistics",
+                    "Probabilities",
+                    "Statistics",
+                    "Statistical Methods"
+                ],
+                "Computational Theory": [
+                    "Theory Of Computation",
+                    "Information Theory",
+                    "System Theory"
+                ]
+            },
             "General Mathematics": [
                 "Pure Mathematics",
                 "Applied Mathematics",
@@ -643,7 +638,9 @@
         "Civilization"
     ],
     "Education": {
-        "reference_subjects": ["Education"],
+        "reference_subjects": [
+            "Education"
+        ],
         "subgroups": {
             "Reading and Comprehension": [
                 "Reading",

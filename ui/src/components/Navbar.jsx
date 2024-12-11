@@ -19,7 +19,7 @@ export default function Navbar() {
     }
 
     return (
-        <div className="w-full flex justify-between items-center p-3 border-b-[1px] border-outlineGray">
+        <div className="w-full flex justify-between items-center p-3 border-b-[3px] border-gray-300 rounded-lg">
             <div className="flex items-center gap-10">
                 <div onClick={() => (window.location.href = "/")} className="cursor-pointer">
                     <img src={Logo} className="w-[80px]"/>

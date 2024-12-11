@@ -79,6 +79,9 @@
     "Communication",
     "Information Systems"
   ],
+  "Study & Teaching": [
+    "Study And Teaching"
+  ],
   "United States, History, Study And Teaching": [
     "United States",
     "Study And Teaching"
@@ -389,6 +392,9 @@
     "Languages"
   ],
   "Counseling - General": [
+    "Counseling"
+  ],
+  "Counselling": [
     "Counseling"
   ],
   "Technologie De L'Information": [
@@ -881,6 +887,9 @@
     "Algebra",
     "Mathematics"
   ],
+  "Geographie": [
+    "Geography"
+  ],
   "Machine Learning": [],
   "Early Childhood": [],
   "Case Studies": [],
@@ -1123,7 +1132,9 @@
   ],
   "Telecommunication Systems": [
   ],
-  "Geography,": [],
+  "Geography,": [
+    "Geography"
+  ],
   "Computers And Education": [
     "Computers",
     "Education"
@@ -1149,7 +1160,7 @@
   "Cognitive Psychology": [
   ],
   "Physique": [
-    "Phyisics"
+    "Physics"
   ],
   "Machine Theory": [],
   "Computational Intelligence": [

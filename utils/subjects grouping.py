@@ -224,7 +224,6 @@ def sort_json(input_path):
             sorted_obj = {k: sort_object(v) for k, v in sorted(obj.items(), key=lambda item: (item[0] != "reference_subject", item[0]))}
             return sorted_obj
         elif isinstance(obj, list):
-            # Sort lists alphabetically
             return sorted([sort_object(item) for item in obj])
         return obj
 
@@ -238,15 +237,65 @@ def sort_json(input_path):
         json.dump(sorted_data, f, indent=4, ensure_ascii=False)
 
 
+def reverse_json_structure(json_path, output_path):
+
+    with open(json_path, 'r', encoding='utf-8') as file:
+        data = json.load(file)
+    reversed_dict = {}
+
+    def process_group(value, path):
+        if isinstance(value, list):
+            for item in value:
+                if isinstance(item, str):
+                    reversed_dict.setdefault(item, []).extend(path)
+        elif isinstance(value, dict):
+            for key, sub_value in value.items():
+                if key == "reference_subjects":
+                    for subject in sub_value:
+                        reversed_dict.setdefault(subject, []).extend(path)
+                elif key != "subgroups":
+                    process_group(sub_value, [key] + path)
+                elif key == "subgroups":
+                    if isinstance(sub_value, list):
+                        for item in sub_value:
+                            reversed_dict.setdefault(item, []).extend(path)
+                    elif isinstance(sub_value, dict):
+                        for subgroup_key, subgroup_value in sub_value.items():
+                            process_group(subgroup_value, path + [subgroup_key])
+
+    for top_level_key, top_level_value in data.items():
+        if isinstance(top_level_value, dict):
+            if "reference_subjects" in top_level_value:
+                for subject in top_level_value["reference_subjects"]:
+                    reversed_dict.setdefault(subject, []).extend([top_level_key])
+            if "subgroups" in top_level_value:
+                subgroups = top_level_value["subgroups"]
+                if isinstance(subgroups, dict):
+                    for subgroup_key, subgroup_value in subgroups.items():
+                        process_group(subgroup_value, [subgroup_key, top_level_key])
+                elif isinstance(subgroups, list):
+                    for subgroup in subgroups:
+                        reversed_dict.setdefault(subgroup, []).extend([top_level_key])
+        elif isinstance(top_level_value, list):
+            for item in top_level_value:
+                reversed_dict.setdefault(item, []).extend([top_level_key])
+
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump(reversed_dict, f, indent=4, ensure_ascii=False)
+
+
+
 archive_file = Path(Path(__file__).parent.parent / "complete_archive.json")
 output_file = "groupings.json"
 replacements_file = Path("replacements.json")
 
 # process_subjects(archive_file, output_file)
-# replace_subjects(archive_file, replacements_file, "complete_archive_replaced1.json")
+replace_subjects(archive_file, replacements_file, "complete_archive_replaced1.json")
 # compare_archives_grouped("complete_archive_replaced.json", "complete_archive_replaced1.json", 'differences.txt')
 # count_unique_subjects('complete_archive_replaced1.json')
 
 #save_titles_with_subjects('complete_archive_replaced1.json', 'titles_with_subjects.json')
 #subject_hierarchy_for_frontend("titles_with_subjects.json", "subjects_hierarchy.json")
-sort_json("subjects_hierarchy.json")
+#sort_json("subjects_hierarchy.json")
+
+#reverse_json_structure("subjects_hierarchy_sorted.json", "reverse_dict.json")

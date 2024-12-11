@@ -25,7 +25,7 @@ export default function Browse() {
 
     const areAllOpen = activeIndicesLayer0.length === totalTabsLayer0;
 
-    const formatHeight = (value, index, key) => {
+    const formatHeight = (value, index) => {
         const values = Object.values(value);
         const determineSubgroups = (values) => {
             const subgroups = [];
@@ -55,12 +55,7 @@ export default function Browse() {
         };
         
         const subgroups = determineSubgroups(values);
-        if (key !== undefined){
-            console.log("key", key);
-            console.log("value", value);
-            console.log("idx", index)
-            console.log("subgroups", subgroups);
-        }
+
         let subgroupIndex = 0;
         let totalProcessed = 0;
 
@@ -139,7 +134,7 @@ export default function Browse() {
                                                                         <Accordion activeIndex={activeIndicesLayer1}>
                                                                             <AccordionTab header={
                                                                                 <h5
-                                                                                    className="text-lg font-semibold text-royalRed">{innerKey}
+                                                                                    className="text-lg font-semibold text-gray-700">{innerKey}
                                                                                 </h5>
                                                                             }>
                                                                                 <div className="ml-2">
@@ -161,7 +156,7 @@ export default function Browse() {
                                             <div key={idx} className="basis-1/3 text-left">
                                                 <Accordion activeIndex={activeIndicesLayer1}>
                                                     <AccordionTab header={
-                                                        <h5 className="font-bold text-lg text-royalRed">{subgroupKey}</h5>
+                                                        <h5 className="font-bold text-lg text-gray-700">{subgroupKey}</h5>
                                                     }>
                                                         <div className="ml-2">{renderHierarchy(subgroupValue)}</div>
                                                         <div>{formatHeight(value, idx)}</div>

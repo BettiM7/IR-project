@@ -1,12 +1,10 @@
 {
-    "Arts": {
-        "reference_subjects": ["Arts"],
-        "subgroups": [
+    "Arts": [
         "Architecture",
         "Art",
+        "Arts",
         "Music"
-        ]
-    },
+    ],
     "Business and Commerce": {
         "reference_subjects": [
             "Business"
@@ -365,14 +363,11 @@
         "Reference",
         "Texts"
     ],
-    "Journalism and Media": {
-
-        "reference_subjects": ["Journalism"],
-        "subgroups": [
+    "Journalism and Media": [
+        "Journalism",
         "Media Design",
         "New Media Journalism"
-        ]
-    },
+    ],
     "Language and Linguistics": {
         "reference_subjects": [
             "Language"
@@ -473,30 +468,6 @@
             ]
         }
     },
-    "Mathematical and Theoretical Foundations": {
-        "reference_subjects": [
-            "Mathematics"
-        ],
-        "subgroups": {
-            "Computational Theory": [
-                "Information Theory",
-                "System Theory",
-                "Theory Of Computation"
-            ],
-            "Core Mathematics": [
-                "Functional Analysis",
-                "Graph Theory",
-                "Number Theory",
-                "Set Theory"
-            ],
-            "Probability and Statistics": [
-                "Probabilities",
-                "Probability & Statistics",
-                "Statistical Methods",
-                "Statistics"
-            ]
-        }
-    },
     "Mathematics and Quantitative Sciences": {
         "reference_subjects": [
             "Mathematics"
@@ -546,6 +517,25 @@
                 "Graphic Methods",
                 "Mymathlab"
             ],
+            "Mathematical and Theoretical Foundations": {
+                "Computational Theory": [
+                    "Information Theory",
+                    "System Theory",
+                    "Theory Of Computation"
+                ],
+                "Core Mathematics": [
+                    "Functional Analysis",
+                    "Graph Theory",
+                    "Number Theory",
+                    "Set Theory"
+                ],
+                "Probability and Statistics": [
+                    "Probabilities",
+                    "Probability & Statistics",
+                    "Statistical Methods",
+                    "Statistics"
+                ]
+            },
             "Specialized Fields": [
                 "Biomathematics",
                 "Combinatorial Analysis"

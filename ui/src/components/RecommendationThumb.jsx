@@ -12,7 +12,7 @@ export default function RecommendationThumb({ data }) {
     }, [data.image]);
 
   return (
-      <div className="text-center w-[250px] mt-6">
+      <div className="text-center w-[300px] mt-6">
           <a href={`/details/${data.id}`} className="font-semibold hover:text-royalRed transition-all duration-300 cursor-pointer">
               <div>
                   {isImageValid && data.image ? (

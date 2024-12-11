@@ -1,5 +1,14 @@
 import React from "react";
+import { Message } from "primereact/message";
 
 export default function NoResults() {
-  return <div className="bg-red-100 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] p-10">NoResults</div>;
+  return (
+      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-6 text-center">
+        <Message
+            severity="error"
+            text="No results found. Please try again with different keywords."
+            className="text-xl"
+        />
+      </div>
+  );
 }
