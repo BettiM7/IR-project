@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import subjectsByHierarchy from "../models/subjects_by_hierarchy.json";
 import { Accordion, AccordionTab } from "primereact/accordion";
 import { ScrollPanel } from "primereact/scrollpanel";
+import SubjectsTree from "../components/SubjectsTree";
 
 export default function Browse() {
     const totalTabsLayer0 = Object.keys(subjectsByHierarchy).length;
@@ -105,10 +106,10 @@ export default function Browse() {
                                 Object.entries(value).map(([subgroupKey, subgroupValue], idx) => {
                                     if (typeof subgroupValue === "object" && !Array.isArray(subgroupValue)) {
                                         return (
-                                            <div key={idx} className="text-left w-full">
+                                            <div key={idx} className="text-left w-full col-span-3">
                                                 <Accordion activeIndex={activeIndicesLayer1}>
-                                                    <AccordionTab header={<h3 className="text-xl font-normal text-royalRed">{subgroupKey}</h3>}>
-                                                        <div className="grid grid-cols-1 gap-y-6">
+                                                    <AccordionTab header={<h3 className="text-xl font-normal text-royalRed">{subgroupKey} kurac</h3>}>
+                                                        <div className="grid grid-cols-3 gap-4">
                                                             {Object.entries(subgroupValue).map(([innerKey, innerValue], innerIdx) => (
                                                                 <div key={innerIdx} className="basis-1/3 text-left mt-2">
                                                                     <Accordion activeIndex={activeIndicesLayer1}>
@@ -161,14 +162,12 @@ export default function Browse() {
                     {areAllOpen ? "Close All" : "Open All"}
                 </button>
             </div>
-            {/* <ScrollPanel style={{ border: "1px solid black", width: "95%", height: "70vh", overflow: "auto" }}> */}
 
             <div className="border-2 border-outlineGray w-full h-[70vh] overflow-auto p-5 rounded-md">
                 <Accordion multiple activeIndex={activeIndicesLayer0} onTabChange={(e) => setActiveIndicesLayer0(e.index)}>
                     {renderHierarchy(subjectsByHierarchy)}
                 </Accordion>
             </div>
-            {/* </ScrollPanel> */}
         </div>
     );
 }
