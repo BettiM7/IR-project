@@ -11,6 +11,12 @@ export default function SideFilterSelect(props) {
     const [isOpen, setIsOpen] = useState(true);
     const [filters, setFilters] = useState([]);
 
+    const filterStates = [
+        { value: null, tooltip: 'Not Selected', className: 'bg-transparent' },
+        { value: 'include', tooltip: 'Filtering', className: 'bg-green-200', icon: 'pi pi-plus' },
+        { value: 'exclude', tooltip: 'Excluding', className: 'bg-red-400', icon: 'pi pi-minus' },
+    ];
+
 
     function buildTreeFromJSON(jsonData) {
         const filterKeys = Object.keys(props.dict);
@@ -90,36 +96,52 @@ export default function SideFilterSelect(props) {
         return (
             <Accordion multiple activeIndex={null}>
                 {Object.keys(node).map((key) => {
-                    const value = node[key];
+                    const nodeValue = node[key];
 
-                    if (typeof value === "object") {
-                        const countValue = value.count ? ` (${value.count})` : "";
+                    if (typeof nodeValue === "object") {
+                        const countNodeValue = nodeValue.count ? ` (${nodeValue.count})` : "";
                         return (
-                            <AccordionTab key={key} header={`${key}${countValue}`}>
-                                {Object.keys(value)
-                                    .filter(subKey => typeof value[subKey] === "number" && subKey !== "count")
+                            <AccordionTab key={key} header={`${key}${countNodeValue}`}>
+                                {Object.keys(nodeValue)
+                                    .filter(subKey => typeof nodeValue[subKey] === "number" && subKey !== "count")
                                     .map(subKey => {
-                                        const isSelected = filters.includes(subKey);
+                                        const currentState = filters.find(f => f.key === subKey)?.state || null;
+                                        const currentStateConfig = filterStates.find(state => state.value === currentState);
+                                        const currentClass = currentStateConfig?.className || "bg-transparent";
+                                        const currentIcon = currentStateConfig?.icon || "";
+
                                         return (
-                                            <div key={subKey}>
+                                            <div key={subKey} className="flex items-center gap-2">
                                                 <button
-                                                    className={`text-left pl-2 pr-2 rounded !font-normal ${
-                                                        isSelected ? "bg-red-700 text-white" : ""
-                                                    }`}
+                                                    className={`text-left flex flex-row pl-2 pr-2 mb-1 rounded !font-normal ${currentClass}`}
                                                     onClick={() => {
-                                                        const newFilters = isSelected
-                                                            ? filters.filter(item => item !== subKey)
-                                                            : [...filters, subKey];
-                                                        setFilters(newFilters);
-                                                        props.filterChange(props.title, newFilters);
+                                                        // Determine the next state in the cycle
+                                                        const currentIndex = filterStates.findIndex(state => state.value === currentState);
+                                                        const nextIndex = (currentIndex + 1) % filterStates.length;
+                                                        const newState = filterStates[nextIndex].value;
+
+                                                        // Update the filters state
+                                                        const updatedFilters = filters.filter(f => f.key !== subKey);
+                                                        if (newState) {
+                                                            updatedFilters.push({key: subKey, state: newState});
+                                                        }
+                                                        setFilters(updatedFilters);
+
+                                                        // Call the filterChange function with updated filters
+                                                        props.filterChange(props.title, updatedFilters);
                                                     }}
                                                 >
-                                                    {subKey} ({value[subKey]})
+                                                    <div className="mr-2 w-[0.75rem]">
+                                                        <i className={currentIcon} style={{ fontSize: '0.75rem' }}></i>
+                                                    </div>
+                                                    <div>
+                                                        {subKey} ({nodeValue[subKey]})
+                                                    </div>
                                                 </button>
                                             </div>
                                         );
                                     })}
-                                <div className="mt-4">{renderAccordion(value)}</div>
+                                <div className="mt-4">{renderAccordion(nodeValue)}</div>
                             </AccordionTab>
                         );
                     }
@@ -137,22 +159,6 @@ export default function SideFilterSelect(props) {
         return renderAccordion(sorted_node);
     }
 
-
-    function filterCheckboxChange(e) {
-        let filter = e.target.name;
-        let isChecked = e.target.checked;
-
-        let newFilters = [];
-        if (isChecked) {
-            newFilters = [...filters, filter];
-            setFilters(newFilters);
-        } else {
-            newFilters = filters.filter((item) => item !== filter);
-            setFilters(newFilters);
-        }
-
-        props.filterChange(props.title, newFilters);
-    }
 
     function clearFilters() {
         for (const filter of filters) {
@@ -172,19 +178,25 @@ export default function SideFilterSelect(props) {
                 className="flex flex-wrap gap-2 mb-4 overflow-y-auto"
                 style={{minHeight: '50px', maxHeight: '200px'}}
             >
-                {filters.map((filter) => (
-                    <div key={filter}>
-                        <Chip
-                            label={filter}
-                            removable
-                            onRemove={() => {
-                                const newFilters = filters.filter(item => item !== filter);
-                                setFilters(newFilters);
-                                props.filterChange(props.title, newFilters);
-                            }}
-                        />
-                    </div>
-                ))}
+                {filters.map((filter) => {
+                    const currentStateConfig = filterStates.find(state => state.value === filter.state);
+                    const chipClass = currentStateConfig?.className || "bg-transparent";
+
+                    return (
+                        <div key={filter.key}>
+                            <Chip
+                                label={filter.key}
+                                removable
+                                className={chipClass} // Apply dynamic background color
+                                onRemove={() => {
+                                    const newFilters = filters.filter(item => item.key !== filter.key);
+                                    setFilters(newFilters);
+                                    props.filterChange(props.title, newFilters);
+                                }}
+                            />
+                        </div>
+                    );
+                })}
             </div>
             <div className="flex justify-between items-center cursor-pointer">
                 <div className="uppercase text-secondaryGray font-bold flex gap-3">

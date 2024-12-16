@@ -12,7 +12,7 @@ export default function ResultCard({ data }) {
     }, [data.image]);
 
     return (
-        <div className="grid grid-cols-[200px,auto] gap-4 bg-gray-50 p-3 rounded-lg">
+        <div className="grid grid-cols-[200px,auto] gap-4 bg-[#f9fafb] border-[1px] p-3 rounded-lg">
             <div>
                 {isImageValid && data.image ? (
                     <img

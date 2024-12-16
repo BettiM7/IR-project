@@ -28,17 +28,13 @@ def process_subjects(json_path, output_path):
 
     print(len(subject_set))
 
-    # Map original subjects to their stemmed versions
     stemmed_subjects = {stem_subject(subject): subject for subject in subject_set}
 
-    # Identify broad categories
     broad_categories = [stem for stem in stemmed_subjects if count_meaningful_words(stemmed_subjects[stem]) <= 2]
     unused_categories = set(broad_categories)
 
-    # Initialize subject dictionary with non-broad categories
     subject_dict = {stem: [] for stem in stemmed_subjects if stem not in broad_categories}
 
-    # Label subjects with broad categories
     for key in subject_dict.keys():
         for broad_category in broad_categories:
             if count_meaningful_words(broad_category) == 2:
@@ -50,13 +46,10 @@ def process_subjects(json_path, output_path):
                     subject_dict[key].append(broad_category)
                     unused_categories.discard(broad_category)
 
-    # Filter out unused broad categories
     broad_categories = [subj for subj in broad_categories if subj not in unused_categories]
 
-    # Create a second dictionary for unused categories
     subject_dict1 = {subj: [] for subj in unused_categories}
 
-    # Label unused categories with remaining broad categories
     for key in subject_dict1.keys():
         for broad_category in broad_categories:
             if count_meaningful_words(broad_category) == 2:
@@ -66,7 +59,6 @@ def process_subjects(json_path, output_path):
                 if broad_category in key:
                     subject_dict1[key].append(broad_category)
 
-    # Combine the two dictionaries
     subject_dict.update(subject_dict1)
 
     print(len(broad_categories))
@@ -75,12 +67,10 @@ def process_subjects(json_path, output_path):
     empty_array_count = sum(1 for key, values in subject_dict.items() if not values)
     print("total number of subjects: " + str(len(broad_categories) + empty_array_count))
 
-    # Map back to original strings for the final output
     final_subject_dict = {
         stemmed_subjects[key]: [stemmed_subjects[cat] for cat in value] for key, value in subject_dict.items()
     }
 
-    # Process each subject's broad categories to remove substrings and "General"
     for key, values in final_subject_dict.items():
         if "General" in values:
             values.remove("General")
@@ -112,6 +102,11 @@ def replace_subjects(complete_archive_path, replacements_path, output_path):
                     updated_subjects.update(replacements_dict[subject])
                     updated_subjects.discard(subject)
             obj['subjects'] = list(updated_subjects)
+
+    complete_archive = [
+        obj for obj in complete_archive
+        if 'subjects' in obj and isinstance(obj['subjects'], list) and obj['subjects']
+    ]
 
     with open(output_path, 'w', encoding='utf-8') as output_file:
         json.dump(complete_archive, output_file, ensure_ascii=False, indent=4)

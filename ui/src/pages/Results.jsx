@@ -34,16 +34,23 @@ export default function Results() {
         setDisplayedResults(data.response.docs.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage));
         setNoResults(data.response.numFound == 0);
 
-        console.log(data.response.docs);
+        //console.log(data.response.docs);
 
         // count the number of documents for each subject
         const categoryCounts = data.response.docs.reduce((acc, doc) => {
-            // !doc.subjects && console.log(doc);
-            doc.subjects.forEach((subject) => {
-                acc[subject] = (acc[subject] || 0) + 1;
-            });
+            try {
+                if (!Array.isArray(doc.subjects)) {
+                    throw new Error(`Invalid subjects format: ${JSON.stringify(doc.subjects)}`);
+                }
+                doc.subjects.forEach((subject) => {
+                    acc[subject] = (acc[subject] || 0) + 1;
+                });
+            } catch (error) {
+                console.error("Error processing document:", doc, error.message);
+            }
             return acc;
         }, {});
+
 
         setCategoryCounts(categoryCounts);
     }
@@ -71,14 +78,20 @@ export default function Results() {
     }
 
     function filterChange(attribute, filters) {
-        let newFilteredResults = results.filter((doc) => includesAll(doc[attribute], filters));
+        const includeFilters = filters.filter(f => f.state === 'include').map(f => f.key);
+        const excludeFilters = filters.filter(f => f.state === 'exclude').map(f => f.key);
 
+        let newFilteredResults = results.filter((doc) => {
+            const includes = includeFilters.length === 0 || includesAll(doc[attribute], includeFilters);
+            const excludes = excludeFilters.every(filter => !doc[attribute]?.includes(filter));
+            return includes && excludes;
+        });
         setFilteredResultsCount(newFilteredResults.length);
-
         newFilteredResults = newFilteredResults.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage);
         setDisplayedResults(newFilteredResults);
         setPage(0);
     }
+
 
     return (
         <>
@@ -92,7 +105,7 @@ export default function Results() {
                     <Splitter style={{ height: "100%" }}>
                         <SplitterPanel size={30} minSize={5} className={`relative border-r-[3px]  border-gray-300 rounded-lg ${!isDrawerOpen ? "hidden" : ""}`}>
                             {/* filter sidebar */}
-                            <div className="flex flex-col gap-4 overflow-hidden px-10 py-5 text-left">
+                            <div className="flex flex-col gap-4 overflow-hidden px-5 py-5 text-left">
                                 <h3 className="text-xl">Filter by Subject</h3>
                                 <SideFilterSelect filterChange={filterChange} title="subjects" dict={categoryCounts} />
                             </div>
@@ -110,30 +123,38 @@ export default function Results() {
                                             setPage(page - 1 < 0 ? 0 : page - 1);
                                         }}
                                     >
-                                        <MdKeyboardArrowLeft />
+                                        <MdKeyboardArrowLeft/>
                                     </button>
                                     <button
                                         onClick={() => {
                                             setPage(page + 1 > parseInt(filteredResultsCount / rowsPerPage) ? parseInt(filteredResultsCount / rowsPerPage) : page + 1);
                                         }}
                                     >
-                                        <MdKeyboardArrowRight />
+                                        <MdKeyboardArrowRight/>
                                     </button>
                                 </div>
                                 <div>
                                     {filteredResultsCount ? page * rowsPerPage + 1 : 0}-{page * rowsPerPage + rowsPerPage > filteredResultsCount ? filteredResultsCount : page * rowsPerPage + rowsPerPage} of {filteredResultsCount} result{filteredResultsCount !== 1 && "s"}
                                 </div>
                             </h4>
+                            <div className="flex flex-col">
                             <div className="flex flex-col gap-4 mt-4">
                                 {displayedResults.map((result) => (
-                                    <ResultCard key={result.id} data={result} />
+                                    <ResultCard key={result.id} data={result}/>
                                 ))}
+                            </div>
+                            <button
+                                className="bg-royalRed text-white px-4 py-2 rounded hover:bg-darkRed transition-all self-end"
+                                onClick={() => window.scrollTo({top: 0, behavior: "smooth"})}
+                            >
+                                Go Back to Top
+                            </button>
                             </div>
                         </SplitterPanel>
                     </Splitter>
                 </div>
             ) : noResults ? (
-                <NoResults />
+                <NoResults/>
             ) : (
                 <div className="mt-[40vh]">
                     <Loading></Loading>

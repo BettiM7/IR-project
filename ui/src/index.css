@@ -58,3 +58,9 @@ h3 {
 h4 {
   @apply text-xl;
 }
+
+.p-accordion-content {
+  padding: 1rem !important;
+}
+
+
