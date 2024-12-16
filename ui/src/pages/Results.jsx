@@ -13,13 +13,14 @@ export default function Results() {
         const savedPage = sessionStorage.getItem("currentPage");
         return savedPage ? parseInt(savedPage, 10) : 0;
     });
-    const rowsPerPage = 30;
+    const [rowsPerPage, setRowsPerPage] = useState(30);
     const [search, setSearch] = useState("");
     const [filteredResultsCount, setFilteredResultsCount] = useState(0);
     const [displayedResults, setDisplayedResults] = useState([]);
     const [categoryCounts, setCategoryCounts] = useState({});
     const [noResults, setNoResults] = useState(false);
     const [isDrawerOpen, setIsDrawerOpen] = useState(true);
+    const [filteredResults, setFilteredResults] = useState([]);
 
     async function fetchResults(query) {
         const response = await fetch(query);
@@ -30,6 +31,7 @@ export default function Results() {
 
         const data = await response.json();
         setResults(data.response.docs);
+        setFilteredResults(data.response.docs);
         setFilteredResultsCount(data.response.numFound);
         setDisplayedResults(data.response.docs.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage));
         setNoResults(data.response.numFound == 0);
@@ -73,11 +75,20 @@ export default function Results() {
     function filterChange(attribute, filters) {
         let newFilteredResults = results.filter((doc) => includesAll(doc[attribute], filters));
 
+        setFilteredResults(newFilteredResults);
         setFilteredResultsCount(newFilteredResults.length);
 
         newFilteredResults = newFilteredResults.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage);
         setDisplayedResults(newFilteredResults);
         setPage(0);
+    }
+
+    function changeDisplayedResultsNum(newRowsPerPage) {
+        setRowsPerPage(newRowsPerPage);
+
+        let newDisplayedResults = [...displayedResults];
+        newDisplayedResults = filteredResults.slice(page * newRowsPerPage, page * newRowsPerPage + newRowsPerPage);
+        setDisplayedResults(newDisplayedResults);
     }
 
     return (
@@ -122,11 +133,27 @@ export default function Results() {
                                 </div>
                                 <div>
                                     {filteredResultsCount ? page * rowsPerPage + 1 : 0}-{page * rowsPerPage + rowsPerPage > filteredResultsCount ? filteredResultsCount : page * rowsPerPage + rowsPerPage} of {filteredResultsCount} result{filteredResultsCount !== 1 && "s"}
+                                    <select
+                                        className="ml-3"
+                                        defaultValue={30}
+                                        onChange={(e) => {
+                                            changeDisplayedResultsNum(parseInt(e.target.value));
+                                        }}
+                                    >
+                                        <option>10</option>
+                                        <option>20</option>
+                                        <option>30</option>
+                                        <option>40</option>
+                                        <option>50</option>
+                                    </select>
                                 </div>
                             </h4>
                             <div className="flex flex-col gap-4 mt-4">
-                                {displayedResults.map((result) => (
-                                    <ResultCard key={result.id} data={result} />
+                                {displayedResults.map((result, index) => (
+                                    <>
+                                        {index}
+                                        <ResultCard key={result.id} data={result} />
+                                    </>
                                 ))}
                             </div>
                         </SplitterPanel>
