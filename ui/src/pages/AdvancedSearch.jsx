@@ -145,6 +145,8 @@ export default function AdvancedSearch() {
                 <div className="flex gap-2">
                     <input type="text" className="p-3 rounded-md w-[300px]" placeholder="ISBN number..." onChange={(e) => setIsbnFilter(e.target.value == "" ? "*" : e.target.value)} />
                 </div>
+
+                {isbnFilter !== "*" && isbnFilter.length !== 10 && isbnFilter.length !== 13 && <p className="text-red-500">ISBN number must be either 10 or 13 characters long</p>}
             </div>
 
             <button
@@ -156,7 +158,11 @@ export default function AdvancedSearch() {
                     }
 
                     if (isbnFilter && isbnFilter !== "*") {
-                        params.append("q", `isbn13:${isbnFilter}`);
+                        if (isbnFilter.length === 10) {
+                            params.append("q", `isbn10:${isbnFilter}`);
+                        } else {
+                            params.append("q", `isbn13:${isbnFilter}`);
+                        }
                     }
 
                     if (yearFilter && yearFilter !== "*") {
