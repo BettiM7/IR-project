@@ -63,4 +63,16 @@ h4 {
   padding: 1rem !important;
 }
 
+.p-inputtext {
+  padding: 2px 5px !important;
+}
+
+.p-icon {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+.p-dropdown-item {
+  padding: 5px 15px !important;
+}
 

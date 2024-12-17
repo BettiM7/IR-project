@@ -6,6 +6,7 @@ import NoResults from "../components/NoResults";
 import { IoFilterSharp } from "react-icons/io5";
 import Loading from "../components/Loading";
 import { Splitter, SplitterPanel } from "primereact/splitter";
+import { Dropdown } from "primereact/dropdown";
 
 export default function Results() {
     const [results, setResults] = useState([]);
@@ -21,6 +22,13 @@ export default function Results() {
     const [noResults, setNoResults] = useState(false);
     const [isDrawerOpen, setIsDrawerOpen] = useState(true);
     const [filteredResults, setFilteredResults] = useState([]);
+    const options = [
+        { label: "10", value: 10 },
+        { label: "20", value: 20 },
+        { label: "30", value: 30 },
+        { label: "50", value: 50 },
+        { label: "100", value: 100 },
+    ];
 
     async function fetchResults(query) {
         const response = await fetch(query);
@@ -124,9 +132,9 @@ export default function Results() {
                             </button>
                         </SplitterPanel>
 
-                        <SplitterPanel size={70} className="px-20 py-5">
+                        <SplitterPanel size={70} className="px-20 py-5 flex flex-col">
                             <h2 className="text-center mb-4">{search.includes("*") ? (new RegExp(`^[*:* ]*$`).test(search) ? "All textbooks" : `Textbooks with ${search.replaceAll("*", "").replaceAll(":", "")}`) : `Results for \"${search}\"`}</h2>
-                            <h4 className="text-2xl flex items-center">
+                            <h4 className="text-2xl flex flex-row items-center">
                                 <div className="flex">
                                     <button
                                         onClick={() => {
@@ -144,20 +152,16 @@ export default function Results() {
                                     </button>
                                 </div>
                                 <div>
-                                    {filteredResultsCount ? page * rowsPerPage + 1 : 0}-{page * rowsPerPage + rowsPerPage > filteredResultsCount ? filteredResultsCount : page * rowsPerPage + rowsPerPage} of {filteredResultsCount} result{filteredResultsCount !== 1 && "s"}
-                                    <select
-                                        className="ml-3"
-                                        defaultValue={30}
+                                    <Dropdown
+                                        className="mr-3 ml-1"
+                                        value={rowsPerPage}
+                                        options={options}
                                         onChange={(e) => {
-                                            changeDisplayedResultsNum(parseInt(e.target.value));
+                                            changeDisplayedResultsNum(parseInt(e.value));
                                         }}
-                                    >
-                                        <option>10</option>
-                                        <option>20</option>
-                                        <option>30</option>
-                                        <option>40</option>
-                                        <option>50</option>
-                                    </select>
+                                        placeholder="Select Number of Results" checkmark={true}  highlightOnSelect={true}
+                                    />
+                                    {filteredResultsCount ? page * rowsPerPage + 1 : 0}-{page * rowsPerPage + rowsPerPage > filteredResultsCount ? filteredResultsCount : page * rowsPerPage + rowsPerPage} of {filteredResultsCount} result{filteredResultsCount !== 1 && "s"}
                                 </div>
                             </h4>
                             <div className="flex flex-col">
@@ -167,7 +171,7 @@ export default function Results() {
                                 ))}
                             </div>
                             <button
-                                className="bg-royalRed text-white px-4 py-2 rounded hover:bg-darkRed transition-all self-end"
+                                className="bg-royalRed text-white px-4 mt-4 py-2 rounded hover:bg-darkRed transition-all self-end"
                                 onClick={() => window.scrollTo({top: 0, behavior: "smooth"})}
                             >
                                 Go Back to Top
