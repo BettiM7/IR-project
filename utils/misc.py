@@ -17,10 +17,10 @@ def returnLanguages(json_path):
 
 def convert_publish_date_to_iso(file_path):
     date_formats = [
-        "%Y",  # Year only
-        "%B %d, %Y",  # Full month, day, and year (e.g., "December 30, 2005")
-        "%B %Y",  # Full month and year (e.g., "January 2006")
-        "%b %d, %Y"  # Abbreviated month, day, and year (e.g., "Apr 11, 2019")
+        "%Y",
+        "%B %d, %Y",
+        "%B %Y",
+        "%b %d, %Y"
     ]
 
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -30,15 +30,12 @@ def convert_publish_date_to_iso(file_path):
         if 'publish_date' in item and isinstance(item['publish_date'], str):
             for fmt in date_formats:
                 try:
-                    # Try to parse the date with the current format
                     date_obj = datetime.strptime(item['publish_date'], fmt)
-                    # Convert to ISO format and update the field
                     item['publish_date'] = date_obj.isoformat()
                     break
                 except ValueError:
                     continue
             else:
-                # If no formats matched, leave the date unchanged and log it
                 print(f"Could not parse date: {item['publish_date']}")
 
     # Write the updated data back to the same file
