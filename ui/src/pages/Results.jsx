@@ -181,7 +181,7 @@ export default function Results() {
                     </Splitter>
                 </div>
             ) : noResults ? (
-                <NoResults/>
+                <NoResults text={search}/>
             ) : (
                 <div className="mt-[40vh]">
                     <Loading></Loading>
