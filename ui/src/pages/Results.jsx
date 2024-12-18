@@ -120,7 +120,7 @@ export default function Results() {
                             <IoFilterSharp className="w-6 h-6" />
                         </button>
                     )}
-                    <Splitter style={{ height: "100%" }}>
+                    <Splitter style={{ height: "100%", minHeight: "calc(100vh - 107px)" }}>
                         <SplitterPanel size={30} minSize={5} className={`relative border-r-[3px]  border-gray-300 rounded-lg ${!isDrawerOpen ? "hidden" : ""}`}>
                             {/* filter sidebar */}
                             <div className="flex flex-col gap-4 overflow-hidden px-5 py-5 text-left">

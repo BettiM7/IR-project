@@ -5,6 +5,16 @@ import { BiError } from "react-icons/bi";
 export default function ResultCard({ data }) {
     const [isImageValid, setIsImageValid] = useState(true);
 
+    function formatPublishDateToYear(publishDate) {
+        try {
+            const date = new Date(publishDate);
+            return date.getFullYear().toString();
+        } catch (error) {
+            console.error("Invalid ISO date:", publishDate);
+            return publishDate; // Return the original string if parsing fails
+        }
+    }
+
     useEffect(() => {
         if (data.image && data.image.includes("placeholder")) {
             setIsImageValid(false);
@@ -50,7 +60,7 @@ export default function ResultCard({ data }) {
                     {data.subtitle}
                 </h4>
                 <p className="mt-3">
-                    {data.authors?.join(", ")} - {data.publish_date}
+                    {data.authors?.join(", ")} - {formatPublishDateToYear(data.publish_date)}
                 </p>
             </div>
         </div>

@@ -32,7 +32,7 @@ export default function Navbar() {
                             Advanced Search
                         </a>
                         <div className="relative">
-                            <input placeholder="Search textbooks..." className="w-[400px] p-3 rounded-md" value={searchInput}
+                            <input placeholder="Search textbooks..." className="w-[400px] p-3 rounded-md pr-12" value={searchInput}
                                    onChange={(e) => setSearchInput(e.target.value)}
                                    onKeyDown={(e) => e.code == "Enter" && sendSearch()}/>
                             <button className="absolute right-3 top-[50%] translate-y-[-50%]" onClick={sendSearch}>

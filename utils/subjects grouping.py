@@ -176,15 +176,14 @@ def count_unique_subjects(json_path):
 #     subjects = set(subject for subjects_list in books_subjects.values() for subject in subjects_list)
 #     subjects = list(subjects)  # Ensure consistent order
 #
-#     # Convert subjects into TF-IDF features
 #     model = hub.load("https://tfhub.dev/google/universal-sentence-encoder/4")
 #     X = model(subjects).numpy()
 #
-#     # Step 1: Apply PCA for dimensionality reduction
+#     #Apply PCA for dimensionality reduction
 #     pca = PCA(n_components=50, random_state=42)
 #     X_reduced = pca.fit_transform(X)
 #
-#     # Step 2: Perform KMeans clustering on the reduced data
+#     #KMeans clustering on the reduced data
 #     kmeans = KMeans(n_clusters, random_state=42)  # Adjust n_clusters as needed
 #     kmeans.fit(X_reduced)
 #

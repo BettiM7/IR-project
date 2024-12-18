@@ -143,7 +143,7 @@ export default function AdvancedSearch() {
     }
 
     function validateAndSubmit() {
-        const hasNullField = queryTerms.some((term) => term.field === null);
+        const hasNullField = queryTerms.some((term) => term.field === null || term.term === null);
         if (hasNullField) {
             toast.current.show({
                 severity: "error",
@@ -185,23 +185,29 @@ export default function AdvancedSearch() {
 
         let queryParts = [];
         if (startYear && endYear) {
-            queryParts.push(`publish_date:[${startYear} TO ${endYear}]`);
-        } else if (startYear) {
-            queryParts.push(`publish_date:[${startYear} TO *]`);
-        } else if (endYear) {
-            queryParts.push(`publish_date:[* TO ${endYear}]`);
+            const startISO = `${startYear}-01-01T00:00:00Z`;
+            const endISO = `${endYear}-12-31T23:59:59Z`;
+            queryParts.push(`(publish_date:[${startISO} TO ${endISO}])`);
+        }
+        else if (startYear) {
+            const startISO = `${startYear}-01-01T00:00:00Z`;
+            queryParts.push(`(publish_date:[${startISO} TO *])`);
+        }
+        else if (endYear) {
+            const endISO = `${endYear}-12-31T23:59:59Z`;
+            queryParts.push(`(publish_date:[* TO ${endISO}])`);
         }
         if (isbn) {
-            queryParts.push(`isbn13:${isbn}`);
+            queryParts.push(`(isbn13:${isbn})`);
         }
         if (selectedLanguage) {
-            queryParts.push(`language:${selectedLanguage}`);
+            queryParts.push(`(language:${selectedLanguage})`);
         }
 
         let queryTermsPart = [];
         const allTermsValid = queryTerms.every((term) => term.field && term.term);
         if (allTermsValid) {
-            queryTermsPart = queryTerms.map((obj) => `${obj.field}:${obj.term}`);
+            queryTermsPart = queryTerms.map((obj) => `(${obj.field}:${obj.term})`);
         }
 
         const queryString = [
@@ -209,14 +215,14 @@ export default function AdvancedSearch() {
             ...queryParts,
         ]
             .filter(Boolean)
-            .join(" AND ");
-
-        window.location.href = `/search?q=${encodeURIComponent(queryString)}`;
+            .join("AND");
+        console.log(queryString);
+        navigate(`/search?q=${encodeURIComponent(queryString)}`);
     }
 
 
     return (
-        <div className="py-10 max-w-[1080px] mx-auto">
+        <div className="py-5 max-w-[1080px] mx-auto">
             <Toast ref={toast} position="top-center"/>
             <h2>Construct your query</h2>
 
@@ -275,7 +281,7 @@ export default function AdvancedSearch() {
                 <IoIosSearch className="h-5 w-5"/>
             </button>
 
-            <hr className="my-5"/>
+            <hr className="my-4"/>
 
             <div>
                 <h2>Narrow your search</h2>
