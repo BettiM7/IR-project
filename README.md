@@ -1,11 +1,11 @@
-Run the following script to configure solr's MoreLikeThis component for recommendation (default similarity field is title, specify on call for custom field combinations):
+# Textbook Browser
+## Information Retrieval Project, USI
+### Authors: Ivan Angjelovski & Michelangelo Bettini
 
-```
-curl -X POST -H 'Content-type:application/json' -d {
-  "add-requesthandler": {
-    "name": "/mlt",
-    "class": "solr.MoreLikeThisHandler",
-    "defaults": {"mlt.fl": "title"}
-  }
-} http://localhost:8983/solr/textbooks/config
-```
+The prject has a zipped file with that contains both the code for the data 
+collection and frontend with all the modules already installed and an already
+configured Solr instance.  
+If this option is not viable we have a README.md file in the folder "solr setup"
+to set it up. The frontend is the homonymous folder and can be run with
+`npm run dev` after installing the required modules.
+

@@ -79,3 +79,91 @@ h4 {
 .p-accordion-header-link {
   padding-right: 5px !important;
 }
+
+.p-dropdown:not(.p-disabled):hover {
+  border-color: #990000 !important;
+}
+.p-dropdown:not(.p-disabled).p-focus {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: 0 0 0 0.2rem rgba(153, 0, 0  , 0.24) !important;
+  border-color: #990000 !important;
+}
+
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight {
+  color: #1f2937 !important;
+  background: rgba(153, 0, 0  , 0.24) !important;
+}
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight.p-focus {
+  background: rgba(153, 0, 0  , 0.24) !important;
+}
+
+.p-inputtext:enabled:focus {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: 0 0 0 0.1rem rgba(170,170,170, .1) !important;
+  border-color: #aaa !important;
+}
+
+.p-selectbutton .p-button.p-highlight {
+  background: #aaa !important;
+  border-color: #aaa !important;
+  color: #ffffff !important;
+}
+
+.p-togglebutton.p-highlight .p-button {
+  background: #aaa !important;
+  border-color: #aaa !important;
+  color: #ffffff !important;
+}
+
+.p-togglebutton:not(.p-disabled):has(.p-togglebutton-input:hover).p-highlight .p-button {
+  background: #aaa !important;
+  border-color: #aaa !important;
+  color: #ffffff !important;
+}
+
+.p-togglebutton:not(.p-disabled):has(.p-togglebutton-input:focus-visible) .p-button {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: 0 0 0 0.2rem #aaa !important;
+  border-color: #aaa !important;
+}
+
+.p-button {
+  color: #ffffff;
+  background: #aaa !important;
+  border: 1px solid #aaa !important;
+  font-size: 1rem;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+.p-button:not(:disabled):hover {
+  background: #aaa !important;
+  color: #ffffff !important;
+  border-color: #aaa !important;
+}
+.p-button:not(:disabled):active {
+  background: #aaa !important;
+  color: #ffffff !important;
+  border-color: #aaa !important;
+}
+.p-button.p-button-outlined {
+  background-color: transparent;
+  color: #aaa;
+  border: 1px solid;
+}
+.p-button.p-button-outlined:not(:disabled):hover {
+  background: rgba(59, 130, 246, 0.04);
+  color: #aaa !important;
+  border: 1px solid;
+}
+.p-button.p-button-outlined:not(:disabled):active {
+  background: rgba(59, 130, 246, 0.16);
+  color: #aaa !important;
+  border: 1px solid;
+}
+
+.p-scrollpanel .p-scrollpanel-bar {
+  background: #990000 !important;
+  border: 0 none;
+}
