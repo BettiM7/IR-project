@@ -194,7 +194,7 @@ export default function AdvancedSearch() {
         if (isbn) {
             queryParts.push(`(isbn13:${isbn})`);
         }
-        queryParts.join("AND")
+        queryParts.join(" AND ")
         let queryString = [];
         if(hasNullTermFields) {
             queryString = queryParts;
@@ -202,7 +202,7 @@ export default function AdvancedSearch() {
             queryString = [
                 queryTermsPart,
                 ...queryParts,
-            ].join("AND");
+            ].join(" AND ");
         }
         navigate(`/search?q=${encodeURIComponent(queryString)}`);
     }
@@ -221,13 +221,13 @@ export default function AdvancedSearch() {
                                 <label>Set boolean</label>
                                 <div className="flex rounded-md overflow-hidden border-outlineGray border-[1px]">
                                     <button
-                                        className={`py-3 px-4 ${queryTerms[index].operator === "AND" ? "bg-royalRed" : "bg-white text-black"} transition-all duration-300 text-white border-outlineGray border-r-[1px]`}
-                                        onClick={() => changeQueryOperator("AND", index)}>
+                                        className={`py-3 px-4 ${queryTerms[index].operator === " AND " ? "bg-royalRed" : "bg-white text-black"} transition-all duration-300 text-white border-outlineGray border-r-[1px]`}
+                                        onClick={() => changeQueryOperator(" AND ", index)}>
                                         AND
                                     </button>
                                     <button
-                                        className={`py-3 px-4 ${queryTerms[index].operator === "OR" ? "bg-royalRed" : "bg-white text-black"} transition-all duration-300 text-white`}
-                                        onClick={() => changeQueryOperator("OR", index)}>
+                                        className={`py-3 px-4 ${queryTerms[index].operator === " OR " ? "bg-royalRed" : "bg-white text-black"} transition-all duration-300 text-white`}
+                                        onClick={() => changeQueryOperator(" OR ", index)}>
                                         OR
                                     </button>
                                 </div>
@@ -256,7 +256,7 @@ export default function AdvancedSearch() {
                 ))}
             </div>
 
-            <button onClick={() => setQueryTerms([...queryTerms, {field: null, term: null, operator: "AND"}])}
+            <button onClick={() => setQueryTerms([...queryTerms, {field: null, term: null, operator: " AND "}])}
                     className="flex items-center gap-2 border-[1px] border-outlineGray p-3 rounded-md hover:border-royalRed hover:text-royalRed transition-all duration-300 mt-5">
                 Add row <AiOutlinePlus/>
             </button>
