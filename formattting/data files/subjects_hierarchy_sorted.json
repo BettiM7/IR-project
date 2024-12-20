@@ -1,0 +1,767 @@
+{
+    "Arts": [
+        "Architecture",
+        "Art",
+        "Arts",
+        "Music"
+    ],
+    "Business and Commerce": {
+        "reference_subjects": [
+            "Business"
+        ],
+        "subgroups": {
+            "Business Operations and Strategy": [
+                "Business Communication",
+                "Business Logistics",
+                "Business Planning",
+                "Office Practice",
+                "Strategic Planning"
+            ],
+            "Entrepreneurship and E-Commerce": [
+                "E-Commerce/E-Business",
+                "Entrepreneurship",
+                "International Trade"
+            ],
+            "General Business": [
+                "Business & Economics",
+                "Business Enterprises",
+                "Commerce",
+                "Corporations",
+                "Entreprises"
+            ],
+            "Human Resources and Organizational Behavior": [
+                "Careers",
+                "Human Resources",
+                "Organizational Behavior"
+            ],
+            "Marketing and Sales": [
+                "Advertising",
+                "Marketing",
+                "Retail Trade",
+                "Sales & Marketing",
+                "Sales Personnel",
+                "Salesmen And Salesmanship",
+                "Selling"
+            ],
+            "Specialized Topics": [
+                "Business Mathematics",
+                "Commercial Correspondence"
+            ]
+        }
+    },
+    "Civilization and Cultural Studies": [
+        "Civilization",
+        "Western Civilization"
+    ],
+    "Computer Science and Information Technology": {
+        "reference_subjects": [
+            "Computer Science"
+        ],
+        "subgroups": {
+            "Artificial Intelligence and Machine Learning": [
+                "Artificial Intelligence",
+                "Computational Intelligence",
+                "Machine Learning"
+            ],
+            "Computational Methods": [
+                "Algorithms",
+                "Computation By Abstract Devices",
+                "Computer Algorithms",
+                "Mathematics Of Computing",
+                "Numeric Computing"
+            ],
+            "Core Computer Science": [
+                "Coding Theory",
+                "Computer Architecture",
+                "Computer Programming",
+                "Computing Methodologies",
+                "Formal Languages",
+                "Machine Theory"
+            ],
+            "Data and Information": {
+                "Data Processing and Management": [
+                    "Data Mining",
+                    "Data Processing",
+                    "Data Structures",
+                    "Databases",
+                    "Distributed Processing",
+                    "Information Organization"
+                ],
+                "Information Retrieval and Storage": [
+                    "Information Retrieval",
+                    "Information Storage And Retrieval"
+                ],
+                "Information Technology and Applications": [
+                    "Computer Applications",
+                    "Database Management",
+                    "Information Science",
+                    "Information Technology",
+                    "Medical Informatics",
+                    "Microsoft Office",
+                    "Web Services"
+                ]
+            },
+            "Design and Development in Technology": [
+                "Computer-Aided Design",
+                "Design",
+                "Design And Construction",
+                "Development",
+                "Experimental Design",
+                "Technology",
+                "User Interfaces"
+            ],
+            "Hardware and Engineering": [
+                "Computer Engineering",
+                "Computers",
+                "Microcomputers"
+            ],
+            "Human-Computer Interaction and Society": [
+                "Computer Literacy",
+                "Computers And Society",
+                "Decision Making",
+                "Human-Computer Interaction",
+                "Technological Innovations",
+                "Virtual Reality"
+            ],
+            "Internet and Web Technologies": [
+                "Internet",
+                "Web Sites",
+                "World Wide Web"
+            ],
+            "Processing Technologies": {
+                "Digital and Computational Techniques": [
+                    "Digital Techniques",
+                    "Pattern Perception",
+                    "Pattern Recognition"
+                ],
+                "Signal and Image Processing": [
+                    "Image And Speech Processing Signal",
+                    "Image Processing",
+                    "Signal Processing"
+                ]
+            },
+            "Programming and Computing Platforms": [
+                "Application Software",
+                "Cloud Computing",
+                "Computer Programs",
+                "Computer Software",
+                "Programming",
+                "Programming Languages",
+                "Programming Techniques",
+                "Python Programming",
+                "Ubiquitous Computing"
+            ],
+            "Security and Protection": [
+                "Biometric Identification",
+                "Biometrics",
+                "Computer Security",
+                "Cryptography",
+                "Data Encryption",
+                "Data Protection",
+                "Security Measures"
+            ],
+            "Software Development": [
+                "Activity Programs",
+                "Curricula",
+                "Software",
+                "Software Engineering"
+            ],
+            "Specialized Computational Fields": [
+                "Bioinformatics",
+                "Computational Biology",
+                "Computational Complexity",
+                "Computational Linguistics"
+            ],
+            "Specialized Computing": [
+                "Computer Graphics",
+                "Computer Vision",
+                "Mobile Computing",
+                "Soft Computing"
+            ],
+            "Systems and Communication Technologies": [
+                "Computer Networks",
+                "Mobile Communication Systems",
+                "Multimedia Systems",
+                "Telecommunication",
+                "Telecommunication Systems",
+                "Wireless Communication Systems"
+            ],
+            "Systems and Simulation": [
+                "Circuits And Systems",
+                "Computer Simulation",
+                "Computer Systems",
+                "Imaging Systems",
+                "Information Storage And Retrieval Systems",
+                "Information Systems",
+                "Operating Systems",
+                "Optimization",
+                "Simulation And Modeling",
+                "System Analysis",
+                "Systems And Data Security",
+                "Systems Engineering"
+            ]
+        }
+    },
+    "Economics": {
+        "reference_subjects": [
+            "Economics"
+        ],
+        "subgroups": [
+            "Accounting",
+            "Bookkeeping",
+            "Economic Aspects",
+            "Economic Conditions",
+            "Finance"
+        ]
+    },
+    "Education": {
+        "reference_subjects": [
+            "Education"
+        ],
+        "subgroups": {
+            "Curriculum and Instruction": [
+                "Curriculum And Instruction",
+                "Curriculum Planning",
+                "Educational Change"
+            ],
+            "Education Levels and Institutions.": [
+                "Elementary Education",
+                "Higher Education",
+                "Middle School",
+                "Middle Schools",
+                "Primary Education",
+                "Primary Schools",
+                "Schools",
+                "Secondary Education",
+                "Secondary Schools"
+            ],
+            "Educational Methods and Technology": [
+                "Computer-Assisted Instruction",
+                "Distance Education",
+                "Educational Technology",
+                "Home Education",
+                "Homeschool",
+                "Programmed Instruction"
+            ],
+            "Educational Resources": [
+                "Books And Reading",
+                "Comic Books, Strips",
+                "Handbooks, Manuals",
+                "Large Type Books",
+                "Textbooks"
+            ],
+            "Educational Standards": [
+                "A Level",
+                "G.C.S.E.",
+                "Higher",
+                "Intermediate",
+                "Standards"
+            ],
+            "Learning, and Cultural Studies": {
+                "Cultural and Media Studies": [
+                    "Cultural And Ethnic Studies",
+                    "Media Studies",
+                    "Museum Studies"
+                ],
+                "Educational Success and Practices": [
+                    "College Success",
+                    "Experiments",
+                    "Open Syllabus Project"
+                ],
+                "Lifelong Learning and Personal Development": [
+                    "Consumer Education",
+                    "Learning",
+                    "Literacy",
+                    "Personal Finance"
+                ],
+                "Specialized Fields and Methods": [
+                    "Case Studies",
+                    "Catechetics",
+                    "Communication",
+                    "Congresses"
+                ],
+                "Study Techniques and Resources": [
+                    "Examinations",
+                    "Examinations, Questions",
+                    "Study And Teaching",
+                    "Study Guides",
+                    "Study Skills"
+                ]
+            },
+            "Reading and Comprehension": [
+                "Readers",
+                "Reading",
+                "Reading Comprehension"
+            ],
+            "Social and Cultural Aspects": [
+                "Censorship",
+                "Education And State",
+                "Nationalism And Education",
+                "Racism In"
+            ],
+            "Specific Types of Education": [
+                "Christian Education",
+                "Early Childhood",
+                "Multicultural Education",
+                "Religious Education",
+                "Special Education",
+                "Vocational Guidance"
+            ],
+            "Teacher and Student Development": [
+                "Child Development",
+                "Teachers",
+                "Teaching",
+                "Training Of"
+            ]
+        }
+    },
+    "Engineering": {
+        "reference_subjects": [
+            "Engineering"
+        ],
+        "subgroups": [
+            "Biomedical Engineering",
+            "Chemical Engineering",
+            "Civil Engineering",
+            "Control, Robotics, Mechatronics",
+            "Electrical Engineering",
+            "Electronics",
+            "Hardware",
+            "Materials",
+            "Mechanical Engineering",
+            "Mechanics"
+        ]
+    },
+    "History": {
+        "reference_subjects": [
+            "History"
+        ],
+        "subgroups": [
+            "Ancient History",
+            "Church History",
+            "Evolution",
+            "Historiography",
+            "Middle Ages",
+            "Modern History",
+            "Natural History",
+            "World History",
+            "World War, 1939-1945"
+        ]
+    },
+    "Information Resources and Reference Materials": [
+        "Atlases",
+        "Bibliography",
+        "Catalogs",
+        "Dictionaries",
+        "Encyclopedias",
+        "Exercises",
+        "Maps",
+        "Mass Media",
+        "Outlines, Syllabi",
+        "Popular Works",
+        "Problems",
+        "Reference",
+        "Texts"
+    ],
+    "Journalism and Media": [
+        "Journalism",
+        "Media Design",
+        "New Media Journalism"
+    ],
+    "Language and Linguistics": {
+        "reference_subjects": [
+            "Language"
+        ],
+        "subgroups": {
+            "General Linguistics": [
+                "Etymology",
+                "Languages",
+                "Linguistics",
+                "Orthography And Spelling",
+                "Syntax"
+            ],
+            "Language Skills and Learning": [
+                "Foreign Speakers",
+                "Pronunciation",
+                "Spellers",
+                "Vocabulary"
+            ],
+            "Language Usage and Writing": [
+                "Language Arts",
+                "Sentences",
+                "Shorthand"
+            ],
+            "Specific Languages": [
+                "English Language",
+                "Japanese Language",
+                "Spanish Language"
+            ]
+        }
+    },
+    "Law and Legal Studies": {
+        "reference_subjects": [
+            "Law"
+        ],
+        "subgroups": [
+            "Administrative Law",
+            "Business Law",
+            "Civil Law",
+            "Computer Crimes",
+            "Constitutional Law",
+            "Contract Law",
+            "Criminal Law",
+            "Government Policy",
+            "Law And Legislation",
+            "Procedural Law",
+            "Property Law"
+        ]
+    },
+    "Literature and Literary Studies": {
+        "reference_subjects": [
+            "Literature"
+        ],
+        "subgroups": {
+            "Literary Studies": [
+                "Adaptations",
+                "Criticism And Interpretation",
+                "Early Works To 1800",
+                "Early Works To 1900",
+                "History And Criticism",
+                "Literary Collections",
+                "Literary Criticism",
+                "Readers (Adult)"
+            ],
+            "Literature": [
+                "American Literature",
+                "Biography",
+                "Classic Literature",
+                "Description And Travel",
+                "Drama",
+                "Fiction",
+                "Historical Fiction",
+                "Juvenile Literature",
+                "Juvenile Nonfiction",
+                "Nonfiction",
+                "Poetry",
+                "Travel"
+            ]
+        }
+    },
+    "Management and Administration": {
+        "reference_subjects": [
+            "Administration",
+            "Management"
+        ],
+        "subgroups": {
+            "Administration": [
+                "Guidance & Orientation"
+            ],
+            "Management": [
+                "Industrial Management",
+                "Information Resources Management",
+                "Knowledge Management",
+                "Leadership",
+                "Office Management",
+                "Personnel Management",
+                "Production Management",
+                "Project Management"
+            ]
+        }
+    },
+    "Mathematics and Quantitative Sciences": {
+        "reference_subjects": [
+            "Mathematics"
+        ],
+        "subgroups": {
+            "Algebra and Trigonometry": [
+                "Algebra",
+                "Algebra And Trigonometry",
+                "Linear Algebras",
+                "Trigonometry"
+            ],
+            "Arithmetic and Basic Math": [
+                "Arithmetic",
+                "Tables"
+            ],
+            "Calculus and Analysis": [
+                "Analysis",
+                "Calculus",
+                "Differential Equations",
+                "Numerical Analysis",
+                "Precalculus"
+            ],
+            "General Mathematics": [
+                "Applications Of Mathematics",
+                "Applied",
+                "Applied Mathematics",
+                "Contemporary Math",
+                "Developmental Math",
+                "Pure Mathematics"
+            ],
+            "Geometry": [
+                "Analytic Geometry",
+                "Geometry"
+            ],
+            "Mathematical Methods and Problem Solving": [
+                "Equations",
+                "Functions",
+                "Mathematical Models",
+                "Mathematical Optimization",
+                "Methodology",
+                "Methods",
+                "Problem Solving"
+            ],
+            "Mathematical and Educational Tools": [
+                "Calculators",
+                "Graphic Calculators",
+                "Graphic Methods",
+                "Mymathlab"
+            ],
+            "Mathematical and Theoretical Foundations": {
+                "Computational Theory": [
+                    "Information Theory",
+                    "System Theory",
+                    "Theory Of Computation"
+                ],
+                "Core Mathematics": [
+                    "Functional Analysis",
+                    "Graph Theory",
+                    "Number Theory",
+                    "Set Theory"
+                ],
+                "Probability and Statistics": [
+                    "Probabilities",
+                    "Probability & Statistics",
+                    "Statistical Methods",
+                    "Statistics"
+                ]
+            },
+            "Specialized Fields": [
+                "Biomathematics",
+                "Combinatorial Analysis"
+            ]
+        }
+    },
+    "Medicine and Healthcare": {
+        "reference_subjects": [
+            "Medicine"
+        ],
+        "subgroups": [
+            "Aids And Devices",
+            "Anatomy And Physiology",
+            "Medical",
+            "Medical Radiology",
+            "Medical Records",
+            "Medical-Surgical Nursing",
+            "Nursing",
+            "Nutrition",
+            "Nutrition And Pharmacology"
+        ]
+    },
+    "Miscellanea": [
+        "Miscellanea"
+    ],
+    "Natural and Applied Sciences": {
+        "reference_subjects": [
+            "Science"
+        ],
+        "subgroups": {
+            "Environmental and Applied Sciences": [
+                "Agriculture",
+                "Biotechnology",
+                "Environmental Sciences",
+                "Nature"
+            ],
+            "General Sciences": [
+                "Life Sciences",
+                "Natural Sciences",
+                "Physical Sciences",
+                "Science",
+                "Sciences"
+            ],
+            "Interdisciplinary Sciences": [
+                "Evaluation",
+                "Geography",
+                "Laboratory Manuals",
+                "Library Science",
+                "Visualization"
+            ],
+            "Life Sciences and Biology": [
+                "Biochemistry",
+                "Biology",
+                "Botany",
+                "Ecology",
+                "Physiology",
+                "Plants"
+            ],
+            "Physical Sciences": [
+                "Astronomy",
+                "Chemistry",
+                "Earth Sciences",
+                "Matter",
+                "Organic Chemistry",
+                "Physical Geography"
+            ]
+        }
+    },
+    "Philosophy and Reasoning": {
+        "reference_subjects": [
+            "Philosophy"
+        ],
+        "subgroups": [
+            "Ethics",
+            "Logic",
+            "Reasoning",
+            "Semantics"
+        ]
+    },
+    "Physics": {
+        "reference_subjects": [
+            "Physics"
+        ],
+        "subgroups": [
+            "Mathematical Physics",
+            "Quantum Theory",
+            "Thermodynamics"
+        ]
+    },
+    "Politics And Government": {
+        "reference_subjects": [
+            "Politics And Government"
+        ],
+        "subgroups": [
+            "American Government",
+            "Congress",
+            "United States",
+            "Usa"
+        ]
+    },
+    "Psychology and Behavioral Sciences": {
+        "reference_subjects": [
+            "Psychology"
+        ],
+        "subgroups": {
+            "General Psychology": [
+                "Applied Psychology",
+                "Cognitive Psychology",
+                "Educational Psychology",
+                "Experimental Psychology",
+                "Social Psychology"
+            ],
+            "Mental Health and Therapy": [
+                "Counseling",
+                "Mental Disorders",
+                "Mental Health",
+                "Psychiatry",
+                "Psychoanalysis",
+                "Psychotherapy"
+            ],
+            "Personal Development": [
+                "Self-Actualization",
+                "Success"
+            ],
+            "Psychological Research and Methodology": [
+                "Psychological Aspects",
+                "Psychology, Methodology",
+                "Psychology, Research",
+                "Psychometrics"
+            ],
+            "Specialized Areas": [
+                "Child Psychology",
+                "Personality",
+                "Women, Psychology"
+            ]
+        }
+    },
+    "Religion": {
+        "reference_subjects": [
+            "Religion"
+        ],
+        "subgroups": [
+            "Bible",
+            "Catholic",
+            "Catholic Church",
+            "Christian Life",
+            "Christianity",
+            "Jews",
+            "Judaism",
+            "Religious Aspects"
+        ]
+    },
+    "Research and Inquiry Methods": [
+        "Discovery And Exploration",
+        "Operations Research",
+        "Research",
+        "Research & Methodology",
+        "Sources"
+    ],
+    "Social Sciences and Humanities": {
+        "reference_subjects": [
+            "Humanities",
+            "Social Science"
+        ],
+        "subgroups": [
+            "Anthropology",
+            "Human Development",
+            "Human Geography",
+            "Political Science",
+            "Social Sciences",
+            "Sociology"
+        ]
+    },
+    "Social and Political Studies": {
+        "subgroups": {
+            "Political Studies": [
+            "Foreign Relations",
+            "Globalization",
+            "Minorities",
+            "Nationalism",
+            "Political Aspects",
+            "Relations"
+        ],
+        "Social Studies": [
+            "Aspect Social",
+            "Conduct Of Life",
+            "Gender Sexuality Studies",
+            "Interpersonal Relations",
+            "Manners And Customs",
+            "Social Aspects",
+            "Social Conditions",
+            "Social Life And Customs",
+            "Social Work"
+        ]
+        }
+    },
+    "Society": [
+        "African Americans",
+        "Children",
+        "Femmes",
+        "Great Britain",
+        "Indians Of North America",
+        "Women"
+    ],
+    "Writing and Composition": {
+        "reference_subjects": [
+            "Composition",
+            "Writing"
+        ],
+        "subgroups": [
+            "Aims And Objectives",
+            "Authorship",
+            "Composition And Exercises",
+            "Creative Writing",
+            "English Composition",
+            "Essays",
+            "Fundamentals And Skills",
+            "Grammar",
+            "Models And Principles",
+            "Penmanship",
+            "Publishing",
+            "Punctuation",
+            "Rhetoric",
+            "Textbook Bias",
+            "Usage",
+            "Writing Skills"
+        ]
+    }
+}

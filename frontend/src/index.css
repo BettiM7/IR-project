@@ -1,0 +1,81 @@
+@import "./fonts/Source_Serif_4/Source_Serif_4.css";
+@import "./fonts/Source_Serif_4/Source_Serif_4.css";
+
+@layer tailwind-base, primereact, tailwind-utilities;
+
+@import 'primereact/resources/themes/lara-light-blue/theme.css';
+
+@layer tailwind-base {
+  @tailwind base;
+}
+
+@layer tailwind-utilities {
+  @tailwind components;
+  @tailwind utilities;
+}
+
+
+:root {
+  font-family: "Open Sans", sans-serif;
+  --royal-red: #990000;
+  --outline-gray: #aaa;
+}
+
+* {
+  outline: none;
+}
+
+button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Source Serif 4", sans-serif;
+}
+
+input {
+  @apply border-[1px] border-outlineGray placeholder:text-outlineGray;
+}
+
+h1 {
+  @apply text-6xl;
+}
+
+h2 {
+  @apply text-4xl;
+}
+
+h3 {
+  @apply text-2xl;
+}
+
+h4 {
+  @apply text-xl;
+}
+
+.p-accordion-content {
+  padding: 1rem !important;
+}
+
+.p-inputtext {
+  padding: .5rem !important;
+}
+
+.p-icon {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+.p-dropdown-item {
+  padding: 5px 15px !important;
+}
+
+.p-accordion-header-link {
+  padding-right: 5px !important;
+}

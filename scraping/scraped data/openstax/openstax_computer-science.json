@@ -1,0 +1,82 @@
+[
+    {
+        "title": "Workplace Software and Skills",
+        "publish_date": "Nov 29, 2023",
+        "last_update": "Apr 15, 2024",
+        "authors": [
+            "Tammie Bolling, Pellissippi State Community College",
+            "Angela Mitchell, Wilmington College",
+            "Tanya Scott, Southern New Hampshire University/University of Arizona Global Campus",
+            "Nyrobi Wheeler, Bellevue University",
+            "Bridget Lepore, Lehman College",
+            "Janine Walton, Louisiana State University Shreveport",
+            "Timothy Burgoyne, Wilmington College",
+            "Rick Arguello, Independent researcher",
+            "Valeree Falduto, Broward College"
+        ],
+        "subjects": [
+            "Computer Science",
+            "Business Technologies"
+        ],
+        "image": null,
+        "description": "Workplace Software and Skills is designed to flexibly support a range of courses covering computer literacy, Microsoft Office, and Google Suite applications. The textbook covers both hard and soft skills that are applicable to a broad range of academic majors and careers. Chapters combine studio learning and guided practice with scaffolded activities designed to reinforce a student’s ability to perform higher-order tasks independently. Workplace Software and Skills leverages complementary product features in spreadsheet, word processing, presentation, and similar applications. Modules are designed for maximum flexibility by including both Microsoft Office Suite and Google Suite applications, in order to best reflect the skills needed for today’s workforce. Authentic activities and real-world contexts develop a cumulative and thorough understanding, which reinforces the importance of cross-platform proficiency. Highly visible features also note Apple/Mac functions as needed.",
+        "publisher": "OpenStax",
+        "language": "English",
+        "isbn13": "978-1-961584-31-0",
+        "source": "https://openstax.org/details/books/workplace-software-skills"
+    },
+    {
+        "title": "Introduction to Computer Science",
+        "publish_date": "Nov 13, 2024",
+        "last_update": "Oct 29, 2024",
+        "authors": [
+            "Dr. Jean-Claude Franchitti, NYU Courant Institute",
+            "Amal Alhosban, University of Michigan–Flint",
+            "Mark Buckler, Grand Canyon University",
+            "Joanna Gilberti, Archemy, Inc.",
+            "Scott Gray, Nashua Community College",
+            "Matthew Hertz, University at Buffalo",
+            "Andrew Hurd, Empire State University",
+            "Kevin Lin, University of Washington",
+            "Sai Mukkavilli, Georgia Southwestern State University",
+            "Phuc (Brian) Nguyen, UC Irvine",
+            "Shahab Tayeb, Fresno State",
+            "Zdeněk Troníček, Tarleton State University",
+            "Kevin Wortman, Cal State Fullerton",
+            "Mohamed Zahran, New York University"
+        ],
+        "subjects": [
+            "Computer Science",
+            "Foundations of Computer Science"
+        ],
+        "image": null,
+        "description": "Introduction to Computer Science provides a comprehensive foundation in core computer science concepts and principles, aligning with the scope and sequence of most introductory computer science courses. The offering serves as an engaging entry point for students pursuing diverse fields of study and employment, including computer science, business, engineering, data science, social sciences, and related disciplines. By addressing a broad learner audience—ranging from computer science majors to non-majors—the book offers a thorough introduction to computational thinking and its applications across multiple domains. Introduction to Computer Science is designed to be both interactive and practical, focusing on real-world applications that showcase how core computer science concepts can be used to solve complex problems. Students will explore foundational concepts, such as algorithms, data structures, computer systems organization, and software development, using an array of engaging, hands-on activities. Introduction to Computer Science also includes advanced topics such as machine learning, cybersecurity, and cloud computing, ensuring students have a solid foundation for continued study and future professional success. The offering integrates meaningful learning experiences through chapter-based scenarios, problem-solving exercises, embedded coding activities, and project-based assessments that encourage students to apply what they learn in authentic contexts. The material also includes an array of industry insights and explorations of emerging technology trends in order to provide a holistic approach to learning that extends beyond theory.",
+        "publisher": "OpenStax",
+        "language": "English",
+        "isbn13": "978-1-961584-58-7",
+        "source": "https://openstax.org/details/books/introduction-computer-science"
+    },
+    {
+        "title": "Introduction to Python Programming",
+        "publish_date": "Mar 13, 2024",
+        "last_update": "Jul 30, 2024",
+        "authors": [
+            "Udayan Das, Saint Mary's College of California",
+            "Aubrey Lawson, Wiley",
+            "Chris Mayfield, James Madison University",
+            "Narges Norouzi, UC Berkeley",
+            "Yamuna Rajasekhar, Wiley",
+            "Reed Kanemaru, Wiley"
+        ],
+        "subjects": [
+            "Computer Science",
+            "Python Programming"
+        ],
+        "image": null,
+        "description": "Introduction to Python Programming provides a comprehensive foundation in programming concepts and skills, and it is aligned to the scope of most introductory courses. A wide array of scenarios, contexts, and problems reflect programming applications in many disciplines and careers. The offering is suitable for a diverse learner audience, including those pursuing computer science, business, science, social science, statistics, data science, and related areas of study and employment. Introduction to Python Programming is an interactive offering that teaches basic programming concepts, problem-solving skills, and the Python language using hands-on activities. The resource includes a unique, integrated code runner through which students can immediately apply what they learn to check their understanding. Embedded videos, critical thinking exercises, and explorations of external programming tools and activities all contribute to a meaningful and supportive learning experience.",
+        "publisher": "OpenStax",
+        "language": "English",
+        "isbn13": "978-1-961584-45-7",
+        "source": "https://openstax.org/details/books/introduction-python-programming"
+    }
+]
