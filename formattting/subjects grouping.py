@@ -414,16 +414,16 @@ def reverse_json_structure(json_path, output_path):
         json.dump(reversed_dict, f, indent=4, ensure_ascii=False)
 
 
-archive_file = Path(Path(__file__).parent.parent / "merged_archive.json")
-output_file = "groupings.json"
+archive_file = "data files/merged_archive.json"
+output_file = "data files/groupings.json"
 replacements_file = Path("data files/replacements.json")
 
 # process_subjects(archive_file, output_file)
 replace_subjects(archive_file, replacements_file, "data files/complete_archive_replaced.json")
-# count_unique_subjects('complete_archive_replaced.json')
+# count_unique_subjects('data files/complete_archive_replaced.json')
 
-# save_titles_with_subjects('complete_archive_replaced.json', 'titles_with_subjects.json')
-# subject_hierarchy_for_frontend("titles_with_subjects.json", "subjects_hierarchy.json")
-# sort_json("subjects_hierarchy.json")
+# save_titles_with_subjects('data files/complete_archive_replaced.json', 'data files/titles_with_subjects.json')
+# subject_hierarchy_for_frontend("data files/titles_with_subjects.json", "data files/subjects_hierarchy.json")
+# sort_json("data files/subjects_hierarchy.json")
 
-# reverse_json_structure("subjects_hierarchy_sorted.json", "reverse_dict.json")
+# reverse_json_structure("data files/subjects_hierarchy_sorted.json", "data files/reverse_dict.json")
